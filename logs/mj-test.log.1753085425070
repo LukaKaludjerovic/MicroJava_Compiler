@@ -1,0 +1,393 @@
+INFO  10:08:35,609 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  10:08:35,670 - #2 program
+INFO  10:08:35,670 - #49 test300
+INFO  10:08:35,670 - #5 const
+INFO  10:08:35,671 - #49 int
+INFO  10:08:35,671 - #49 nula
+INFO  10:08:35,672 - #8 =
+INFO  10:08:35,672 - #46 0
+INFO  10:08:35,672 - #9 ;
+INFO  10:08:35,672 - #5 const
+INFO  10:08:35,673 - #49 int
+INFO  10:08:35,673 - #49 jedan
+INFO  10:08:35,673 - #8 =
+INFO  10:08:35,673 - #46 1
+INFO  10:08:35,673 - #9 ;
+INFO  10:08:35,673 - #5 const
+INFO  10:08:35,673 - #49 int
+INFO  10:08:35,673 - #49 pet
+INFO  10:08:35,673 - #8 =
+INFO  10:08:35,673 - #46 5
+INFO  10:08:35,673 - #9 ;
+INFO  10:08:35,673 - #49 int
+INFO  10:08:35,673 - #49 niz
+INFO  10:08:35,673 - #10 [
+INFO  10:08:35,673 - #11 ]
+INFO  10:08:35,673 - #9 ;
+INFO  10:08:35,675 - #49 char
+INFO  10:08:35,675 - #49 nizch
+INFO  10:08:35,675 - #10 [
+INFO  10:08:35,675 - #11 ]
+INFO  10:08:35,675 - #9 ;
+INFO  10:08:35,675 - #49 int
+INFO  10:08:35,675 - #49 a
+INFO  10:08:35,675 - #9 ;
+INFO  10:08:35,676 - #49 set
+INFO  10:08:35,676 - #49 s1
+INFO  10:08:35,676 - #13 ,
+INFO  10:08:35,676 - #49 s2
+INFO  10:08:35,676 - #13 ,
+INFO  10:08:35,676 - #49 s3
+INFO  10:08:35,676 - #9 ;
+INFO  10:08:35,676 - #3 {
+INFO  10:08:35,677 - #28 void
+INFO  10:08:35,678 - #49 main
+INFO  10:08:35,680 - #14 (
+INFO  10:08:35,681 - #15 )
+INFO  10:08:35,682 - #49 int
+INFO  10:08:35,684 - #49 bodovi
+INFO  10:08:35,684 - #9 ;
+INFO  10:08:35,686 - #49 int
+INFO  10:08:35,687 - #49 temp
+INFO  10:08:35,687 - #9 ;
+INFO  10:08:35,687 - #3 {
+INFO  10:08:35,687 - #49 bodovi
+INFO  10:08:35,688 - #8 =
+INFO  10:08:35,688 - #46 0
+INFO  10:08:35,688 - #9 ;
+INFO  10:08:35,689 - #49 bodovi
+INFO  10:08:35,689 - #42 ++
+INFO  10:08:35,689 - #9 ;
+INFO  10:08:35,690 - #49 bodovi
+INFO  10:08:35,690 - #8 =
+INFO  10:08:35,690 - #49 bodovi
+INFO  10:08:35,690 - #22 +
+INFO  10:08:35,690 - #49 jedan
+INFO  10:08:35,694 - #9 ;
+INFO  10:08:35,696 - #49 bodovi
+INFO  10:08:35,696 - #8 =
+INFO  10:08:35,696 - #49 bodovi
+INFO  10:08:35,696 - #24 *
+INFO  10:08:35,696 - #49 pet
+INFO  10:08:35,698 - #9 ;
+INFO  10:08:35,698 - #49 bodovi
+INFO  10:08:35,698 - #43 --
+INFO  10:08:35,698 - #9 ;
+INFO  10:08:35,699 - #35 print
+INFO  10:08:35,699 - #14 (
+INFO  10:08:35,699 - #49 bodovi
+INFO  10:08:35,699 - #15 )
+INFO  10:08:35,700 - #9 ;
+INFO  10:08:35,700 - #35 print
+INFO  10:08:35,700 - #14 (
+INFO  10:08:35,700 - #49 eol
+INFO  10:08:35,700 - #15 )
+INFO  10:08:35,700 - #9 ;
+INFO  10:08:35,701 - #4 }
+INFO  10:08:35,701 - #4 }
+INFO  10:08:35,703 - Program(
+  ProgName(
+   test300
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              Declarations(
+                NoDeclarations(
+                ) [NoDeclarations]
+                ConstDeclaration(
+                  ConstDecl(
+                    Type(
+                     int
+                    ) [Type]
+                    NoConstantsList(
+                      Constant(
+                       nula
+                        NumConst(
+                         0
+                        ) [NumConst]
+                      ) [Constant]
+                    ) [NoConstantsList]
+                  ) [ConstDecl]
+                ) [ConstDeclaration]
+              ) [Declarations]
+              ConstDeclaration(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  NoConstantsList(
+                    Constant(
+                     jedan
+                      NumConst(
+                       1
+                      ) [NumConst]
+                    ) [Constant]
+                  ) [NoConstantsList]
+                ) [ConstDecl]
+              ) [ConstDeclaration]
+            ) [Declarations]
+            ConstDeclaration(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                NoConstantsList(
+                  Constant(
+                   pet
+                    NumConst(
+                     5
+                    ) [NumConst]
+                  ) [Constant]
+                ) [NoConstantsList]
+              ) [ConstDecl]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          GlobalVarDeclaration(
+            GlobalVarDecl(
+              Type(
+               int
+              ) [Type]
+              NoGlobalVarsList(
+                GlobalVariable(
+                 niz
+                  SquareBrackets(
+                  ) [SquareBrackets]
+                ) [GlobalVariable]
+              ) [NoGlobalVarsList]
+            ) [GlobalVarDecl]
+          ) [GlobalVarDeclaration]
+        ) [Declarations]
+        GlobalVarDeclaration(
+          GlobalVarDecl(
+            Type(
+             char
+            ) [Type]
+            NoGlobalVarsList(
+              GlobalVariable(
+               nizch
+                SquareBrackets(
+                ) [SquareBrackets]
+              ) [GlobalVariable]
+            ) [NoGlobalVarsList]
+          ) [GlobalVarDecl]
+        ) [GlobalVarDeclaration]
+      ) [Declarations]
+      GlobalVarDeclaration(
+        GlobalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoGlobalVarsList(
+            GlobalVariable(
+             a
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [GlobalVariable]
+          ) [NoGlobalVarsList]
+        ) [GlobalVarDecl]
+      ) [GlobalVarDeclaration]
+    ) [Declarations]
+    GlobalVarDeclaration(
+      GlobalVarDecl(
+        Type(
+         set
+        ) [Type]
+        GlobalVarsList(
+          GlobalVarsList(
+            NoGlobalVarsList(
+              GlobalVariable(
+               s1
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [GlobalVariable]
+            ) [NoGlobalVarsList]
+            GlobalVariable(
+             s2
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [GlobalVariable]
+          ) [GlobalVarsList]
+          GlobalVariable(
+           s3
+            NoSquareBrackets(
+            ) [NoSquareBrackets]
+          ) [GlobalVariable]
+        ) [GlobalVarsList]
+      ) [GlobalVarDecl]
+    ) [GlobalVarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         main
+        ) [MethodTypeName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+      ) [MethodSignature]
+      LocalVarsDeclList(
+        LocalVarsDeclList(
+          NoLocalVarsDeclList(
+          ) [NoLocalVarsDeclList]
+          LocalVarDecl(
+            Type(
+             int
+            ) [Type]
+            NoLocalVarsList(
+              LocalVar(
+               bodovi
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [LocalVar]
+            ) [NoLocalVarsList]
+          ) [LocalVarDecl]
+        ) [LocalVarsDeclList]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoLocalVarsList(
+            LocalVar(
+             temp
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [LocalVar]
+          ) [NoLocalVarsList]
+        ) [LocalVarDecl]
+      ) [LocalVarsDeclList]
+      StatementList(
+        StatementList(
+          StatementList(
+            StatementList(
+              StatementList(
+                StatementList(
+                  StatementList(
+                    NoStatementList(
+                    ) [NoStatementList]
+                    DesignatorStmt(
+                      AssignDesignatorStmt(
+                        DesignatorIdentOnly(
+                         bodovi
+                        ) [DesignatorIdentOnly]
+                        Assignop(
+                        ) [Assignop]
+                        PositiveExpr(
+                          NoMulopTerm(
+                            FactorNum(
+                             0
+                            ) [FactorNum]
+                          ) [NoMulopTerm]
+                        ) [PositiveExpr]
+                      ) [AssignDesignatorStmt]
+                    ) [DesignatorStmt]
+                  ) [StatementList]
+                  DesignatorStmt(
+                    IncrDesignatorStmt(
+                      DesignatorIdentOnly(
+                       bodovi
+                      ) [DesignatorIdentOnly]
+                    ) [IncrDesignatorStmt]
+                  ) [DesignatorStmt]
+                ) [StatementList]
+                DesignatorStmt(
+                  AssignDesignatorStmt(
+                    DesignatorIdentOnly(
+                     bodovi
+                    ) [DesignatorIdentOnly]
+                    Assignop(
+                    ) [Assignop]
+                    ExprList(
+                      PositiveExpr(
+                        NoMulopTerm(
+                          FactorNoActPars(
+                            DesignatorIdentOnly(
+                             bodovi
+                            ) [DesignatorIdentOnly]
+                          ) [FactorNoActPars]
+                        ) [NoMulopTerm]
+                      ) [PositiveExpr]
+                      Plus(
+                      ) [Plus]
+                      NoMulopTerm(
+                        FactorNoActPars(
+                          DesignatorIdentOnly(
+                           jedan
+                          ) [DesignatorIdentOnly]
+                        ) [FactorNoActPars]
+                      ) [NoMulopTerm]
+                    ) [ExprList]
+                  ) [AssignDesignatorStmt]
+                ) [DesignatorStmt]
+              ) [StatementList]
+              DesignatorStmt(
+                AssignDesignatorStmt(
+                  DesignatorIdentOnly(
+                   bodovi
+                  ) [DesignatorIdentOnly]
+                  Assignop(
+                  ) [Assignop]
+                  PositiveExpr(
+                    MulopTerm(
+                      NoMulopTerm(
+                        FactorNoActPars(
+                          DesignatorIdentOnly(
+                           bodovi
+                          ) [DesignatorIdentOnly]
+                        ) [FactorNoActPars]
+                      ) [NoMulopTerm]
+                      Multiply(
+                      ) [Multiply]
+                      FactorNoActPars(
+                        DesignatorIdentOnly(
+                         pet
+                        ) [DesignatorIdentOnly]
+                      ) [FactorNoActPars]
+                    ) [MulopTerm]
+                  ) [PositiveExpr]
+                ) [AssignDesignatorStmt]
+              ) [DesignatorStmt]
+            ) [StatementList]
+            DesignatorStmt(
+              DecrDesignatorStmt(
+                DesignatorIdentOnly(
+                 bodovi
+                ) [DesignatorIdentOnly]
+              ) [DecrDesignatorStmt]
+            ) [DesignatorStmt]
+          ) [StatementList]
+          PrintNoNumStmt(
+            PositiveExpr(
+              NoMulopTerm(
+                FactorNoActPars(
+                  DesignatorIdentOnly(
+                   bodovi
+                  ) [DesignatorIdentOnly]
+                ) [FactorNoActPars]
+              ) [NoMulopTerm]
+            ) [PositiveExpr]
+          ) [PrintNoNumStmt]
+        ) [StatementList]
+        PrintNoNumStmt(
+          PositiveExpr(
+            NoMulopTerm(
+              FactorNoActPars(
+                DesignatorIdentOnly(
+                 eol
+                ) [DesignatorIdentOnly]
+              ) [FactorNoActPars]
+            ) [NoMulopTerm]
+          ) [PositiveExpr]
+        ) [PrintNoNumStmt]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  10:08:35,704 - ===================================

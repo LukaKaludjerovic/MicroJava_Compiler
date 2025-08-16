@@ -1,0 +1,1785 @@
+INFO  11:15:02,985 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  11:15:02,990 - =====================ISPIS PREPOZNATIH TOKENA=====================
+INFO  11:15:03,040 - #2 program
+INFO  11:15:03,040 - #49 test300
+INFO  11:15:03,040 - #49 int
+INFO  11:15:03,041 - #49 i
+INFO  11:15:03,041 - #9 ;
+INFO  11:15:03,042 - #49 bool
+INFO  11:15:03,042 - #49 ibool
+INFO  11:15:03,043 - #9 ;
+INFO  11:15:03,043 - #49 int
+INFO  11:15:03,043 - #49 niz2
+INFO  11:15:03,043 - #9 ;
+INFO  11:15:03,043 - #49 int
+INFO  11:15:03,043 - #49 niz
+INFO  11:15:03,043 - #10 [
+INFO  11:15:03,043 - #11 ]
+INFO  11:15:03,043 - #9 ;
+INFO  11:15:03,044 - #49 int
+INFO  11:15:03,044 - #49 a
+INFO  11:15:03,044 - #9 ;
+INFO  11:15:03,044 - #3 {
+INFO  11:15:03,044 - #49 int
+INFO  11:15:03,045 - #49 sum
+INFO  11:15:03,046 - #14 (
+INFO  11:15:03,047 - #49 int
+INFO  11:15:03,047 - #49 z
+INFO  11:15:03,047 - #13 ,
+INFO  11:15:03,047 - #49 int
+INFO  11:15:03,047 - #49 d
+INFO  11:15:03,047 - #15 )
+INFO  11:15:03,047 - #3 {
+INFO  11:15:03,051 - #34 return
+INFO  11:15:03,052 - #49 z
+INFO  11:15:03,052 - #22 +
+INFO  11:15:03,052 - #49 d
+INFO  11:15:03,053 - #9 ;
+INFO  11:15:03,053 - #4 }
+INFO  11:15:03,053 - #49 int
+INFO  11:15:03,054 - #49 inkrement
+INFO  11:15:03,054 - #14 (
+INFO  11:15:03,055 - #49 int
+INFO  11:15:03,055 - #49 a
+INFO  11:15:03,055 - #13 ,
+INFO  11:15:03,055 - #49 int
+INFO  11:15:03,055 - #49 inc
+INFO  11:15:03,055 - #15 )
+INFO  11:15:03,055 - #49 int
+INFO  11:15:03,055 - #49 pom
+INFO  11:15:03,055 - #9 ;
+INFO  11:15:03,055 - #3 {
+INFO  11:15:03,056 - #29 if
+INFO  11:15:03,058 - #14 (
+INFO  11:15:03,058 - #49 inc
+INFO  11:15:03,059 - #16 ==
+INFO  11:15:03,059 - #46 1
+INFO  11:15:03,062 - #15 )
+INFO  11:15:03,063 - #49 pom
+INFO  11:15:03,065 - #8 =
+INFO  11:15:03,065 - #46 1
+INFO  11:15:03,066 - #9 ;
+INFO  11:15:03,066 - #30 else
+INFO  11:15:03,066 - #29 if
+INFO  11:15:03,066 - #14 (
+INFO  11:15:03,067 - #49 inc
+INFO  11:15:03,067 - #16 ==
+INFO  11:15:03,068 - #46 2
+INFO  11:15:03,068 - #15 )
+INFO  11:15:03,068 - #49 pom
+INFO  11:15:03,068 - #8 =
+INFO  11:15:03,068 - #49 a
+INFO  11:15:03,068 - #9 ;
+INFO  11:15:03,068 - #34 return
+INFO  11:15:03,069 - #49 sum
+INFO  11:15:03,069 - #14 (
+INFO  11:15:03,071 - #49 a
+INFO  11:15:03,071 - #13 ,
+INFO  11:15:03,071 - #49 pom
+INFO  11:15:03,071 - #15 )
+INFO  11:15:03,071 - #9 ;
+INFO  11:15:03,071 - #4 }
+INFO  11:15:03,071 - #49 bool
+INFO  11:15:03,071 - #49 verify
+INFO  11:15:03,071 - #14 (
+INFO  11:15:03,071 - #15 )
+INFO  11:15:03,072 - #3 {
+INFO  11:15:03,072 - #35 print
+INFO  11:15:03,073 - #14 (
+INFO  11:15:03,073 - #47 v
+INFO  11:15:03,073 - #15 )
+INFO  11:15:03,073 - #9 ;
+INFO  11:15:03,073 - #34 return
+INFO  11:15:03,073 - #48 false
+INFO  11:15:03,073 - #9 ;
+INFO  11:15:03,073 - #4 }
+INFO  11:15:03,073 - #49 int
+INFO  11:15:03,073 - #49 f1
+INFO  11:15:03,073 - #14 (
+INFO  11:15:03,073 - #49 int
+INFO  11:15:03,073 - #49 arg
+INFO  11:15:03,074 - #15 )
+INFO  11:15:03,074 - #3 {
+INFO  11:15:03,074 - #35 print
+INFO  11:15:03,074 - #14 (
+INFO  11:15:03,074 - #49 arg
+INFO  11:15:03,074 - #15 )
+INFO  11:15:03,074 - #9 ;
+INFO  11:15:03,074 - #35 print
+INFO  11:15:03,074 - #14 (
+INFO  11:15:03,074 - #49 eol
+INFO  11:15:03,075 - #15 )
+INFO  11:15:03,075 - #9 ;
+INFO  11:15:03,075 - #34 return
+INFO  11:15:03,075 - #49 arg
+INFO  11:15:03,075 - #24 *
+INFO  11:15:03,075 - #46 2
+INFO  11:15:03,076 - #9 ;
+INFO  11:15:03,077 - #4 }
+INFO  11:15:03,077 - #28 void
+INFO  11:15:03,077 - #49 main
+INFO  11:15:03,077 - #14 (
+INFO  11:15:03,077 - #15 )
+INFO  11:15:03,077 - #3 {
+INFO  11:15:03,077 - #29 if
+INFO  11:15:03,078 - #14 (
+INFO  11:15:03,078 - #46 1
+INFO  11:15:03,078 - #17 !=
+INFO  11:15:03,078 - #46 1
+INFO  11:15:03,079 - #15 )
+INFO  11:15:03,079 - #35 print
+INFO  11:15:03,079 - #14 (
+INFO  11:15:03,079 - #23 -
+INFO  11:15:03,079 - #46 6
+INFO  11:15:03,079 - #15 )
+INFO  11:15:03,079 - #9 ;
+INFO  11:15:03,079 - #30 else
+INFO  11:15:03,079 - #35 print
+INFO  11:15:03,079 - #14 (
+INFO  11:15:03,079 - #46 0
+INFO  11:15:03,079 - #15 )
+INFO  11:15:03,079 - #9 ;
+INFO  11:15:03,080 - #35 print
+INFO  11:15:03,080 - #14 (
+INFO  11:15:03,080 - #49 eol
+INFO  11:15:03,080 - #15 )
+INFO  11:15:03,080 - #9 ;
+INFO  11:15:03,080 - #49 ibool
+INFO  11:15:03,080 - #8 =
+INFO  11:15:03,080 - #48 false
+INFO  11:15:03,080 - #9 ;
+INFO  11:15:03,080 - #49 i
+INFO  11:15:03,080 - #8 =
+INFO  11:15:03,080 - #46 0
+INFO  11:15:03,080 - #9 ;
+INFO  11:15:03,080 - #29 if
+INFO  11:15:03,080 - #14 (
+INFO  11:15:03,080 - #49 ibool
+INFO  11:15:03,080 - #15 )
+INFO  11:15:03,080 - #29 if
+INFO  11:15:03,081 - #14 (
+INFO  11:15:03,081 - #49 i
+INFO  11:15:03,081 - #16 ==
+INFO  11:15:03,082 - #46 5
+INFO  11:15:03,082 - #15 )
+INFO  11:15:03,082 - #35 print
+INFO  11:15:03,082 - #14 (
+INFO  11:15:03,082 - #46 1
+INFO  11:15:03,082 - #15 )
+INFO  11:15:03,082 - #9 ;
+INFO  11:15:03,082 - #30 else
+INFO  11:15:03,082 - #35 print
+INFO  11:15:03,082 - #14 (
+INFO  11:15:03,082 - #23 -
+INFO  11:15:03,082 - #46 1
+INFO  11:15:03,082 - #15 )
+INFO  11:15:03,082 - #9 ;
+INFO  11:15:03,082 - #49 a
+INFO  11:15:03,082 - #8 =
+INFO  11:15:03,082 - #46 2
+INFO  11:15:03,082 - #9 ;
+INFO  11:15:03,082 - #49 niz
+INFO  11:15:03,082 - #8 =
+INFO  11:15:03,082 - #38 new
+INFO  11:15:03,083 - #49 int
+INFO  11:15:03,083 - #10 [
+INFO  11:15:03,083 - #46 3
+INFO  11:15:03,083 - #11 ]
+INFO  11:15:03,083 - #9 ;
+INFO  11:15:03,083 - #49 niz
+INFO  11:15:03,083 - #10 [
+INFO  11:15:03,084 - #46 0
+INFO  11:15:03,084 - #11 ]
+INFO  11:15:03,084 - #8 =
+INFO  11:15:03,086 - #46 1
+INFO  11:15:03,086 - #24 *
+INFO  11:15:03,086 - #49 a
+INFO  11:15:03,086 - #9 ;
+INFO  11:15:03,086 - #49 niz
+INFO  11:15:03,086 - #10 [
+INFO  11:15:03,086 - #46 1
+INFO  11:15:03,086 - #11 ]
+INFO  11:15:03,086 - #8 =
+INFO  11:15:03,086 - #46 2
+INFO  11:15:03,086 - #24 *
+INFO  11:15:03,086 - #49 a
+INFO  11:15:03,086 - #9 ;
+INFO  11:15:03,087 - #49 niz
+INFO  11:15:03,087 - #10 [
+INFO  11:15:03,087 - #46 2
+INFO  11:15:03,087 - #11 ]
+INFO  11:15:03,087 - #8 =
+INFO  11:15:03,088 - #49 sum
+INFO  11:15:03,088 - #14 (
+INFO  11:15:03,088 - #49 niz
+INFO  11:15:03,088 - #10 [
+INFO  11:15:03,088 - #46 1
+INFO  11:15:03,088 - #11 ]
+INFO  11:15:03,088 - #13 ,
+INFO  11:15:03,088 - #49 niz
+INFO  11:15:03,088 - #10 [
+INFO  11:15:03,088 - #46 0
+INFO  11:15:03,088 - #11 ]
+INFO  11:15:03,088 - #15 )
+INFO  11:15:03,088 - #24 *
+INFO  11:15:03,088 - #49 a
+INFO  11:15:03,088 - #22 +
+INFO  11:15:03,088 - #46 1
+INFO  11:15:03,088 - #9 ;
+INFO  11:15:03,088 - #29 if
+INFO  11:15:03,088 - #14 (
+INFO  11:15:03,088 - #49 verify
+INFO  11:15:03,088 - #14 (
+INFO  11:15:03,088 - #15 )
+INFO  11:15:03,089 - #41 ||
+INFO  11:15:03,089 - #49 niz
+INFO  11:15:03,089 - #10 [
+INFO  11:15:03,089 - #46 2
+INFO  11:15:03,089 - #11 ]
+INFO  11:15:03,089 - #16 ==
+INFO  11:15:03,089 - #46 4
+INFO  11:15:03,089 - #15 )
+INFO  11:15:03,089 - #35 print
+INFO  11:15:03,089 - #14 (
+INFO  11:15:03,089 - #49 ord
+INFO  11:15:03,089 - #14 (
+INFO  11:15:03,089 - #47 A
+INFO  11:15:03,089 - #15 )
+INFO  11:15:03,089 - #15 )
+INFO  11:15:03,089 - #9 ;
+INFO  11:15:03,089 - #30 else
+INFO  11:15:03,089 - #35 print
+INFO  11:15:03,089 - #14 (
+INFO  11:15:03,089 - #49 ord
+INFO  11:15:03,089 - #14 (
+INFO  11:15:03,089 - #47 a
+INFO  11:15:03,089 - #15 )
+INFO  11:15:03,091 - #15 )
+INFO  11:15:03,091 - #9 ;
+INFO  11:15:03,091 - #35 print
+INFO  11:15:03,091 - #14 (
+INFO  11:15:03,091 - #49 eol
+INFO  11:15:03,092 - #15 )
+INFO  11:15:03,092 - #9 ;
+INFO  11:15:03,092 - #49 i
+INFO  11:15:03,092 - #8 =
+INFO  11:15:03,092 - #46 0
+INFO  11:15:03,093 - #9 ;
+INFO  11:15:03,093 - #29 if
+INFO  11:15:03,093 - #14 (
+INFO  11:15:03,093 - #49 i
+INFO  11:15:03,093 - #16 ==
+INFO  11:15:03,093 - #46 3
+INFO  11:15:03,093 - #40 &&
+INFO  11:15:03,093 - #49 verify
+INFO  11:15:03,093 - #14 (
+INFO  11:15:03,093 - #15 )
+INFO  11:15:03,093 - #15 )
+INFO  11:15:03,093 - #35 print
+INFO  11:15:03,093 - #14 (
+INFO  11:15:03,093 - #23 -
+INFO  11:15:03,093 - #46 4
+INFO  11:15:03,093 - #15 )
+INFO  11:15:03,093 - #9 ;
+INFO  11:15:03,093 - #30 else
+INFO  11:15:03,093 - #35 print
+INFO  11:15:03,093 - #14 (
+INFO  11:15:03,093 - #46 4
+INFO  11:15:03,093 - #15 )
+INFO  11:15:03,093 - #9 ;
+INFO  11:15:03,093 - #33 read
+INFO  11:15:03,093 - #14 (
+INFO  11:15:03,093 - #49 niz
+INFO  11:15:03,093 - #10 [
+INFO  11:15:03,093 - #46 0
+INFO  11:15:03,093 - #11 ]
+INFO  11:15:03,093 - #15 )
+INFO  11:15:03,093 - #9 ;
+INFO  11:15:03,093 - #33 read
+INFO  11:15:03,093 - #14 (
+INFO  11:15:03,093 - #49 niz
+INFO  11:15:03,093 - #10 [
+INFO  11:15:03,093 - #46 1
+INFO  11:15:03,093 - #11 ]
+INFO  11:15:03,094 - #15 )
+INFO  11:15:03,094 - #9 ;
+INFO  11:15:03,094 - #33 read
+INFO  11:15:03,094 - #14 (
+INFO  11:15:03,094 - #49 niz
+INFO  11:15:03,094 - #10 [
+INFO  11:15:03,094 - #46 2
+INFO  11:15:03,094 - #11 ]
+INFO  11:15:03,094 - #15 )
+INFO  11:15:03,094 - #9 ;
+INFO  11:15:03,094 - #35 print
+INFO  11:15:03,094 - #14 (
+INFO  11:15:03,094 - #49 eol
+INFO  11:15:03,094 - #15 )
+INFO  11:15:03,094 - #9 ;
+INFO  11:15:03,094 - #35 print
+INFO  11:15:03,094 - #14 (
+INFO  11:15:03,094 - #49 sum
+INFO  11:15:03,094 - #14 (
+INFO  11:15:03,094 - #49 sum
+INFO  11:15:03,094 - #14 (
+INFO  11:15:03,094 - #49 niz
+INFO  11:15:03,094 - #10 [
+INFO  11:15:03,094 - #46 0
+INFO  11:15:03,094 - #11 ]
+INFO  11:15:03,094 - #13 ,
+INFO  11:15:03,094 - #49 niz
+INFO  11:15:03,094 - #10 [
+INFO  11:15:03,094 - #46 1
+INFO  11:15:03,094 - #11 ]
+INFO  11:15:03,094 - #15 )
+INFO  11:15:03,094 - #13 ,
+INFO  11:15:03,095 - #49 niz
+INFO  11:15:03,095 - #10 [
+INFO  11:15:03,095 - #46 2
+INFO  11:15:03,095 - #11 ]
+INFO  11:15:03,095 - #15 )
+INFO  11:15:03,095 - #15 )
+INFO  11:15:03,098 - #9 ;
+INFO  11:15:03,100 - #35 print
+INFO  11:15:03,101 - #14 (
+INFO  11:15:03,101 - #49 eol
+INFO  11:15:03,101 - #15 )
+INFO  11:15:03,101 - #9 ;
+INFO  11:15:03,101 - #35 print
+INFO  11:15:03,101 - #14 (
+INFO  11:15:03,101 - #49 inkrement
+INFO  11:15:03,101 - #14 (
+INFO  11:15:03,101 - #49 niz
+INFO  11:15:03,101 - #10 [
+INFO  11:15:03,101 - #46 2
+INFO  11:15:03,101 - #11 ]
+INFO  11:15:03,101 - #13 ,
+INFO  11:15:03,101 - #46 2
+INFO  11:15:03,101 - #15 )
+INFO  11:15:03,101 - #15 )
+INFO  11:15:03,101 - #9 ;
+INFO  11:15:03,101 - #35 print
+INFO  11:15:03,101 - #14 (
+INFO  11:15:03,101 - #49 eol
+INFO  11:15:03,101 - #15 )
+INFO  11:15:03,101 - #9 ;
+INFO  11:15:03,101 - #4 }
+INFO  11:15:03,102 - #4 }
+INFO  11:15:03,107 - =====================ISPIS SINTAKSNOG STABLA=====================
+INFO  11:15:03,111 - Program(
+  ProgName(
+   test300
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            GlobalVarDeclaration(
+              GlobalVarDecl(
+                Type(
+                 int
+                ) [Type]
+                NoGlobalVarsList(
+                  GlobalVariable(
+                   i
+                    NoSquareBrackets(
+                    ) [NoSquareBrackets]
+                  ) [GlobalVariable]
+                ) [NoGlobalVarsList]
+              ) [GlobalVarDecl]
+            ) [GlobalVarDeclaration]
+          ) [Declarations]
+          GlobalVarDeclaration(
+            GlobalVarDecl(
+              Type(
+               bool
+              ) [Type]
+              NoGlobalVarsList(
+                GlobalVariable(
+                 ibool
+                  NoSquareBrackets(
+                  ) [NoSquareBrackets]
+                ) [GlobalVariable]
+              ) [NoGlobalVarsList]
+            ) [GlobalVarDecl]
+          ) [GlobalVarDeclaration]
+        ) [Declarations]
+        GlobalVarDeclaration(
+          GlobalVarDecl(
+            Type(
+             int
+            ) [Type]
+            NoGlobalVarsList(
+              GlobalVariable(
+               niz2
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [GlobalVariable]
+            ) [NoGlobalVarsList]
+          ) [GlobalVarDecl]
+        ) [GlobalVarDeclaration]
+      ) [Declarations]
+      GlobalVarDeclaration(
+        GlobalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoGlobalVarsList(
+            GlobalVariable(
+             niz
+              SquareBrackets(
+              ) [SquareBrackets]
+            ) [GlobalVariable]
+          ) [NoGlobalVarsList]
+        ) [GlobalVarDecl]
+      ) [GlobalVarDeclaration]
+    ) [Declarations]
+    GlobalVarDeclaration(
+      GlobalVarDecl(
+        Type(
+         int
+        ) [Type]
+        NoGlobalVarsList(
+          GlobalVariable(
+           a
+            NoSquareBrackets(
+            ) [NoSquareBrackets]
+          ) [GlobalVariable]
+        ) [NoGlobalVarsList]
+      ) [GlobalVarDecl]
+    ) [GlobalVarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        MethodDeclarations(
+          MethodDeclarations(
+            NoMethodDeclarations(
+            ) [NoMethodDeclarations]
+            MethodDeclaration(
+              MethodSignature(
+                MethodTypeName(
+                  FormalType(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [FormalType]
+                 sum
+                ) [MethodTypeName]
+                FormalParameters(
+                  FormParsList(
+                    NoFormParsList(
+                      FormParam(
+                        Type(
+                         int
+                        ) [Type]
+                       z
+                        NoSquareBrackets(
+                        ) [NoSquareBrackets]
+                      ) [FormParam]
+                    ) [NoFormParsList]
+                    FormParam(
+                      Type(
+                       int
+                      ) [Type]
+                     d
+                      NoSquareBrackets(
+                      ) [NoSquareBrackets]
+                    ) [FormParam]
+                  ) [FormParsList]
+                ) [FormalParameters]
+              ) [MethodSignature]
+              NoLocalVarsDeclList(
+              ) [NoLocalVarsDeclList]
+              StatementList(
+                NoStatementList(
+                ) [NoStatementList]
+                ReturnExprStmt(
+                  ExprList(
+                    PositiveExpr(
+                      NoMulopTerm(
+                        FactorNoActPars(
+                          DesignatorIdentOnly(
+                           z
+                          ) [DesignatorIdentOnly]
+                        ) [FactorNoActPars]
+                      ) [NoMulopTerm]
+                    ) [PositiveExpr]
+                    Plus(
+                    ) [Plus]
+                    NoMulopTerm(
+                      FactorNoActPars(
+                        DesignatorIdentOnly(
+                         d
+                        ) [DesignatorIdentOnly]
+                      ) [FactorNoActPars]
+                    ) [NoMulopTerm]
+                  ) [ExprList]
+                ) [ReturnExprStmt]
+              ) [StatementList]
+            ) [MethodDeclaration]
+          ) [MethodDeclarations]
+          MethodDeclaration(
+            MethodSignature(
+              MethodTypeName(
+                FormalType(
+                  Type(
+                   int
+                  ) [Type]
+                ) [FormalType]
+               inkrement
+              ) [MethodTypeName]
+              FormalParameters(
+                FormParsList(
+                  NoFormParsList(
+                    FormParam(
+                      Type(
+                       int
+                      ) [Type]
+                     a
+                      NoSquareBrackets(
+                      ) [NoSquareBrackets]
+                    ) [FormParam]
+                  ) [NoFormParsList]
+                  FormParam(
+                    Type(
+                     int
+                    ) [Type]
+                   inc
+                    NoSquareBrackets(
+                    ) [NoSquareBrackets]
+                  ) [FormParam]
+                ) [FormParsList]
+              ) [FormalParameters]
+            ) [MethodSignature]
+            LocalVarsDeclList(
+              NoLocalVarsDeclList(
+              ) [NoLocalVarsDeclList]
+              LocalVarDecl(
+                Type(
+                 int
+                ) [Type]
+                NoLocalVarsList(
+                  LocalVariable(
+                   pom
+                    NoSquareBrackets(
+                    ) [NoSquareBrackets]
+                  ) [LocalVariable]
+                ) [NoLocalVarsList]
+              ) [LocalVarDecl]
+            ) [LocalVarsDeclList]
+            StatementList(
+              StatementList(
+                NoStatementList(
+                ) [NoStatementList]
+                IfStmt(
+                  NoCondTermList(
+                    NoCondFactList(
+                      CondFactRelop(
+                        PositiveExpr(
+                          NoMulopTerm(
+                            FactorNoActPars(
+                              DesignatorIdentOnly(
+                               inc
+                              ) [DesignatorIdentOnly]
+                            ) [FactorNoActPars]
+                          ) [NoMulopTerm]
+                        ) [PositiveExpr]
+                        Equal(
+                        ) [Equal]
+                        PositiveExpr(
+                          NoMulopTerm(
+                            FactorNum(
+                             1
+                            ) [FactorNum]
+                          ) [NoMulopTerm]
+                        ) [PositiveExpr]
+                      ) [CondFactRelop]
+                    ) [NoCondFactList]
+                  ) [NoCondTermList]
+                  IfStart(
+                  ) [IfStart]
+                  DesignatorStmt(
+                    AssignDesignatorStmt(
+                      DesignatorIdentOnly(
+                       pom
+                      ) [DesignatorIdentOnly]
+                      Assignop(
+                      ) [Assignop]
+                      PositiveExpr(
+                        NoMulopTerm(
+                          FactorNum(
+                           1
+                          ) [FactorNum]
+                        ) [NoMulopTerm]
+                      ) [PositiveExpr]
+                    ) [AssignDesignatorStmt]
+                  ) [DesignatorStmt]
+                  ElseStatement(
+                    ElseStart(
+                    ) [ElseStart]
+                    IfStmt(
+                      NoCondTermList(
+                        NoCondFactList(
+                          CondFactRelop(
+                            PositiveExpr(
+                              NoMulopTerm(
+                                FactorNoActPars(
+                                  DesignatorIdentOnly(
+                                   inc
+                                  ) [DesignatorIdentOnly]
+                                ) [FactorNoActPars]
+                              ) [NoMulopTerm]
+                            ) [PositiveExpr]
+                            Equal(
+                            ) [Equal]
+                            PositiveExpr(
+                              NoMulopTerm(
+                                FactorNum(
+                                 2
+                                ) [FactorNum]
+                              ) [NoMulopTerm]
+                            ) [PositiveExpr]
+                          ) [CondFactRelop]
+                        ) [NoCondFactList]
+                      ) [NoCondTermList]
+                      IfStart(
+                      ) [IfStart]
+                      DesignatorStmt(
+                        AssignDesignatorStmt(
+                          DesignatorIdentOnly(
+                           pom
+                          ) [DesignatorIdentOnly]
+                          Assignop(
+                          ) [Assignop]
+                          PositiveExpr(
+                            NoMulopTerm(
+                              FactorNoActPars(
+                                DesignatorIdentOnly(
+                                 a
+                                ) [DesignatorIdentOnly]
+                              ) [FactorNoActPars]
+                            ) [NoMulopTerm]
+                          ) [PositiveExpr]
+                        ) [AssignDesignatorStmt]
+                      ) [DesignatorStmt]
+                      NoElseStatement(
+                      ) [NoElseStatement]
+                    ) [IfStmt]
+                  ) [ElseStatement]
+                ) [IfStmt]
+              ) [StatementList]
+              ReturnExprStmt(
+                PositiveExpr(
+                  NoMulopTerm(
+                    FactorActPars(
+                      DesignatorIdentOnly(
+                       sum
+                      ) [DesignatorIdentOnly]
+                      ActualParameters(
+                        ActParsList(
+                          NoActParsList(
+                            PositiveExpr(
+                              NoMulopTerm(
+                                FactorNoActPars(
+                                  DesignatorIdentOnly(
+                                   a
+                                  ) [DesignatorIdentOnly]
+                                ) [FactorNoActPars]
+                              ) [NoMulopTerm]
+                            ) [PositiveExpr]
+                          ) [NoActParsList]
+                          PositiveExpr(
+                            NoMulopTerm(
+                              FactorNoActPars(
+                                DesignatorIdentOnly(
+                                 pom
+                                ) [DesignatorIdentOnly]
+                              ) [FactorNoActPars]
+                            ) [NoMulopTerm]
+                          ) [PositiveExpr]
+                        ) [ActParsList]
+                      ) [ActualParameters]
+                    ) [FactorActPars]
+                  ) [NoMulopTerm]
+                ) [PositiveExpr]
+              ) [ReturnExprStmt]
+            ) [StatementList]
+          ) [MethodDeclaration]
+        ) [MethodDeclarations]
+        MethodDeclaration(
+          MethodSignature(
+            MethodTypeName(
+              FormalType(
+                Type(
+                 bool
+                ) [Type]
+              ) [FormalType]
+             verify
+            ) [MethodTypeName]
+            NoFormalParameters(
+            ) [NoFormalParameters]
+          ) [MethodSignature]
+          NoLocalVarsDeclList(
+          ) [NoLocalVarsDeclList]
+          StatementList(
+            StatementList(
+              NoStatementList(
+              ) [NoStatementList]
+              PrintNoNumStmt(
+                PositiveExpr(
+                  NoMulopTerm(
+                    FactorChar(
+                     v
+                    ) [FactorChar]
+                  ) [NoMulopTerm]
+                ) [PositiveExpr]
+              ) [PrintNoNumStmt]
+            ) [StatementList]
+            ReturnExprStmt(
+              PositiveExpr(
+                NoMulopTerm(
+                  FactorBool(
+                   false
+                  ) [FactorBool]
+                ) [NoMulopTerm]
+              ) [PositiveExpr]
+            ) [ReturnExprStmt]
+          ) [StatementList]
+        ) [MethodDeclaration]
+      ) [MethodDeclarations]
+      MethodDeclaration(
+        MethodSignature(
+          MethodTypeName(
+            FormalType(
+              Type(
+               int
+              ) [Type]
+            ) [FormalType]
+           f1
+          ) [MethodTypeName]
+          FormalParameters(
+            NoFormParsList(
+              FormParam(
+                Type(
+                 int
+                ) [Type]
+               arg
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [FormParam]
+            ) [NoFormParsList]
+          ) [FormalParameters]
+        ) [MethodSignature]
+        NoLocalVarsDeclList(
+        ) [NoLocalVarsDeclList]
+        StatementList(
+          StatementList(
+            StatementList(
+              NoStatementList(
+              ) [NoStatementList]
+              PrintNoNumStmt(
+                PositiveExpr(
+                  NoMulopTerm(
+                    FactorNoActPars(
+                      DesignatorIdentOnly(
+                       arg
+                      ) [DesignatorIdentOnly]
+                    ) [FactorNoActPars]
+                  ) [NoMulopTerm]
+                ) [PositiveExpr]
+              ) [PrintNoNumStmt]
+            ) [StatementList]
+            PrintNoNumStmt(
+              PositiveExpr(
+                NoMulopTerm(
+                  FactorNoActPars(
+                    DesignatorIdentOnly(
+                     eol
+                    ) [DesignatorIdentOnly]
+                  ) [FactorNoActPars]
+                ) [NoMulopTerm]
+              ) [PositiveExpr]
+            ) [PrintNoNumStmt]
+          ) [StatementList]
+          ReturnExprStmt(
+            PositiveExpr(
+              MulopTerm(
+                NoMulopTerm(
+                  FactorNoActPars(
+                    DesignatorIdentOnly(
+                     arg
+                    ) [DesignatorIdentOnly]
+                  ) [FactorNoActPars]
+                ) [NoMulopTerm]
+                Multiply(
+                ) [Multiply]
+                FactorNum(
+                 2
+                ) [FactorNum]
+              ) [MulopTerm]
+            ) [PositiveExpr]
+          ) [ReturnExprStmt]
+        ) [StatementList]
+      ) [MethodDeclaration]
+    ) [MethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         main
+        ) [MethodTypeName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+      ) [MethodSignature]
+      NoLocalVarsDeclList(
+      ) [NoLocalVarsDeclList]
+      StatementList(
+        StatementList(
+          StatementList(
+            StatementList(
+              StatementList(
+                StatementList(
+                  StatementList(
+                    StatementList(
+                      StatementList(
+                        StatementList(
+                          StatementList(
+                            StatementList(
+                              StatementList(
+                                StatementList(
+                                  StatementList(
+                                    StatementList(
+                                      StatementList(
+                                        StatementList(
+                                          StatementList(
+                                            StatementList(
+                                              StatementList(
+                                                StatementList(
+                                                  NoStatementList(
+                                                  ) [NoStatementList]
+                                                  IfStmt(
+                                                    NoCondTermList(
+                                                      NoCondFactList(
+                                                        CondFactRelop(
+                                                          PositiveExpr(
+                                                            NoMulopTerm(
+                                                              FactorNum(
+                                                               1
+                                                              ) [FactorNum]
+                                                            ) [NoMulopTerm]
+                                                          ) [PositiveExpr]
+                                                          NotEqual(
+                                                          ) [NotEqual]
+                                                          PositiveExpr(
+                                                            NoMulopTerm(
+                                                              FactorNum(
+                                                               1
+                                                              ) [FactorNum]
+                                                            ) [NoMulopTerm]
+                                                          ) [PositiveExpr]
+                                                        ) [CondFactRelop]
+                                                      ) [NoCondFactList]
+                                                    ) [NoCondTermList]
+                                                    IfStart(
+                                                    ) [IfStart]
+                                                    PrintNoNumStmt(
+                                                      NegativeExpr(
+                                                        NoMulopTerm(
+                                                          FactorNum(
+                                                           6
+                                                          ) [FactorNum]
+                                                        ) [NoMulopTerm]
+                                                      ) [NegativeExpr]
+                                                    ) [PrintNoNumStmt]
+                                                    ElseStatement(
+                                                      ElseStart(
+                                                      ) [ElseStart]
+                                                      PrintNoNumStmt(
+                                                        PositiveExpr(
+                                                          NoMulopTerm(
+                                                            FactorNum(
+                                                             0
+                                                            ) [FactorNum]
+                                                          ) [NoMulopTerm]
+                                                        ) [PositiveExpr]
+                                                      ) [PrintNoNumStmt]
+                                                    ) [ElseStatement]
+                                                  ) [IfStmt]
+                                                ) [StatementList]
+                                                PrintNoNumStmt(
+                                                  PositiveExpr(
+                                                    NoMulopTerm(
+                                                      FactorNoActPars(
+                                                        DesignatorIdentOnly(
+                                                         eol
+                                                        ) [DesignatorIdentOnly]
+                                                      ) [FactorNoActPars]
+                                                    ) [NoMulopTerm]
+                                                  ) [PositiveExpr]
+                                                ) [PrintNoNumStmt]
+                                              ) [StatementList]
+                                              DesignatorStmt(
+                                                AssignDesignatorStmt(
+                                                  DesignatorIdentOnly(
+                                                   ibool
+                                                  ) [DesignatorIdentOnly]
+                                                  Assignop(
+                                                  ) [Assignop]
+                                                  PositiveExpr(
+                                                    NoMulopTerm(
+                                                      FactorBool(
+                                                       false
+                                                      ) [FactorBool]
+                                                    ) [NoMulopTerm]
+                                                  ) [PositiveExpr]
+                                                ) [AssignDesignatorStmt]
+                                              ) [DesignatorStmt]
+                                            ) [StatementList]
+                                            DesignatorStmt(
+                                              AssignDesignatorStmt(
+                                                DesignatorIdentOnly(
+                                                 i
+                                                ) [DesignatorIdentOnly]
+                                                Assignop(
+                                                ) [Assignop]
+                                                PositiveExpr(
+                                                  NoMulopTerm(
+                                                    FactorNum(
+                                                     0
+                                                    ) [FactorNum]
+                                                  ) [NoMulopTerm]
+                                                ) [PositiveExpr]
+                                              ) [AssignDesignatorStmt]
+                                            ) [DesignatorStmt]
+                                          ) [StatementList]
+                                          IfStmt(
+                                            NoCondTermList(
+                                              NoCondFactList(
+                                                CondFactExpr(
+                                                  PositiveExpr(
+                                                    NoMulopTerm(
+                                                      FactorNoActPars(
+                                                        DesignatorIdentOnly(
+                                                         ibool
+                                                        ) [DesignatorIdentOnly]
+                                                      ) [FactorNoActPars]
+                                                    ) [NoMulopTerm]
+                                                  ) [PositiveExpr]
+                                                ) [CondFactExpr]
+                                              ) [NoCondFactList]
+                                            ) [NoCondTermList]
+                                            IfStart(
+                                            ) [IfStart]
+                                            IfStmt(
+                                              NoCondTermList(
+                                                NoCondFactList(
+                                                  CondFactRelop(
+                                                    PositiveExpr(
+                                                      NoMulopTerm(
+                                                        FactorNoActPars(
+                                                          DesignatorIdentOnly(
+                                                           i
+                                                          ) [DesignatorIdentOnly]
+                                                        ) [FactorNoActPars]
+                                                      ) [NoMulopTerm]
+                                                    ) [PositiveExpr]
+                                                    Equal(
+                                                    ) [Equal]
+                                                    PositiveExpr(
+                                                      NoMulopTerm(
+                                                        FactorNum(
+                                                         5
+                                                        ) [FactorNum]
+                                                      ) [NoMulopTerm]
+                                                    ) [PositiveExpr]
+                                                  ) [CondFactRelop]
+                                                ) [NoCondFactList]
+                                              ) [NoCondTermList]
+                                              IfStart(
+                                              ) [IfStart]
+                                              PrintNoNumStmt(
+                                                PositiveExpr(
+                                                  NoMulopTerm(
+                                                    FactorNum(
+                                                     1
+                                                    ) [FactorNum]
+                                                  ) [NoMulopTerm]
+                                                ) [PositiveExpr]
+                                              ) [PrintNoNumStmt]
+                                              ElseStatement(
+                                                ElseStart(
+                                                ) [ElseStart]
+                                                PrintNoNumStmt(
+                                                  NegativeExpr(
+                                                    NoMulopTerm(
+                                                      FactorNum(
+                                                       1
+                                                      ) [FactorNum]
+                                                    ) [NoMulopTerm]
+                                                  ) [NegativeExpr]
+                                                ) [PrintNoNumStmt]
+                                              ) [ElseStatement]
+                                            ) [IfStmt]
+                                            NoElseStatement(
+                                            ) [NoElseStatement]
+                                          ) [IfStmt]
+                                        ) [StatementList]
+                                        DesignatorStmt(
+                                          AssignDesignatorStmt(
+                                            DesignatorIdentOnly(
+                                             a
+                                            ) [DesignatorIdentOnly]
+                                            Assignop(
+                                            ) [Assignop]
+                                            PositiveExpr(
+                                              NoMulopTerm(
+                                                FactorNum(
+                                                 2
+                                                ) [FactorNum]
+                                              ) [NoMulopTerm]
+                                            ) [PositiveExpr]
+                                          ) [AssignDesignatorStmt]
+                                        ) [DesignatorStmt]
+                                      ) [StatementList]
+                                      DesignatorStmt(
+                                        AssignDesignatorStmt(
+                                          DesignatorIdentOnly(
+                                           niz
+                                          ) [DesignatorIdentOnly]
+                                          Assignop(
+                                          ) [Assignop]
+                                          PositiveExpr(
+                                            NoMulopTerm(
+                                              FactorNewExpr(
+                                                Type(
+                                                 int
+                                                ) [Type]
+                                                PositiveExpr(
+                                                  NoMulopTerm(
+                                                    FactorNum(
+                                                     3
+                                                    ) [FactorNum]
+                                                  ) [NoMulopTerm]
+                                                ) [PositiveExpr]
+                                              ) [FactorNewExpr]
+                                            ) [NoMulopTerm]
+                                          ) [PositiveExpr]
+                                        ) [AssignDesignatorStmt]
+                                      ) [DesignatorStmt]
+                                    ) [StatementList]
+                                    DesignatorStmt(
+                                      AssignDesignatorStmt(
+                                        DesignatorWithExpr(
+                                          DesignatorIdentOnly(
+                                           niz
+                                          ) [DesignatorIdentOnly]
+                                          PositiveExpr(
+                                            NoMulopTerm(
+                                              FactorNum(
+                                               0
+                                              ) [FactorNum]
+                                            ) [NoMulopTerm]
+                                          ) [PositiveExpr]
+                                        ) [DesignatorWithExpr]
+                                        Assignop(
+                                        ) [Assignop]
+                                        PositiveExpr(
+                                          MulopTerm(
+                                            NoMulopTerm(
+                                              FactorNum(
+                                               1
+                                              ) [FactorNum]
+                                            ) [NoMulopTerm]
+                                            Multiply(
+                                            ) [Multiply]
+                                            FactorNoActPars(
+                                              DesignatorIdentOnly(
+                                               a
+                                              ) [DesignatorIdentOnly]
+                                            ) [FactorNoActPars]
+                                          ) [MulopTerm]
+                                        ) [PositiveExpr]
+                                      ) [AssignDesignatorStmt]
+                                    ) [DesignatorStmt]
+                                  ) [StatementList]
+                                  DesignatorStmt(
+                                    AssignDesignatorStmt(
+                                      DesignatorWithExpr(
+                                        DesignatorIdentOnly(
+                                         niz
+                                        ) [DesignatorIdentOnly]
+                                        PositiveExpr(
+                                          NoMulopTerm(
+                                            FactorNum(
+                                             1
+                                            ) [FactorNum]
+                                          ) [NoMulopTerm]
+                                        ) [PositiveExpr]
+                                      ) [DesignatorWithExpr]
+                                      Assignop(
+                                      ) [Assignop]
+                                      PositiveExpr(
+                                        MulopTerm(
+                                          NoMulopTerm(
+                                            FactorNum(
+                                             2
+                                            ) [FactorNum]
+                                          ) [NoMulopTerm]
+                                          Multiply(
+                                          ) [Multiply]
+                                          FactorNoActPars(
+                                            DesignatorIdentOnly(
+                                             a
+                                            ) [DesignatorIdentOnly]
+                                          ) [FactorNoActPars]
+                                        ) [MulopTerm]
+                                      ) [PositiveExpr]
+                                    ) [AssignDesignatorStmt]
+                                  ) [DesignatorStmt]
+                                ) [StatementList]
+                                DesignatorStmt(
+                                  AssignDesignatorStmt(
+                                    DesignatorWithExpr(
+                                      DesignatorIdentOnly(
+                                       niz
+                                      ) [DesignatorIdentOnly]
+                                      PositiveExpr(
+                                        NoMulopTerm(
+                                          FactorNum(
+                                           2
+                                          ) [FactorNum]
+                                        ) [NoMulopTerm]
+                                      ) [PositiveExpr]
+                                    ) [DesignatorWithExpr]
+                                    Assignop(
+                                    ) [Assignop]
+                                    ExprList(
+                                      PositiveExpr(
+                                        MulopTerm(
+                                          NoMulopTerm(
+                                            FactorActPars(
+                                              DesignatorIdentOnly(
+                                               sum
+                                              ) [DesignatorIdentOnly]
+                                              ActualParameters(
+                                                ActParsList(
+                                                  NoActParsList(
+                                                    PositiveExpr(
+                                                      NoMulopTerm(
+                                                        FactorNoActPars(
+                                                          DesignatorWithExpr(
+                                                            DesignatorIdentOnly(
+                                                             niz
+                                                            ) [DesignatorIdentOnly]
+                                                            PositiveExpr(
+                                                              NoMulopTerm(
+                                                                FactorNum(
+                                                                 1
+                                                                ) [FactorNum]
+                                                              ) [NoMulopTerm]
+                                                            ) [PositiveExpr]
+                                                          ) [DesignatorWithExpr]
+                                                        ) [FactorNoActPars]
+                                                      ) [NoMulopTerm]
+                                                    ) [PositiveExpr]
+                                                  ) [NoActParsList]
+                                                  PositiveExpr(
+                                                    NoMulopTerm(
+                                                      FactorNoActPars(
+                                                        DesignatorWithExpr(
+                                                          DesignatorIdentOnly(
+                                                           niz
+                                                          ) [DesignatorIdentOnly]
+                                                          PositiveExpr(
+                                                            NoMulopTerm(
+                                                              FactorNum(
+                                                               0
+                                                              ) [FactorNum]
+                                                            ) [NoMulopTerm]
+                                                          ) [PositiveExpr]
+                                                        ) [DesignatorWithExpr]
+                                                      ) [FactorNoActPars]
+                                                    ) [NoMulopTerm]
+                                                  ) [PositiveExpr]
+                                                ) [ActParsList]
+                                              ) [ActualParameters]
+                                            ) [FactorActPars]
+                                          ) [NoMulopTerm]
+                                          Multiply(
+                                          ) [Multiply]
+                                          FactorNoActPars(
+                                            DesignatorIdentOnly(
+                                             a
+                                            ) [DesignatorIdentOnly]
+                                          ) [FactorNoActPars]
+                                        ) [MulopTerm]
+                                      ) [PositiveExpr]
+                                      Plus(
+                                      ) [Plus]
+                                      NoMulopTerm(
+                                        FactorNum(
+                                         1
+                                        ) [FactorNum]
+                                      ) [NoMulopTerm]
+                                    ) [ExprList]
+                                  ) [AssignDesignatorStmt]
+                                ) [DesignatorStmt]
+                              ) [StatementList]
+                              IfStmt(
+                                CondTermList(
+                                  NoCondTermList(
+                                    NoCondFactList(
+                                      CondFactExpr(
+                                        PositiveExpr(
+                                          NoMulopTerm(
+                                            FactorActPars(
+                                              DesignatorIdentOnly(
+                                               verify
+                                              ) [DesignatorIdentOnly]
+                                              NoActualParameters(
+                                              ) [NoActualParameters]
+                                            ) [FactorActPars]
+                                          ) [NoMulopTerm]
+                                        ) [PositiveExpr]
+                                      ) [CondFactExpr]
+                                    ) [NoCondFactList]
+                                  ) [NoCondTermList]
+                                  NoCondFactList(
+                                    CondFactRelop(
+                                      PositiveExpr(
+                                        NoMulopTerm(
+                                          FactorNoActPars(
+                                            DesignatorWithExpr(
+                                              DesignatorIdentOnly(
+                                               niz
+                                              ) [DesignatorIdentOnly]
+                                              PositiveExpr(
+                                                NoMulopTerm(
+                                                  FactorNum(
+                                                   2
+                                                  ) [FactorNum]
+                                                ) [NoMulopTerm]
+                                              ) [PositiveExpr]
+                                            ) [DesignatorWithExpr]
+                                          ) [FactorNoActPars]
+                                        ) [NoMulopTerm]
+                                      ) [PositiveExpr]
+                                      Equal(
+                                      ) [Equal]
+                                      PositiveExpr(
+                                        NoMulopTerm(
+                                          FactorNum(
+                                           4
+                                          ) [FactorNum]
+                                        ) [NoMulopTerm]
+                                      ) [PositiveExpr]
+                                    ) [CondFactRelop]
+                                  ) [NoCondFactList]
+                                ) [CondTermList]
+                                IfStart(
+                                ) [IfStart]
+                                PrintNoNumStmt(
+                                  PositiveExpr(
+                                    NoMulopTerm(
+                                      FactorActPars(
+                                        DesignatorIdentOnly(
+                                         ord
+                                        ) [DesignatorIdentOnly]
+                                        ActualParameters(
+                                          NoActParsList(
+                                            PositiveExpr(
+                                              NoMulopTerm(
+                                                FactorChar(
+                                                 A
+                                                ) [FactorChar]
+                                              ) [NoMulopTerm]
+                                            ) [PositiveExpr]
+                                          ) [NoActParsList]
+                                        ) [ActualParameters]
+                                      ) [FactorActPars]
+                                    ) [NoMulopTerm]
+                                  ) [PositiveExpr]
+                                ) [PrintNoNumStmt]
+                                ElseStatement(
+                                  ElseStart(
+                                  ) [ElseStart]
+                                  PrintNoNumStmt(
+                                    PositiveExpr(
+                                      NoMulopTerm(
+                                        FactorActPars(
+                                          DesignatorIdentOnly(
+                                           ord
+                                          ) [DesignatorIdentOnly]
+                                          ActualParameters(
+                                            NoActParsList(
+                                              PositiveExpr(
+                                                NoMulopTerm(
+                                                  FactorChar(
+                                                   a
+                                                  ) [FactorChar]
+                                                ) [NoMulopTerm]
+                                              ) [PositiveExpr]
+                                            ) [NoActParsList]
+                                          ) [ActualParameters]
+                                        ) [FactorActPars]
+                                      ) [NoMulopTerm]
+                                    ) [PositiveExpr]
+                                  ) [PrintNoNumStmt]
+                                ) [ElseStatement]
+                              ) [IfStmt]
+                            ) [StatementList]
+                            PrintNoNumStmt(
+                              PositiveExpr(
+                                NoMulopTerm(
+                                  FactorNoActPars(
+                                    DesignatorIdentOnly(
+                                     eol
+                                    ) [DesignatorIdentOnly]
+                                  ) [FactorNoActPars]
+                                ) [NoMulopTerm]
+                              ) [PositiveExpr]
+                            ) [PrintNoNumStmt]
+                          ) [StatementList]
+                          DesignatorStmt(
+                            AssignDesignatorStmt(
+                              DesignatorIdentOnly(
+                               i
+                              ) [DesignatorIdentOnly]
+                              Assignop(
+                              ) [Assignop]
+                              PositiveExpr(
+                                NoMulopTerm(
+                                  FactorNum(
+                                   0
+                                  ) [FactorNum]
+                                ) [NoMulopTerm]
+                              ) [PositiveExpr]
+                            ) [AssignDesignatorStmt]
+                          ) [DesignatorStmt]
+                        ) [StatementList]
+                        IfStmt(
+                          NoCondTermList(
+                            CondFactList(
+                              NoCondFactList(
+                                CondFactRelop(
+                                  PositiveExpr(
+                                    NoMulopTerm(
+                                      FactorNoActPars(
+                                        DesignatorIdentOnly(
+                                         i
+                                        ) [DesignatorIdentOnly]
+                                      ) [FactorNoActPars]
+                                    ) [NoMulopTerm]
+                                  ) [PositiveExpr]
+                                  Equal(
+                                  ) [Equal]
+                                  PositiveExpr(
+                                    NoMulopTerm(
+                                      FactorNum(
+                                       3
+                                      ) [FactorNum]
+                                    ) [NoMulopTerm]
+                                  ) [PositiveExpr]
+                                ) [CondFactRelop]
+                              ) [NoCondFactList]
+                              CondFactExpr(
+                                PositiveExpr(
+                                  NoMulopTerm(
+                                    FactorActPars(
+                                      DesignatorIdentOnly(
+                                       verify
+                                      ) [DesignatorIdentOnly]
+                                      NoActualParameters(
+                                      ) [NoActualParameters]
+                                    ) [FactorActPars]
+                                  ) [NoMulopTerm]
+                                ) [PositiveExpr]
+                              ) [CondFactExpr]
+                            ) [CondFactList]
+                          ) [NoCondTermList]
+                          IfStart(
+                          ) [IfStart]
+                          PrintNoNumStmt(
+                            NegativeExpr(
+                              NoMulopTerm(
+                                FactorNum(
+                                 4
+                                ) [FactorNum]
+                              ) [NoMulopTerm]
+                            ) [NegativeExpr]
+                          ) [PrintNoNumStmt]
+                          ElseStatement(
+                            ElseStart(
+                            ) [ElseStart]
+                            PrintNoNumStmt(
+                              PositiveExpr(
+                                NoMulopTerm(
+                                  FactorNum(
+                                   4
+                                  ) [FactorNum]
+                                ) [NoMulopTerm]
+                              ) [PositiveExpr]
+                            ) [PrintNoNumStmt]
+                          ) [ElseStatement]
+                        ) [IfStmt]
+                      ) [StatementList]
+                      ReadStmt(
+                        DesignatorWithExpr(
+                          DesignatorIdentOnly(
+                           niz
+                          ) [DesignatorIdentOnly]
+                          PositiveExpr(
+                            NoMulopTerm(
+                              FactorNum(
+                               0
+                              ) [FactorNum]
+                            ) [NoMulopTerm]
+                          ) [PositiveExpr]
+                        ) [DesignatorWithExpr]
+                      ) [ReadStmt]
+                    ) [StatementList]
+                    ReadStmt(
+                      DesignatorWithExpr(
+                        DesignatorIdentOnly(
+                         niz
+                        ) [DesignatorIdentOnly]
+                        PositiveExpr(
+                          NoMulopTerm(
+                            FactorNum(
+                             1
+                            ) [FactorNum]
+                          ) [NoMulopTerm]
+                        ) [PositiveExpr]
+                      ) [DesignatorWithExpr]
+                    ) [ReadStmt]
+                  ) [StatementList]
+                  ReadStmt(
+                    DesignatorWithExpr(
+                      DesignatorIdentOnly(
+                       niz
+                      ) [DesignatorIdentOnly]
+                      PositiveExpr(
+                        NoMulopTerm(
+                          FactorNum(
+                           2
+                          ) [FactorNum]
+                        ) [NoMulopTerm]
+                      ) [PositiveExpr]
+                    ) [DesignatorWithExpr]
+                  ) [ReadStmt]
+                ) [StatementList]
+                PrintNoNumStmt(
+                  PositiveExpr(
+                    NoMulopTerm(
+                      FactorNoActPars(
+                        DesignatorIdentOnly(
+                         eol
+                        ) [DesignatorIdentOnly]
+                      ) [FactorNoActPars]
+                    ) [NoMulopTerm]
+                  ) [PositiveExpr]
+                ) [PrintNoNumStmt]
+              ) [StatementList]
+              PrintNoNumStmt(
+                PositiveExpr(
+                  NoMulopTerm(
+                    FactorActPars(
+                      DesignatorIdentOnly(
+                       sum
+                      ) [DesignatorIdentOnly]
+                      ActualParameters(
+                        ActParsList(
+                          NoActParsList(
+                            PositiveExpr(
+                              NoMulopTerm(
+                                FactorActPars(
+                                  DesignatorIdentOnly(
+                                   sum
+                                  ) [DesignatorIdentOnly]
+                                  ActualParameters(
+                                    ActParsList(
+                                      NoActParsList(
+                                        PositiveExpr(
+                                          NoMulopTerm(
+                                            FactorNoActPars(
+                                              DesignatorWithExpr(
+                                                DesignatorIdentOnly(
+                                                 niz
+                                                ) [DesignatorIdentOnly]
+                                                PositiveExpr(
+                                                  NoMulopTerm(
+                                                    FactorNum(
+                                                     0
+                                                    ) [FactorNum]
+                                                  ) [NoMulopTerm]
+                                                ) [PositiveExpr]
+                                              ) [DesignatorWithExpr]
+                                            ) [FactorNoActPars]
+                                          ) [NoMulopTerm]
+                                        ) [PositiveExpr]
+                                      ) [NoActParsList]
+                                      PositiveExpr(
+                                        NoMulopTerm(
+                                          FactorNoActPars(
+                                            DesignatorWithExpr(
+                                              DesignatorIdentOnly(
+                                               niz
+                                              ) [DesignatorIdentOnly]
+                                              PositiveExpr(
+                                                NoMulopTerm(
+                                                  FactorNum(
+                                                   1
+                                                  ) [FactorNum]
+                                                ) [NoMulopTerm]
+                                              ) [PositiveExpr]
+                                            ) [DesignatorWithExpr]
+                                          ) [FactorNoActPars]
+                                        ) [NoMulopTerm]
+                                      ) [PositiveExpr]
+                                    ) [ActParsList]
+                                  ) [ActualParameters]
+                                ) [FactorActPars]
+                              ) [NoMulopTerm]
+                            ) [PositiveExpr]
+                          ) [NoActParsList]
+                          PositiveExpr(
+                            NoMulopTerm(
+                              FactorNoActPars(
+                                DesignatorWithExpr(
+                                  DesignatorIdentOnly(
+                                   niz
+                                  ) [DesignatorIdentOnly]
+                                  PositiveExpr(
+                                    NoMulopTerm(
+                                      FactorNum(
+                                       2
+                                      ) [FactorNum]
+                                    ) [NoMulopTerm]
+                                  ) [PositiveExpr]
+                                ) [DesignatorWithExpr]
+                              ) [FactorNoActPars]
+                            ) [NoMulopTerm]
+                          ) [PositiveExpr]
+                        ) [ActParsList]
+                      ) [ActualParameters]
+                    ) [FactorActPars]
+                  ) [NoMulopTerm]
+                ) [PositiveExpr]
+              ) [PrintNoNumStmt]
+            ) [StatementList]
+            PrintNoNumStmt(
+              PositiveExpr(
+                NoMulopTerm(
+                  FactorNoActPars(
+                    DesignatorIdentOnly(
+                     eol
+                    ) [DesignatorIdentOnly]
+                  ) [FactorNoActPars]
+                ) [NoMulopTerm]
+              ) [PositiveExpr]
+            ) [PrintNoNumStmt]
+          ) [StatementList]
+          PrintNoNumStmt(
+            PositiveExpr(
+              NoMulopTerm(
+                FactorActPars(
+                  DesignatorIdentOnly(
+                   inkrement
+                  ) [DesignatorIdentOnly]
+                  ActualParameters(
+                    ActParsList(
+                      NoActParsList(
+                        PositiveExpr(
+                          NoMulopTerm(
+                            FactorNoActPars(
+                              DesignatorWithExpr(
+                                DesignatorIdentOnly(
+                                 niz
+                                ) [DesignatorIdentOnly]
+                                PositiveExpr(
+                                  NoMulopTerm(
+                                    FactorNum(
+                                     2
+                                    ) [FactorNum]
+                                  ) [NoMulopTerm]
+                                ) [PositiveExpr]
+                              ) [DesignatorWithExpr]
+                            ) [FactorNoActPars]
+                          ) [NoMulopTerm]
+                        ) [PositiveExpr]
+                      ) [NoActParsList]
+                      PositiveExpr(
+                        NoMulopTerm(
+                          FactorNum(
+                           2
+                          ) [FactorNum]
+                        ) [NoMulopTerm]
+                      ) [PositiveExpr]
+                    ) [ActParsList]
+                  ) [ActualParameters]
+                ) [FactorActPars]
+              ) [NoMulopTerm]
+            ) [PositiveExpr]
+          ) [PrintNoNumStmt]
+        ) [StatementList]
+        PrintNoNumStmt(
+          PositiveExpr(
+            NoMulopTerm(
+              FactorNoActPars(
+                DesignatorIdentOnly(
+                 eol
+                ) [DesignatorIdentOnly]
+              ) [FactorNoActPars]
+            ) [NoMulopTerm]
+          ) [PositiveExpr]
+        ) [PrintNoNumStmt]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:15:03,113 - =====================ISPIS PREPOZNATIH PROGRAMSKIH KONSTRUKCIJA=====================
+INFO  11:15:03,117 - Deklarisana globalna promenljiva 'i' tipa 'int' na liniji 5
+INFO  11:15:03,117 - Deklarisana globalna promenljiva 'ibool' tipa 'bool' na liniji 6
+INFO  11:15:03,117 - Deklarisana globalna promenljiva 'niz2' tipa 'int' na liniji 8
+INFO  11:15:03,117 - Deklarisana globalna promenljiva 'niz' tipa 'array of int' na liniji 10
+INFO  11:15:03,117 - Deklarisana globalna promenljiva 'a' tipa 'int' na liniji 11
+INFO  11:15:03,117 - Obradjuje se funkcija 'sum' povratnog tipa 'int' na liniji 14
+INFO  11:15:03,117 - Deklarisan formalni parametar 'z' tipa 'int' u metodi 'sum' na liniji 14
+INFO  11:15:03,117 - Deklarisan formalni parametar 'd' tipa 'int' u metodi 'sum' na liniji 14
+INFO  11:15:03,118 - Koriscenje simbola 'z' na liniji 15
+INFO  11:15:03,119 - Koriscenje simbola 'd' na liniji 15
+INFO  11:15:03,120 - Sabiranje/oduzimanje simbola na liniji 15
+INFO  11:15:03,120 - Obradjuje se funkcija 'inkrement' povratnog tipa 'int' na liniji 18
+INFO  11:15:03,120 - Deklarisan formalni parametar 'a' tipa 'int' u metodi 'inkrement' na liniji 18
+INFO  11:15:03,120 - Deklarisan formalni parametar 'inc' tipa 'int' u metodi 'inkrement' na liniji 18
+INFO  11:15:03,120 - Deklarisana lokalna promenljiva 'pom' tipa 'int' u metodi 'inkrement' na liniji 19
+INFO  11:15:03,121 - Koriscenje simbola 'inc' na liniji 21
+INFO  11:15:03,122 - Koriscenje simbola 'pom' na liniji 21
+INFO  11:15:03,122 - Dodela vrednosti simbolu 'pom' na liniji 21
+INFO  11:15:03,122 - Koriscenje simbola 'inc' na liniji 22
+INFO  11:15:03,122 - Koriscenje simbola 'pom' na liniji 22
+INFO  11:15:03,122 - Koriscenje simbola 'a' na liniji 22
+INFO  11:15:03,122 - Dodela vrednosti simbolu 'pom' na liniji 22
+INFO  11:15:03,122 - If naredba na liniji 22
+INFO  11:15:03,122 - Else grana na liniji 22
+INFO  11:15:03,123 - If naredba na liniji 21
+INFO  11:15:03,123 - Koriscenje simbola 'sum' na liniji 24
+INFO  11:15:03,123 - Koriscenje simbola 'a' na liniji 24
+INFO  11:15:03,123 - Koriscenje simbola 'pom' na liniji 24
+INFO  11:15:03,124 - Poziv metode 'sum' na liniji 24
+INFO  11:15:03,124 - Obradjuje se funkcija 'verify' povratnog tipa 'bool' na liniji 27
+INFO  11:15:03,124 - Ispis na liniji 28
+INFO  11:15:03,124 - Obradjuje se funkcija 'f1' povratnog tipa 'int' na liniji 32
+INFO  11:15:03,124 - Deklarisan formalni parametar 'arg' tipa 'int' u metodi 'f1' na liniji 32
+INFO  11:15:03,124 - Koriscenje simbola 'arg' na liniji 33
+INFO  11:15:03,124 - Ispis na liniji 33
+INFO  11:15:03,124 - Koriscenje simbola 'eol' na liniji 33
+INFO  11:15:03,124 - Ispis na liniji 33
+INFO  11:15:03,124 - Koriscenje simbola 'arg' na liniji 34
+INFO  11:15:03,124 - Mnozenje/deljenje simbola na liniji 34
+INFO  11:15:03,124 - Obradjuje se funkcija 'main' povratnog tipa 'void' na liniji 37
+INFO  11:15:03,124 - Ispis na liniji 40
+INFO  11:15:03,124 - Ispis na liniji 41
+INFO  11:15:03,124 - Else grana na liniji 41
+INFO  11:15:03,124 - If naredba na liniji 40
+INFO  11:15:03,124 - Koriscenje simbola 'eol' na liniji 42
+INFO  11:15:03,124 - Ispis na liniji 42
+INFO  11:15:03,124 - Koriscenje simbola 'ibool' na liniji 44
+INFO  11:15:03,124 - Dodela vrednosti simbolu 'ibool' na liniji 44
+INFO  11:15:03,124 - Koriscenje simbola 'i' na liniji 45
+INFO  11:15:03,124 - Dodela vrednosti simbolu 'i' na liniji 45
+INFO  11:15:03,124 - Koriscenje simbola 'ibool' na liniji 50
+INFO  11:15:03,124 - Koriscenje simbola 'i' na liniji 51
+INFO  11:15:03,124 - Ispis na liniji 51
+INFO  11:15:03,124 - Ispis na liniji 52
+INFO  11:15:03,124 - Else grana na liniji 52
+INFO  11:15:03,124 - If naredba na liniji 51
+INFO  11:15:03,124 - If naredba na liniji 50
+INFO  11:15:03,124 - Koriscenje simbola 'a' na liniji 54
+INFO  11:15:03,124 - Dodela vrednosti simbolu 'a' na liniji 54
+INFO  11:15:03,124 - Koriscenje simbola 'niz' na liniji 55
+INFO  11:15:03,124 - Kreiranje niza tipa 'int' na liniji 55
+INFO  11:15:03,124 - Dodela vrednosti simbolu 'niz' na liniji 55
+INFO  11:15:03,125 - Koriscenje simbola 'niz' na liniji 56
+INFO  11:15:03,125 - Pristup elementu niza 'niz' na liniji 56
+INFO  11:15:03,125 - Koriscenje simbola 'a' na liniji 56
+INFO  11:15:03,125 - Mnozenje/deljenje simbola na liniji 56
+INFO  11:15:03,125 - Dodela vrednosti simbolu '' na liniji 56
+INFO  11:15:03,125 - Koriscenje simbola 'niz' na liniji 57
+INFO  11:15:03,125 - Pristup elementu niza 'niz' na liniji 57
+INFO  11:15:03,125 - Koriscenje simbola 'a' na liniji 57
+INFO  11:15:03,125 - Mnozenje/deljenje simbola na liniji 57
+INFO  11:15:03,125 - Dodela vrednosti simbolu '' na liniji 57
+INFO  11:15:03,125 - Koriscenje simbola 'niz' na liniji 58
+INFO  11:15:03,126 - Pristup elementu niza 'niz' na liniji 58
+INFO  11:15:03,126 - Koriscenje simbola 'sum' na liniji 58
+INFO  11:15:03,135 - Koriscenje simbola 'niz' na liniji 58
+INFO  11:15:03,135 - Pristup elementu niza 'niz' na liniji 58
+INFO  11:15:03,135 - Koriscenje simbola 'niz' na liniji 58
+INFO  11:15:03,135 - Pristup elementu niza 'niz' na liniji 58
+INFO  11:15:03,135 - Poziv metode 'sum' na liniji 58
+INFO  11:15:03,135 - Koriscenje simbola 'a' na liniji 58
+INFO  11:15:03,135 - Mnozenje/deljenje simbola na liniji 58
+INFO  11:15:03,135 - Sabiranje/oduzimanje simbola na liniji 58
+INFO  11:15:03,135 - Dodela vrednosti simbolu '' na liniji 58
+INFO  11:15:03,135 - Koriscenje simbola 'verify' na liniji 59
+INFO  11:15:03,135 - Poziv metode 'verify' na liniji 59
+INFO  11:15:03,135 - Koriscenje simbola 'niz' na liniji 59
+INFO  11:15:03,135 - Pristup elementu niza 'niz' na liniji 59
+INFO  11:15:03,135 - Koriscenje simbola 'ord' na liniji 59
+INFO  11:15:03,135 - Poziv metode 'ord' na liniji 59
+INFO  11:15:03,135 - Ispis na liniji 59
+INFO  11:15:03,135 - Koriscenje simbola 'ord' na liniji 60
+INFO  11:15:03,135 - Poziv metode 'ord' na liniji 60
+INFO  11:15:03,135 - Ispis na liniji 60
+INFO  11:15:03,135 - Else grana na liniji 60
+INFO  11:15:03,135 - If naredba na liniji 59
+INFO  11:15:03,135 - Koriscenje simbola 'eol' na liniji 61
+INFO  11:15:03,135 - Ispis na liniji 61
+INFO  11:15:03,135 - Koriscenje simbola 'i' na liniji 63
+INFO  11:15:03,135 - Dodela vrednosti simbolu 'i' na liniji 63
+INFO  11:15:03,135 - Koriscenje simbola 'i' na liniji 74
+INFO  11:15:03,135 - Koriscenje simbola 'verify' na liniji 74
+INFO  11:15:03,135 - Poziv metode 'verify' na liniji 74
+INFO  11:15:03,135 - Ispis na liniji 74
+INFO  11:15:03,135 - Ispis na liniji 75
+INFO  11:15:03,135 - Else grana na liniji 75
+INFO  11:15:03,135 - If naredba na liniji 74
+INFO  11:15:03,135 - Koriscenje simbola 'niz' na liniji 77
+INFO  11:15:03,135 - Pristup elementu niza 'niz' na liniji 77
+INFO  11:15:03,135 - Read naredba i upis u simbol 'element niza' na liniji 77
+INFO  11:15:03,135 - Koriscenje simbola 'niz' na liniji 78
+INFO  11:15:03,135 - Pristup elementu niza 'niz' na liniji 78
+INFO  11:15:03,135 - Read naredba i upis u simbol 'element niza' na liniji 78
+INFO  11:15:03,135 - Koriscenje simbola 'niz' na liniji 79
+INFO  11:15:03,135 - Pristup elementu niza 'niz' na liniji 79
+INFO  11:15:03,136 - Read naredba i upis u simbol 'element niza' na liniji 79
+INFO  11:15:03,136 - Koriscenje simbola 'eol' na liniji 80
+INFO  11:15:03,136 - Ispis na liniji 80
+INFO  11:15:03,137 - Koriscenje simbola 'sum' na liniji 81
+INFO  11:15:03,137 - Koriscenje simbola 'sum' na liniji 81
+INFO  11:15:03,137 - Koriscenje simbola 'niz' na liniji 81
+INFO  11:15:03,137 - Pristup elementu niza 'niz' na liniji 81
+INFO  11:15:03,137 - Koriscenje simbola 'niz' na liniji 81
+INFO  11:15:03,137 - Pristup elementu niza 'niz' na liniji 81
+INFO  11:15:03,137 - Poziv metode 'sum' na liniji 81
+INFO  11:15:03,137 - Koriscenje simbola 'niz' na liniji 81
+INFO  11:15:03,137 - Pristup elementu niza 'niz' na liniji 81
+INFO  11:15:03,137 - Poziv metode 'sum' na liniji 81
+INFO  11:15:03,138 - Ispis na liniji 81
+INFO  11:15:03,138 - Koriscenje simbola 'eol' na liniji 82
+INFO  11:15:03,138 - Ispis na liniji 82
+INFO  11:15:03,138 - Koriscenje simbola 'inkrement' na liniji 83
+INFO  11:15:03,138 - Koriscenje simbola 'niz' na liniji 83
+INFO  11:15:03,138 - Pristup elementu niza 'niz' na liniji 83
+INFO  11:15:03,138 - Poziv metode 'inkrement' na liniji 83
+INFO  11:15:03,139 - Ispis na liniji 83
+INFO  11:15:03,139 - Koriscenje simbola 'eol' na liniji 84
+INFO  11:15:03,139 - Ispis na liniji 84
+INFO  11:15:03,141 - Parsiranje uspesno zavrseno!
+INFO  11:15:03,156 - Generisanje koda uspesno zavrseno!

@@ -1,0 +1,147 @@
+INFO  15:00:45,068 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  15:00:45,074 - =====================ISPIS PREPOZNATIH TOKENA=====================
+INFO  15:00:45,124 - #2 program
+INFO  15:00:45,124 - #49 test300
+INFO  15:00:45,124 - #3 {
+INFO  15:00:45,125 - #28 void
+INFO  15:00:45,125 - #49 x
+INFO  15:00:45,125 - #14 (
+INFO  15:00:45,126 - #49 int
+INFO  15:00:45,126 - #49 e
+INFO  15:00:45,126 - #15 )
+INFO  15:00:45,127 - #3 {
+INFO  15:00:45,129 - #35 print
+INFO  15:00:45,130 - #14 (
+INFO  15:00:45,130 - #49 e
+INFO  15:00:45,130 - #15 )
+INFO  15:00:45,130 - #9 ;
+INFO  15:00:45,130 - #35 print
+INFO  15:00:45,130 - #14 (
+INFO  15:00:45,130 - #49 eol
+INFO  15:00:45,131 - #15 )
+INFO  15:00:45,131 - #9 ;
+INFO  15:00:45,131 - #4 }
+INFO  15:00:45,131 - #28 void
+INFO  15:00:45,132 - #49 main
+INFO  15:00:45,133 - #14 (
+INFO  15:00:45,133 - #15 )
+INFO  15:00:45,134 - #3 {
+INFO  15:00:45,134 - #49 x
+INFO  15:00:45,134 - #14 (
+INFO  15:00:45,134 - #46 5
+INFO  15:00:45,134 - #15 )
+INFO  15:00:45,134 - #9 ;
+INFO  15:00:45,134 - #4 }
+INFO  15:00:45,134 - #4 }
+INFO  15:00:45,145 - =====================ISPIS SINTAKSNOG STABLA=====================
+INFO  15:00:45,145 - Program(
+  ProgName(
+   test300
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDeclaration(
+        MethodSignature(
+          MethodTypeName(
+            VoidType(
+            ) [VoidType]
+           x
+          ) [MethodTypeName]
+          FormalParameters(
+            NoFormParsList(
+              FormParam(
+                Type(
+                 int
+                ) [Type]
+               e
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [FormParam]
+            ) [NoFormParsList]
+          ) [FormalParameters]
+        ) [MethodSignature]
+        NoLocalVarsDeclList(
+        ) [NoLocalVarsDeclList]
+        StatementList(
+          StatementList(
+            NoStatementList(
+            ) [NoStatementList]
+            PrintNoNumStmt(
+              PositiveExpr(
+                NoMulopTerm(
+                  FactorNoActPars(
+                    DesignatorIdentOnly(
+                     e
+                    ) [DesignatorIdentOnly]
+                  ) [FactorNoActPars]
+                ) [NoMulopTerm]
+              ) [PositiveExpr]
+            ) [PrintNoNumStmt]
+          ) [StatementList]
+          PrintNoNumStmt(
+            PositiveExpr(
+              NoMulopTerm(
+                FactorNoActPars(
+                  DesignatorIdentOnly(
+                   eol
+                  ) [DesignatorIdentOnly]
+                ) [FactorNoActPars]
+              ) [NoMulopTerm]
+            ) [PositiveExpr]
+          ) [PrintNoNumStmt]
+        ) [StatementList]
+      ) [MethodDeclaration]
+    ) [MethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         main
+        ) [MethodTypeName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+      ) [MethodSignature]
+      NoLocalVarsDeclList(
+      ) [NoLocalVarsDeclList]
+      StatementList(
+        NoStatementList(
+        ) [NoStatementList]
+        DesignatorStmt(
+          ActParsDesignatorStmt(
+            DesignatorIdentOnly(
+             x
+            ) [DesignatorIdentOnly]
+            ActualParameters(
+              NoActParsList(
+                PositiveExpr(
+                  NoMulopTerm(
+                    FactorNum(
+                     5
+                    ) [FactorNum]
+                  ) [NoMulopTerm]
+                ) [PositiveExpr]
+              ) [NoActParsList]
+            ) [ActualParameters]
+          ) [ActParsDesignatorStmt]
+        ) [DesignatorStmt]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:00:45,146 - =====================ISPIS PREPOZNATIH PROGRAMSKIH KONSTRUKCIJA=====================
+INFO  15:00:45,150 - Obradjuje se funkcija 'x' povratnog tipa 'void' na liniji 6
+INFO  15:00:45,152 - Deklarisan formalni parametar 'e' tipa 'int' u metodi 'x' na liniji 6
+INFO  15:00:45,153 - Koriscenje simbola 'e' na liniji 7
+INFO  15:00:45,153 - Ispis na liniji 7
+INFO  15:00:45,153 - Koriscenje simbola 'eol' na liniji 8
+INFO  15:00:45,153 - Ispis na liniji 8
+INFO  15:00:45,153 - Obradjuje se funkcija 'main' povratnog tipa 'void' na liniji 11
+INFO  15:00:45,153 - Koriscenje simbola 'x' na liniji 12
+INFO  15:00:45,154 - Poziv metode 'x' na liniji 12
+INFO  15:00:45,156 - Parsiranje uspesno zavrseno!
+INFO  15:00:45,164 - Generisanje koda uspesno zavrseno!

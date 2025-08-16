@@ -1,0 +1,378 @@
+INFO  21:18:48,281 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  21:18:48,288 - =====================ISPIS PREPOZNATIH TOKENA=====================
+INFO  21:18:48,340 - #2 program
+INFO  21:18:48,340 - #49 test300
+INFO  21:18:48,340 - #5 const
+INFO  21:18:48,341 - #49 int
+INFO  21:18:48,341 - #49 nula
+INFO  21:18:48,341 - #8 =
+INFO  21:18:48,341 - #46 0
+INFO  21:18:48,341 - #9 ;
+INFO  21:18:48,342 - #5 const
+INFO  21:18:48,342 - #49 int
+INFO  21:18:48,342 - #49 jedan
+INFO  21:18:48,342 - #8 =
+INFO  21:18:48,342 - #46 1
+INFO  21:18:48,342 - #9 ;
+INFO  21:18:48,342 - #5 const
+INFO  21:18:48,343 - #49 int
+INFO  21:18:48,343 - #49 pet
+INFO  21:18:48,343 - #8 =
+INFO  21:18:48,344 - #46 5
+INFO  21:18:48,344 - #9 ;
+INFO  21:18:48,344 - #49 int
+INFO  21:18:48,344 - #49 niz
+INFO  21:18:48,344 - #10 [
+INFO  21:18:48,344 - #11 ]
+INFO  21:18:48,344 - #9 ;
+INFO  21:18:48,345 - #49 char
+INFO  21:18:48,346 - #49 nizch
+INFO  21:18:48,346 - #10 [
+INFO  21:18:48,346 - #11 ]
+INFO  21:18:48,346 - #9 ;
+INFO  21:18:48,346 - #49 int
+INFO  21:18:48,346 - #49 a
+INFO  21:18:48,346 - #9 ;
+INFO  21:18:48,347 - #49 set
+INFO  21:18:48,347 - #49 s1
+INFO  21:18:48,347 - #13 ,
+INFO  21:18:48,347 - #49 s2
+INFO  21:18:48,347 - #13 ,
+INFO  21:18:48,347 - #49 s3
+INFO  21:18:48,347 - #9 ;
+INFO  21:18:48,347 - #3 {
+INFO  21:18:48,347 - #49 int
+INFO  21:18:48,349 - #49 f
+INFO  21:18:48,350 - #14 (
+INFO  21:18:48,351 - #49 int
+INFO  21:18:48,351 - #49 x
+INFO  21:18:48,351 - #13 ,
+INFO  21:18:48,351 - #49 int
+INFO  21:18:48,351 - #49 y
+INFO  21:18:48,351 - #15 )
+INFO  21:18:48,351 - #3 {
+INFO  21:18:48,352 - #34 return
+INFO  21:18:48,352 - #49 x
+INFO  21:18:48,353 - #22 +
+INFO  21:18:48,353 - #49 y
+INFO  21:18:48,354 - #9 ;
+INFO  21:18:48,355 - #4 }
+INFO  21:18:48,356 - #28 void
+INFO  21:18:48,359 - #49 main
+INFO  21:18:48,361 - #14 (
+INFO  21:18:48,361 - #15 )
+INFO  21:18:48,362 - #49 int
+INFO  21:18:48,363 - #49 bodovi
+INFO  21:18:48,363 - #9 ;
+INFO  21:18:48,363 - #3 {
+INFO  21:18:48,364 - #35 print
+INFO  21:18:48,364 - #14 (
+INFO  21:18:48,364 - #49 f
+INFO  21:18:48,364 - #14 (
+INFO  21:18:48,364 - #46 1
+INFO  21:18:48,364 - #13 ,
+INFO  21:18:48,364 - #46 2
+INFO  21:18:48,364 - #13 ,
+INFO  21:18:48,366 - #46 3
+INFO  21:18:48,366 - #15 )
+INFO  21:18:48,366 - #15 )
+INFO  21:18:48,366 - #9 ;
+INFO  21:18:48,367 - #4 }
+INFO  21:18:48,367 - #4 }
+INFO  21:18:48,374 - =====================ISPIS SINTAKSNOG STABLA=====================
+INFO  21:18:48,375 - Program(
+  ProgName(
+   test300
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              Declarations(
+                NoDeclarations(
+                ) [NoDeclarations]
+                ConstDeclaration(
+                  ConstDecl(
+                    Type(
+                     int
+                    ) [Type]
+                    NoConstantsList(
+                      Constant(
+                       nula
+                        NumConst(
+                         0
+                        ) [NumConst]
+                      ) [Constant]
+                    ) [NoConstantsList]
+                  ) [ConstDecl]
+                ) [ConstDeclaration]
+              ) [Declarations]
+              ConstDeclaration(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  NoConstantsList(
+                    Constant(
+                     jedan
+                      NumConst(
+                       1
+                      ) [NumConst]
+                    ) [Constant]
+                  ) [NoConstantsList]
+                ) [ConstDecl]
+              ) [ConstDeclaration]
+            ) [Declarations]
+            ConstDeclaration(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                NoConstantsList(
+                  Constant(
+                   pet
+                    NumConst(
+                     5
+                    ) [NumConst]
+                  ) [Constant]
+                ) [NoConstantsList]
+              ) [ConstDecl]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          GlobalVarDeclaration(
+            GlobalVarDecl(
+              Type(
+               int
+              ) [Type]
+              NoGlobalVarsList(
+                GlobalVariable(
+                 niz
+                  SquareBrackets(
+                  ) [SquareBrackets]
+                ) [GlobalVariable]
+              ) [NoGlobalVarsList]
+            ) [GlobalVarDecl]
+          ) [GlobalVarDeclaration]
+        ) [Declarations]
+        GlobalVarDeclaration(
+          GlobalVarDecl(
+            Type(
+             char
+            ) [Type]
+            NoGlobalVarsList(
+              GlobalVariable(
+               nizch
+                SquareBrackets(
+                ) [SquareBrackets]
+              ) [GlobalVariable]
+            ) [NoGlobalVarsList]
+          ) [GlobalVarDecl]
+        ) [GlobalVarDeclaration]
+      ) [Declarations]
+      GlobalVarDeclaration(
+        GlobalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoGlobalVarsList(
+            GlobalVariable(
+             a
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [GlobalVariable]
+          ) [NoGlobalVarsList]
+        ) [GlobalVarDecl]
+      ) [GlobalVarDeclaration]
+    ) [Declarations]
+    GlobalVarDeclaration(
+      GlobalVarDecl(
+        Type(
+         set
+        ) [Type]
+        GlobalVarsList(
+          GlobalVarsList(
+            NoGlobalVarsList(
+              GlobalVariable(
+               s1
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [GlobalVariable]
+            ) [NoGlobalVarsList]
+            GlobalVariable(
+             s2
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [GlobalVariable]
+          ) [GlobalVarsList]
+          GlobalVariable(
+           s3
+            NoSquareBrackets(
+            ) [NoSquareBrackets]
+          ) [GlobalVariable]
+        ) [GlobalVarsList]
+      ) [GlobalVarDecl]
+    ) [GlobalVarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDeclaration(
+        MethodSignature(
+          MethodTypeName(
+            FormalType(
+              Type(
+               int
+              ) [Type]
+            ) [FormalType]
+           f
+          ) [MethodTypeName]
+          FormalParameters(
+            FormParsList(
+              NoFormParsList(
+                FormParam(
+                  Type(
+                   int
+                  ) [Type]
+                 x
+                  NoSquareBrackets(
+                  ) [NoSquareBrackets]
+                ) [FormParam]
+              ) [NoFormParsList]
+              FormParam(
+                Type(
+                 int
+                ) [Type]
+               y
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [FormParam]
+            ) [FormParsList]
+          ) [FormalParameters]
+        ) [MethodSignature]
+        NoLocalVarsDeclList(
+        ) [NoLocalVarsDeclList]
+        StatementList(
+          NoStatementList(
+          ) [NoStatementList]
+          ReturnExprStmt(
+            ExprList(
+              PositiveExpr(
+                NoMulopTerm(
+                  FactorNoActPars(
+                    DesignatorIdentOnly(
+                     x
+                    ) [DesignatorIdentOnly]
+                  ) [FactorNoActPars]
+                ) [NoMulopTerm]
+              ) [PositiveExpr]
+              Plus(
+              ) [Plus]
+              NoMulopTerm(
+                FactorNoActPars(
+                  DesignatorIdentOnly(
+                   y
+                  ) [DesignatorIdentOnly]
+                ) [FactorNoActPars]
+              ) [NoMulopTerm]
+            ) [ExprList]
+          ) [ReturnExprStmt]
+        ) [StatementList]
+      ) [MethodDeclaration]
+    ) [MethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         main
+        ) [MethodTypeName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+      ) [MethodSignature]
+      LocalVarsDeclList(
+        NoLocalVarsDeclList(
+        ) [NoLocalVarsDeclList]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoLocalVarsList(
+            LocalVariable(
+             bodovi
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [LocalVariable]
+          ) [NoLocalVarsList]
+        ) [LocalVarDecl]
+      ) [LocalVarsDeclList]
+      StatementList(
+        NoStatementList(
+        ) [NoStatementList]
+        PrintNoNumStmt(
+          PositiveExpr(
+            NoMulopTerm(
+              FactorActPars(
+                DesignatorIdentOnly(
+                 f
+                ) [DesignatorIdentOnly]
+                ActualParameters(
+                  ActParsList(
+                    ActParsList(
+                      NoActParsList(
+                        PositiveExpr(
+                          NoMulopTerm(
+                            FactorNum(
+                             1
+                            ) [FactorNum]
+                          ) [NoMulopTerm]
+                        ) [PositiveExpr]
+                      ) [NoActParsList]
+                      PositiveExpr(
+                        NoMulopTerm(
+                          FactorNum(
+                           2
+                          ) [FactorNum]
+                        ) [NoMulopTerm]
+                      ) [PositiveExpr]
+                    ) [ActParsList]
+                    PositiveExpr(
+                      NoMulopTerm(
+                        FactorNum(
+                         3
+                        ) [FactorNum]
+                      ) [NoMulopTerm]
+                    ) [PositiveExpr]
+                  ) [ActParsList]
+                ) [ActualParameters]
+              ) [FactorActPars]
+            ) [NoMulopTerm]
+          ) [PositiveExpr]
+        ) [PrintNoNumStmt]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:18:48,375 - =====================ISPIS PREPOZNATIH PROGRAMSKIH KONSTRUKCIJA=====================
+INFO  21:18:48,378 - Definisana simbolicka konstanta 'nula' tipa 'int' na liniji 5
+INFO  21:18:48,378 - Definisana simbolicka konstanta 'jedan' tipa 'int' na liniji 6
+INFO  21:18:48,378 - Definisana simbolicka konstanta 'pet' tipa 'int' na liniji 7
+INFO  21:18:48,378 - Deklarisana globalna promenljiva 'niz' tipa 'array of int' na liniji 9
+INFO  21:18:48,378 - Deklarisana globalna promenljiva 'nizch' tipa 'array of char' na liniji 10
+INFO  21:18:48,378 - Deklarisana globalna promenljiva 'a' tipa 'int' na liniji 12
+INFO  21:18:48,378 - Deklarisana globalna promenljiva 's1' tipa 'set' na liniji 14
+INFO  21:18:48,379 - Deklarisana globalna promenljiva 's2' tipa 'set' na liniji 14
+INFO  21:18:48,379 - Deklarisana globalna promenljiva 's3' tipa 'set' na liniji 14
+INFO  21:18:48,379 - Obradjuje se funkcija 'f' povratnog tipa 'int' na liniji 17
+INFO  21:18:48,379 - Deklarisan formalni parametar 'x' tipa 'int' u metodi 'f' na liniji 17
+INFO  21:18:48,379 - Deklarisan formalni parametar 'y' tipa 'int' u metodi 'f' na liniji 17
+INFO  21:18:48,380 - Koriscenje simbola 'x' na liniji 18
+INFO  21:18:48,380 - Koriscenje simbola 'y' na liniji 18
+INFO  21:18:48,380 - Sabiranje/oduzimanje simbola na liniji 18
+INFO  21:18:48,380 - Obradjuje se funkcija 'main' povratnog tipa 'void' na liniji 21
+INFO  21:18:48,380 - Deklarisana lokalna promenljiva 'bodovi' tipa 'int' u metodi 'main' na liniji 22
+INFO  21:18:48,380 - Koriscenje simbola 'f' na liniji 24
+ERROR 21:18:48,381 - Greska na liniji 24: Broj stvarnih argumenata funkcije 'f' se ne poklapa sa brojem formalnih argumenata!
+INFO  21:18:48,381 - Parsiranje nije uspesno zavrseno!

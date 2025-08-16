@@ -1,0 +1,193 @@
+INFO  18:19:25,153 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  18:19:25,161 - =====================ISPIS PREPOZNATIH TOKENA=====================
+INFO  18:19:25,206 - #2 program
+INFO  18:19:25,207 - #49 test300
+INFO  18:19:25,207 - #3 {
+INFO  18:19:25,207 - #28 void
+INFO  18:19:25,208 - #49 x
+INFO  18:19:25,208 - #14 (
+INFO  18:19:25,208 - #49 int
+INFO  18:19:25,208 - #49 a
+INFO  18:19:25,209 - #15 )
+INFO  18:19:25,210 - #3 {
+INFO  18:19:25,212 - #29 if
+INFO  18:19:25,213 - #14 (
+INFO  18:19:25,213 - #49 a
+INFO  18:19:25,213 - #16 ==
+INFO  18:19:25,213 - #46 1
+INFO  18:19:25,214 - #15 )
+INFO  18:19:25,214 - #3 {
+INFO  18:19:25,214 - #35 print
+INFO  18:19:25,214 - #14 (
+INFO  18:19:25,214 - #46 1
+INFO  18:19:25,214 - #15 )
+INFO  18:19:25,214 - #9 ;
+INFO  18:19:25,214 - #4 }
+INFO  18:19:25,215 - #30 else
+INFO  18:19:25,215 - #3 {
+INFO  18:19:25,215 - #35 print
+INFO  18:19:25,215 - #14 (
+INFO  18:19:25,215 - #46 2
+INFO  18:19:25,215 - #15 )
+INFO  18:19:25,215 - #9 ;
+INFO  18:19:25,215 - #4 }
+INFO  18:19:25,215 - #4 }
+INFO  18:19:25,215 - #28 void
+INFO  18:19:25,217 - #49 main
+INFO  18:19:25,217 - #14 (
+INFO  18:19:25,217 - #15 )
+INFO  18:19:25,217 - #3 {
+INFO  18:19:25,218 - #49 x
+INFO  18:19:25,218 - #14 (
+INFO  18:19:25,218 - #46 2
+INFO  18:19:25,218 - #15 )
+INFO  18:19:25,218 - #9 ;
+INFO  18:19:25,218 - #4 }
+INFO  18:19:25,218 - #4 }
+INFO  18:19:25,229 - =====================ISPIS SINTAKSNOG STABLA=====================
+INFO  18:19:25,233 - Program(
+  ProgName(
+   test300
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDeclaration(
+        MethodSignature(
+          MethodTypeName(
+            VoidType(
+            ) [VoidType]
+           x
+          ) [MethodTypeName]
+          FormalParameters(
+            NoFormParsList(
+              FormParam(
+                Type(
+                 int
+                ) [Type]
+               a
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [FormParam]
+            ) [NoFormParsList]
+          ) [FormalParameters]
+        ) [MethodSignature]
+        NoLocalVarsDeclList(
+        ) [NoLocalVarsDeclList]
+        StatementList(
+          NoStatementList(
+          ) [NoStatementList]
+          IfStmt(
+            NoCondTermList(
+              NoCondFactList(
+                CondFactRelop(
+                  PositiveExpr(
+                    NoMulopTerm(
+                      FactorNoActPars(
+                        DesignatorIdentOnly(
+                         a
+                        ) [DesignatorIdentOnly]
+                      ) [FactorNoActPars]
+                    ) [NoMulopTerm]
+                  ) [PositiveExpr]
+                  Equal(
+                  ) [Equal]
+                  PositiveExpr(
+                    NoMulopTerm(
+                      FactorNum(
+                       1
+                      ) [FactorNum]
+                    ) [NoMulopTerm]
+                  ) [PositiveExpr]
+                ) [CondFactRelop]
+              ) [NoCondFactList]
+            ) [NoCondTermList]
+            Statements(
+              StatementList(
+                NoStatementList(
+                ) [NoStatementList]
+                PrintNoNumStmt(
+                  PositiveExpr(
+                    NoMulopTerm(
+                      FactorNum(
+                       1
+                      ) [FactorNum]
+                    ) [NoMulopTerm]
+                  ) [PositiveExpr]
+                ) [PrintNoNumStmt]
+              ) [StatementList]
+            ) [Statements]
+            ElseStatement(
+              Statements(
+                StatementList(
+                  NoStatementList(
+                  ) [NoStatementList]
+                  PrintNoNumStmt(
+                    PositiveExpr(
+                      NoMulopTerm(
+                        FactorNum(
+                         2
+                        ) [FactorNum]
+                      ) [NoMulopTerm]
+                    ) [PositiveExpr]
+                  ) [PrintNoNumStmt]
+                ) [StatementList]
+              ) [Statements]
+            ) [ElseStatement]
+          ) [IfStmt]
+        ) [StatementList]
+      ) [MethodDeclaration]
+    ) [MethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         main
+        ) [MethodTypeName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+      ) [MethodSignature]
+      NoLocalVarsDeclList(
+      ) [NoLocalVarsDeclList]
+      StatementList(
+        NoStatementList(
+        ) [NoStatementList]
+        DesignatorStmt(
+          ActParsDesignatorStmt(
+            DesignatorIdentOnly(
+             x
+            ) [DesignatorIdentOnly]
+            ActualParameters(
+              NoActParsList(
+                PositiveExpr(
+                  NoMulopTerm(
+                    FactorNum(
+                     2
+                    ) [FactorNum]
+                  ) [NoMulopTerm]
+                ) [PositiveExpr]
+              ) [NoActParsList]
+            ) [ActualParameters]
+          ) [ActParsDesignatorStmt]
+        ) [DesignatorStmt]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:19:25,234 - =====================ISPIS PREPOZNATIH PROGRAMSKIH KONSTRUKCIJA=====================
+INFO  18:19:25,239 - Obradjuje se funkcija 'x' povratnog tipa 'void' na liniji 6
+INFO  18:19:25,240 - Deklarisan formalni parametar 'a' tipa 'int' u metodi 'x' na liniji 6
+INFO  18:19:25,240 - Koriscenje simbola 'a' na liniji 7
+INFO  18:19:25,240 - Ispis na liniji 8
+INFO  18:19:25,240 - Ispis na liniji 11
+INFO  18:19:25,240 - Else grana na liniji 10
+INFO  18:19:25,241 - If naredba na liniji 7
+INFO  18:19:25,241 - Obradjuje se funkcija 'main' povratnog tipa 'void' na liniji 15
+INFO  18:19:25,241 - Koriscenje simbola 'x' na liniji 16
+INFO  18:19:25,241 - Poziv metode 'x' na liniji 16
+INFO  18:19:25,242 - Parsiranje uspesno zavrseno!
+INFO  18:19:25,250 - Generisanje koda uspesno zavrseno!

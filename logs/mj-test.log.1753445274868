@@ -1,0 +1,145 @@
+INFO  14:06:47,315 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  14:06:47,320 - =====================ISPIS PREPOZNATIH TOKENA=====================
+INFO  14:06:47,366 - #2 program
+INFO  14:06:47,366 - #49 test302
+INFO  14:06:47,366 - #49 int
+INFO  14:06:47,367 - #49 i
+INFO  14:06:47,368 - #9 ;
+INFO  14:06:47,368 - #49 bool
+INFO  14:06:47,369 - #49 ibool
+INFO  14:06:47,369 - #9 ;
+INFO  14:06:47,369 - #49 int
+INFO  14:06:47,369 - #49 niz2
+INFO  14:06:47,369 - #9 ;
+INFO  14:06:47,369 - #49 int
+INFO  14:06:47,369 - #49 niz
+INFO  14:06:47,370 - #10 [
+INFO  14:06:47,370 - #11 ]
+INFO  14:06:47,370 - #9 ;
+INFO  14:06:47,370 - #49 int
+INFO  14:06:47,371 - #49 a
+INFO  14:06:47,371 - #9 ;
+INFO  14:06:47,371 - #3 {
+INFO  14:06:47,371 - #28 void
+INFO  14:06:47,371 - #49 main
+INFO  14:06:47,372 - #14 (
+INFO  14:06:47,372 - #15 )
+INFO  14:06:47,373 - #3 {
+INFO  14:06:47,374 - #4 }
+INFO  14:06:47,375 - #4 }
+INFO  14:06:47,383 - =====================ISPIS SINTAKSNOG STABLA=====================
+INFO  14:06:47,383 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            GlobalVarDeclaration(
+              GlobalVarDecl(
+                Type(
+                 int
+                ) [Type]
+                NoGlobalVarsList(
+                  GlobalVariable(
+                   i
+                    NoSquareBrackets(
+                    ) [NoSquareBrackets]
+                  ) [GlobalVariable]
+                ) [NoGlobalVarsList]
+              ) [GlobalVarDecl]
+            ) [GlobalVarDeclaration]
+          ) [Declarations]
+          GlobalVarDeclaration(
+            GlobalVarDecl(
+              Type(
+               bool
+              ) [Type]
+              NoGlobalVarsList(
+                GlobalVariable(
+                 ibool
+                  NoSquareBrackets(
+                  ) [NoSquareBrackets]
+                ) [GlobalVariable]
+              ) [NoGlobalVarsList]
+            ) [GlobalVarDecl]
+          ) [GlobalVarDeclaration]
+        ) [Declarations]
+        GlobalVarDeclaration(
+          GlobalVarDecl(
+            Type(
+             int
+            ) [Type]
+            NoGlobalVarsList(
+              GlobalVariable(
+               niz2
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [GlobalVariable]
+            ) [NoGlobalVarsList]
+          ) [GlobalVarDecl]
+        ) [GlobalVarDeclaration]
+      ) [Declarations]
+      GlobalVarDeclaration(
+        GlobalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoGlobalVarsList(
+            GlobalVariable(
+             niz
+              SquareBrackets(
+              ) [SquareBrackets]
+            ) [GlobalVariable]
+          ) [NoGlobalVarsList]
+        ) [GlobalVarDecl]
+      ) [GlobalVarDeclaration]
+    ) [Declarations]
+    GlobalVarDeclaration(
+      GlobalVarDecl(
+        Type(
+         int
+        ) [Type]
+        NoGlobalVarsList(
+          GlobalVariable(
+           a
+            NoSquareBrackets(
+            ) [NoSquareBrackets]
+          ) [GlobalVariable]
+        ) [NoGlobalVarsList]
+      ) [GlobalVarDecl]
+    ) [GlobalVarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         main
+        ) [MethodTypeName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+      ) [MethodSignature]
+      NoLocalVarsDeclList(
+      ) [NoLocalVarsDeclList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:06:47,384 - =====================ISPIS PREPOZNATIH PROGRAMSKIH KONSTRUKCIJA=====================
+INFO  14:06:47,390 - Deklarisana globalna promenljiva 'i' tipa 'int' na liniji 5
+INFO  14:06:47,390 - Deklarisana globalna promenljiva 'ibool' tipa 'bool' na liniji 6
+INFO  14:06:47,390 - Deklarisana globalna promenljiva 'niz2' tipa 'int' na liniji 8
+INFO  14:06:47,391 - Deklarisana globalna promenljiva 'niz' tipa 'array of int' na liniji 10
+INFO  14:06:47,391 - Deklarisana globalna promenljiva 'a' tipa 'int' na liniji 11
+INFO  14:06:47,391 - Obradjuje se funkcija 'main' povratnog tipa 'void' na liniji 37
+INFO  14:06:47,391 - Kraj metode 'main' na liniji 37
+INFO  14:06:47,392 - Parsiranje uspesno zavrseno!

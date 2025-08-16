@@ -1,0 +1,239 @@
+INFO  10:05:57,559 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  10:05:57,604 - #2 program
+INFO  10:05:57,604 - #49 test300
+INFO  10:05:57,604 - #5 const
+INFO  10:05:57,605 - #49 int
+INFO  10:05:57,605 - #49 nula
+INFO  10:05:57,605 - #8 =
+INFO  10:05:57,605 - #46 0
+INFO  10:05:57,605 - #9 ;
+INFO  10:05:57,606 - #5 const
+INFO  10:05:57,606 - #49 int
+INFO  10:05:57,606 - #49 jedan
+INFO  10:05:57,607 - #8 =
+INFO  10:05:57,607 - #46 1
+INFO  10:05:57,607 - #9 ;
+INFO  10:05:57,607 - #5 const
+INFO  10:05:57,607 - #49 int
+INFO  10:05:57,607 - #49 pet
+INFO  10:05:57,607 - #8 =
+INFO  10:05:57,607 - #46 5
+INFO  10:05:57,607 - #9 ;
+INFO  10:05:57,607 - #49 int
+INFO  10:05:57,607 - #49 niz
+INFO  10:05:57,607 - #10 [
+INFO  10:05:57,607 - #11 ]
+INFO  10:05:57,607 - #9 ;
+INFO  10:05:57,608 - #49 char
+INFO  10:05:57,609 - #49 nizch
+INFO  10:05:57,609 - #10 [
+INFO  10:05:57,609 - #11 ]
+INFO  10:05:57,609 - #9 ;
+INFO  10:05:57,609 - #49 int
+INFO  10:05:57,610 - #49 a
+INFO  10:05:57,610 - #9 ;
+INFO  10:05:57,611 - #49 set
+INFO  10:05:57,611 - #49 s1
+INFO  10:05:57,612 - #13 ,
+INFO  10:05:57,612 - #49 s2
+INFO  10:05:57,612 - #13 ,
+INFO  10:05:57,612 - #49 s3
+INFO  10:05:57,612 - #9 ;
+INFO  10:05:57,612 - #3 {
+INFO  10:05:57,612 - #28 void
+INFO  10:05:57,614 - #49 main
+INFO  10:05:57,617 - #14 (
+INFO  10:05:57,618 - #15 )
+INFO  10:05:57,620 - #49 int
+INFO  10:05:57,622 - #49 bodovi
+INFO  10:05:57,622 - #9 ;
+INFO  10:05:57,623 - #49 int
+INFO  10:05:57,624 - #49 temp
+INFO  10:05:57,624 - #9 ;
+INFO  10:05:57,624 - #3 {
+INFO  10:05:57,624 - #4 }
+INFO  10:05:57,625 - #4 }
+INFO  10:05:57,628 - Program(
+  ProgName(
+   test300
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              Declarations(
+                NoDeclarations(
+                ) [NoDeclarations]
+                ConstDeclaration(
+                  ConstDecl(
+                    Type(
+                     int
+                    ) [Type]
+                    NoConstantsList(
+                      Constant(
+                       nula
+                        NumConst(
+                         0
+                        ) [NumConst]
+                      ) [Constant]
+                    ) [NoConstantsList]
+                  ) [ConstDecl]
+                ) [ConstDeclaration]
+              ) [Declarations]
+              ConstDeclaration(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  NoConstantsList(
+                    Constant(
+                     jedan
+                      NumConst(
+                       1
+                      ) [NumConst]
+                    ) [Constant]
+                  ) [NoConstantsList]
+                ) [ConstDecl]
+              ) [ConstDeclaration]
+            ) [Declarations]
+            ConstDeclaration(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                NoConstantsList(
+                  Constant(
+                   pet
+                    NumConst(
+                     5
+                    ) [NumConst]
+                  ) [Constant]
+                ) [NoConstantsList]
+              ) [ConstDecl]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          GlobalVarDeclaration(
+            GlobalVarDecl(
+              Type(
+               int
+              ) [Type]
+              NoGlobalVarsList(
+                GlobalVariable(
+                 niz
+                  SquareBrackets(
+                  ) [SquareBrackets]
+                ) [GlobalVariable]
+              ) [NoGlobalVarsList]
+            ) [GlobalVarDecl]
+          ) [GlobalVarDeclaration]
+        ) [Declarations]
+        GlobalVarDeclaration(
+          GlobalVarDecl(
+            Type(
+             char
+            ) [Type]
+            NoGlobalVarsList(
+              GlobalVariable(
+               nizch
+                SquareBrackets(
+                ) [SquareBrackets]
+              ) [GlobalVariable]
+            ) [NoGlobalVarsList]
+          ) [GlobalVarDecl]
+        ) [GlobalVarDeclaration]
+      ) [Declarations]
+      GlobalVarDeclaration(
+        GlobalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoGlobalVarsList(
+            GlobalVariable(
+             a
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [GlobalVariable]
+          ) [NoGlobalVarsList]
+        ) [GlobalVarDecl]
+      ) [GlobalVarDeclaration]
+    ) [Declarations]
+    GlobalVarDeclaration(
+      GlobalVarDecl(
+        Type(
+         set
+        ) [Type]
+        GlobalVarsList(
+          GlobalVarsList(
+            NoGlobalVarsList(
+              GlobalVariable(
+               s1
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [GlobalVariable]
+            ) [NoGlobalVarsList]
+            GlobalVariable(
+             s2
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [GlobalVariable]
+          ) [GlobalVarsList]
+          GlobalVariable(
+           s3
+            NoSquareBrackets(
+            ) [NoSquareBrackets]
+          ) [GlobalVariable]
+        ) [GlobalVarsList]
+      ) [GlobalVarDecl]
+    ) [GlobalVarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         main
+        ) [MethodTypeName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+      ) [MethodSignature]
+      LocalVarsDeclList(
+        LocalVarsDeclList(
+          NoLocalVarsDeclList(
+          ) [NoLocalVarsDeclList]
+          LocalVarDecl(
+            Type(
+             int
+            ) [Type]
+            NoLocalVarsList(
+              LocalVar(
+               bodovi
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [LocalVar]
+            ) [NoLocalVarsList]
+          ) [LocalVarDecl]
+        ) [LocalVarsDeclList]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoLocalVarsList(
+            LocalVar(
+             temp
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [LocalVar]
+          ) [NoLocalVarsList]
+        ) [LocalVarDecl]
+      ) [LocalVarsDeclList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  10:05:57,629 - ===================================

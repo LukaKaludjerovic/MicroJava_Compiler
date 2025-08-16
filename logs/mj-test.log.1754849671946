@@ -1,0 +1,171 @@
+INFO  20:14:01,410 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  20:14:01,416 - =====================ISPIS PREPOZNATIH TOKENA=====================
+INFO  20:14:01,453 - #2 program
+INFO  20:14:01,453 - #49 test300
+INFO  20:14:01,453 - #3 {
+INFO  20:14:01,454 - #28 void
+INFO  20:14:01,454 - #49 main
+INFO  20:14:01,454 - #14 (
+INFO  20:14:01,455 - #15 )
+INFO  20:14:01,455 - #49 int
+INFO  20:14:01,455 - #49 a
+INFO  20:14:01,456 - #9 ;
+INFO  20:14:01,458 - #3 {
+INFO  20:14:01,459 - #49 a
+INFO  20:14:01,460 - #8 =
+INFO  20:14:01,460 - #46 5
+INFO  20:14:01,460 - #9 ;
+INFO  20:14:01,460 - #29 if
+INFO  20:14:01,461 - #14 (
+INFO  20:14:01,461 - #49 a
+INFO  20:14:01,461 - #16 ==
+INFO  20:14:01,461 - #46 6
+INFO  20:14:01,462 - #15 )
+INFO  20:14:01,463 - #3 {
+INFO  20:14:01,463 - #35 print
+INFO  20:14:01,463 - #14 (
+INFO  20:14:01,463 - #46 5
+INFO  20:14:01,463 - #15 )
+INFO  20:14:01,463 - #9 ;
+INFO  20:14:01,463 - #4 }
+INFO  20:14:01,464 - #30 else
+INFO  20:14:01,464 - #3 {
+INFO  20:14:01,464 - #35 print
+INFO  20:14:01,464 - #14 (
+INFO  20:14:01,464 - #46 55
+INFO  20:14:01,464 - #15 )
+INFO  20:14:01,464 - #9 ;
+INFO  20:14:01,464 - #4 }
+INFO  20:14:01,464 - #4 }
+INFO  20:14:01,465 - #4 }
+INFO  20:14:01,478 - =====================ISPIS SINTAKSNOG STABLA=====================
+INFO  20:14:01,479 - Program(
+  ProgName(
+   test300
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         main
+        ) [MethodTypeName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+      ) [MethodSignature]
+      LocalVarsDeclList(
+        NoLocalVarsDeclList(
+        ) [NoLocalVarsDeclList]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoLocalVarsList(
+            LocalVariable(
+             a
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [LocalVariable]
+          ) [NoLocalVarsList]
+        ) [LocalVarDecl]
+      ) [LocalVarsDeclList]
+      StatementList(
+        StatementList(
+          NoStatementList(
+          ) [NoStatementList]
+          DesignatorStmt(
+            AssignDesignatorStmt(
+              DesignatorIdentOnly(
+               a
+              ) [DesignatorIdentOnly]
+              Assignop(
+              ) [Assignop]
+              PositiveExpr(
+                NoMulopTerm(
+                  FactorNum(
+                   5
+                  ) [FactorNum]
+                ) [NoMulopTerm]
+              ) [PositiveExpr]
+            ) [AssignDesignatorStmt]
+          ) [DesignatorStmt]
+        ) [StatementList]
+        IfStmt(
+          NoCondTermList(
+            NoCondFactList(
+              CondFactRelop(
+                PositiveExpr(
+                  NoMulopTerm(
+                    FactorNoActPars(
+                      DesignatorIdentOnly(
+                       a
+                      ) [DesignatorIdentOnly]
+                    ) [FactorNoActPars]
+                  ) [NoMulopTerm]
+                ) [PositiveExpr]
+                Equal(
+                ) [Equal]
+                PositiveExpr(
+                  NoMulopTerm(
+                    FactorNum(
+                     6
+                    ) [FactorNum]
+                  ) [NoMulopTerm]
+                ) [PositiveExpr]
+              ) [CondFactRelop]
+            ) [NoCondFactList]
+          ) [NoCondTermList]
+          Statements(
+            StatementList(
+              NoStatementList(
+              ) [NoStatementList]
+              PrintNoNumStmt(
+                PositiveExpr(
+                  NoMulopTerm(
+                    FactorNum(
+                     5
+                    ) [FactorNum]
+                  ) [NoMulopTerm]
+                ) [PositiveExpr]
+              ) [PrintNoNumStmt]
+            ) [StatementList]
+          ) [Statements]
+          ElseStatement(
+            Statements(
+              StatementList(
+                NoStatementList(
+                ) [NoStatementList]
+                PrintNoNumStmt(
+                  PositiveExpr(
+                    NoMulopTerm(
+                      FactorNum(
+                       55
+                      ) [FactorNum]
+                    ) [NoMulopTerm]
+                  ) [PositiveExpr]
+                ) [PrintNoNumStmt]
+              ) [StatementList]
+            ) [Statements]
+          ) [ElseStatement]
+        ) [IfStmt]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:14:01,479 - =====================ISPIS PREPOZNATIH PROGRAMSKIH KONSTRUKCIJA=====================
+INFO  20:14:01,484 - Obradjuje se funkcija 'main' povratnog tipa 'void' na liniji 6
+INFO  20:14:01,487 - Deklarisana lokalna promenljiva 'a' tipa 'int' u metodi 'main' na liniji 7
+INFO  20:14:01,488 - Koriscenje simbola 'a' na liniji 9
+INFO  20:14:01,488 - Dodela vrednosti simbolu 'a' na liniji 9
+INFO  20:14:01,488 - Koriscenje simbola 'a' na liniji 11
+INFO  20:14:01,488 - Ispis na liniji 12
+INFO  20:14:01,488 - Ispis na liniji 15
+INFO  20:14:01,488 - Else grana na liniji 14
+INFO  20:14:01,488 - If naredba na liniji 11
+INFO  20:14:01,491 - Parsiranje uspesno zavrseno!
+INFO  20:14:01,500 - Generisanje koda uspesno zavrseno!

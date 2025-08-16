@@ -1,0 +1,260 @@
+INFO  14:10:43,716 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  14:10:43,723 - =====================ISPIS PREPOZNATIH TOKENA=====================
+INFO  14:10:43,777 - #2 program
+INFO  14:10:43,777 - #49 test302
+INFO  14:10:43,777 - #49 int
+INFO  14:10:43,778 - #49 i
+INFO  14:10:43,778 - #9 ;
+INFO  14:10:43,779 - #49 bool
+INFO  14:10:43,779 - #49 ibool
+INFO  14:10:43,779 - #9 ;
+INFO  14:10:43,779 - #49 int
+INFO  14:10:43,779 - #49 niz2
+INFO  14:10:43,779 - #9 ;
+INFO  14:10:43,779 - #49 int
+INFO  14:10:43,779 - #49 niz
+INFO  14:10:43,779 - #10 [
+INFO  14:10:43,780 - #11 ]
+INFO  14:10:43,780 - #9 ;
+INFO  14:10:43,781 - #49 int
+INFO  14:10:43,781 - #49 a
+INFO  14:10:43,781 - #9 ;
+INFO  14:10:43,781 - #3 {
+INFO  14:10:43,781 - #49 int
+INFO  14:10:43,782 - #49 sum
+INFO  14:10:43,782 - #14 (
+INFO  14:10:43,783 - #49 int
+INFO  14:10:43,783 - #49 z
+INFO  14:10:43,783 - #13 ,
+INFO  14:10:43,783 - #49 int
+INFO  14:10:43,786 - #49 d
+INFO  14:10:43,787 - #15 )
+INFO  14:10:43,787 - #3 {
+INFO  14:10:43,789 - #34 return
+INFO  14:10:43,789 - #49 z
+INFO  14:10:43,789 - #22 +
+INFO  14:10:43,790 - #49 d
+INFO  14:10:43,790 - #9 ;
+INFO  14:10:43,790 - #4 }
+INFO  14:10:43,791 - #28 void
+INFO  14:10:43,793 - #49 main
+INFO  14:10:43,794 - #14 (
+INFO  14:10:43,795 - #49 int
+INFO  14:10:43,795 - #49 a
+INFO  14:10:43,795 - #15 )
+INFO  14:10:43,795 - #3 {
+INFO  14:10:43,795 - #34 return
+INFO  14:10:43,797 - #46 2
+INFO  14:10:43,797 - #9 ;
+INFO  14:10:43,797 - #4 }
+INFO  14:10:43,797 - #4 }
+INFO  14:10:43,809 - =====================ISPIS SINTAKSNOG STABLA=====================
+INFO  14:10:43,810 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            GlobalVarDeclaration(
+              GlobalVarDecl(
+                Type(
+                 int
+                ) [Type]
+                NoGlobalVarsList(
+                  GlobalVariable(
+                   i
+                    NoSquareBrackets(
+                    ) [NoSquareBrackets]
+                  ) [GlobalVariable]
+                ) [NoGlobalVarsList]
+              ) [GlobalVarDecl]
+            ) [GlobalVarDeclaration]
+          ) [Declarations]
+          GlobalVarDeclaration(
+            GlobalVarDecl(
+              Type(
+               bool
+              ) [Type]
+              NoGlobalVarsList(
+                GlobalVariable(
+                 ibool
+                  NoSquareBrackets(
+                  ) [NoSquareBrackets]
+                ) [GlobalVariable]
+              ) [NoGlobalVarsList]
+            ) [GlobalVarDecl]
+          ) [GlobalVarDeclaration]
+        ) [Declarations]
+        GlobalVarDeclaration(
+          GlobalVarDecl(
+            Type(
+             int
+            ) [Type]
+            NoGlobalVarsList(
+              GlobalVariable(
+               niz2
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [GlobalVariable]
+            ) [NoGlobalVarsList]
+          ) [GlobalVarDecl]
+        ) [GlobalVarDeclaration]
+      ) [Declarations]
+      GlobalVarDeclaration(
+        GlobalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoGlobalVarsList(
+            GlobalVariable(
+             niz
+              SquareBrackets(
+              ) [SquareBrackets]
+            ) [GlobalVariable]
+          ) [NoGlobalVarsList]
+        ) [GlobalVarDecl]
+      ) [GlobalVarDeclaration]
+    ) [Declarations]
+    GlobalVarDeclaration(
+      GlobalVarDecl(
+        Type(
+         int
+        ) [Type]
+        NoGlobalVarsList(
+          GlobalVariable(
+           a
+            NoSquareBrackets(
+            ) [NoSquareBrackets]
+          ) [GlobalVariable]
+        ) [NoGlobalVarsList]
+      ) [GlobalVarDecl]
+    ) [GlobalVarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDeclaration(
+        MethodSignature(
+          MethodTypeName(
+            FormalType(
+              Type(
+               int
+              ) [Type]
+            ) [FormalType]
+           sum
+          ) [MethodTypeName]
+          FormalParameters(
+            FormParsList(
+              NoFormParsList(
+                FormParam(
+                  Type(
+                   int
+                  ) [Type]
+                 z
+                  NoSquareBrackets(
+                  ) [NoSquareBrackets]
+                ) [FormParam]
+              ) [NoFormParsList]
+              FormParam(
+                Type(
+                 int
+                ) [Type]
+               d
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [FormParam]
+            ) [FormParsList]
+          ) [FormalParameters]
+        ) [MethodSignature]
+        NoLocalVarsDeclList(
+        ) [NoLocalVarsDeclList]
+        StatementList(
+          NoStatementList(
+          ) [NoStatementList]
+          ReturnExprStmt(
+            ExprList(
+              PositiveExpr(
+                NoMulopTerm(
+                  FactorNoActPars(
+                    DesignatorIdentOnly(
+                     z
+                    ) [DesignatorIdentOnly]
+                  ) [FactorNoActPars]
+                ) [NoMulopTerm]
+              ) [PositiveExpr]
+              Plus(
+              ) [Plus]
+              NoMulopTerm(
+                FactorNoActPars(
+                  DesignatorIdentOnly(
+                   d
+                  ) [DesignatorIdentOnly]
+                ) [FactorNoActPars]
+              ) [NoMulopTerm]
+            ) [ExprList]
+          ) [ReturnExprStmt]
+        ) [StatementList]
+      ) [MethodDeclaration]
+    ) [MethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         main
+        ) [MethodTypeName]
+        FormalParameters(
+          NoFormParsList(
+            FormParam(
+              Type(
+               int
+              ) [Type]
+             a
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [FormParam]
+          ) [NoFormParsList]
+        ) [FormalParameters]
+      ) [MethodSignature]
+      NoLocalVarsDeclList(
+      ) [NoLocalVarsDeclList]
+      StatementList(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnExprStmt(
+          PositiveExpr(
+            NoMulopTerm(
+              FactorNum(
+               2
+              ) [FactorNum]
+            ) [NoMulopTerm]
+          ) [PositiveExpr]
+        ) [ReturnExprStmt]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:10:43,814 - =====================ISPIS PREPOZNATIH PROGRAMSKIH KONSTRUKCIJA=====================
+INFO  14:10:43,818 - Deklarisana globalna promenljiva 'i' tipa 'int' na liniji 5
+INFO  14:10:43,818 - Deklarisana globalna promenljiva 'ibool' tipa 'bool' na liniji 6
+INFO  14:10:43,818 - Deklarisana globalna promenljiva 'niz2' tipa 'int' na liniji 8
+INFO  14:10:43,818 - Deklarisana globalna promenljiva 'niz' tipa 'array of int' na liniji 10
+INFO  14:10:43,818 - Deklarisana globalna promenljiva 'a' tipa 'int' na liniji 11
+INFO  14:10:43,818 - Obradjuje se funkcija 'sum' povratnog tipa 'int' na liniji 14
+INFO  14:10:43,818 - Deklarisan formalni parametar 'z' tipa 'int' u metodi 'sum' na liniji 14
+INFO  14:10:43,818 - Deklarisan formalni parametar 'd' tipa 'int' u metodi 'sum' na liniji 14
+INFO  14:10:43,819 - Koriscenje simbola 'z' na liniji 15
+INFO  14:10:43,819 - Koriscenje simbola 'd' na liniji 15
+INFO  14:10:43,819 - Sabiranje/oduzimanje simbola na liniji 15
+INFO  14:10:43,819 - Obradjuje se funkcija 'main' povratnog tipa 'void' na liniji 37
+INFO  14:10:43,819 - Deklarisan formalni parametar 'a' tipa 'int' u metodi 'main' na liniji 37
+ERROR 14:10:43,819 - Greska na liniji 110: Povratna vrednost funkcije 'main' se ne slaze sa tipom povratne vrednosti!
+ERROR 14:10:43,819 - Greska na liniji 37: Metoda 'main' ne sme imati formalne argumente!
+ERROR 14:10:43,819 - Greska: Program mora imati metodu 'main' povratnog tipa 'void' bez parametara!
+INFO  14:10:43,820 - Parsiranje nije uspesno zavrseno!

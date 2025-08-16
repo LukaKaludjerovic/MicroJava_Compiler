@@ -1,0 +1,300 @@
+INFO  15:47:50,063 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  15:47:50,070 - =====================ISPIS PREPOZNATIH TOKENA=====================
+INFO  15:47:50,120 - #2 program
+INFO  15:47:50,120 - #49 test300
+INFO  15:47:50,120 - #3 {
+INFO  15:47:50,121 - #49 int
+INFO  15:47:50,121 - #49 x
+INFO  15:47:50,121 - #14 (
+INFO  15:47:50,122 - #49 int
+INFO  15:47:50,122 - #49 a
+INFO  15:47:50,122 - #13 ,
+INFO  15:47:50,123 - #49 int
+INFO  15:47:50,123 - #49 b
+INFO  15:47:50,123 - #15 )
+INFO  15:47:50,123 - #3 {
+INFO  15:47:50,124 - #34 return
+INFO  15:47:50,126 - #49 a
+INFO  15:47:50,126 - #22 +
+INFO  15:47:50,126 - #49 y
+INFO  15:47:50,127 - #14 (
+INFO  15:47:50,127 - #15 )
+INFO  15:47:50,127 - #22 +
+INFO  15:47:50,128 - #49 b
+INFO  15:47:50,128 - #9 ;
+INFO  15:47:50,128 - #4 }
+INFO  15:47:50,128 - #49 int
+INFO  15:47:50,129 - #49 y
+INFO  15:47:50,129 - #14 (
+INFO  15:47:50,129 - #15 )
+INFO  15:47:50,129 - #3 {
+INFO  15:47:50,129 - #34 return
+INFO  15:47:50,129 - #46 1
+INFO  15:47:50,129 - #9 ;
+INFO  15:47:50,129 - #4 }
+INFO  15:47:50,129 - #28 void
+INFO  15:47:50,130 - #49 main
+INFO  15:47:50,130 - #14 (
+INFO  15:47:50,130 - #15 )
+INFO  15:47:50,131 - #49 int
+INFO  15:47:50,131 - #49 bodovi
+INFO  15:47:50,131 - #9 ;
+INFO  15:47:50,131 - #3 {
+INFO  15:47:50,134 - #49 bodovi
+INFO  15:47:50,134 - #8 =
+INFO  15:47:50,134 - #49 y
+INFO  15:47:50,136 - #14 (
+INFO  15:47:50,137 - #15 )
+INFO  15:47:50,137 - #22 +
+INFO  15:47:50,137 - #49 x
+INFO  15:47:50,137 - #14 (
+INFO  15:47:50,137 - #46 3
+INFO  15:47:50,137 - #13 ,
+INFO  15:47:50,138 - #46 7
+INFO  15:47:50,138 - #15 )
+INFO  15:47:50,138 - #9 ;
+INFO  15:47:50,138 - #35 print
+INFO  15:47:50,138 - #14 (
+INFO  15:47:50,138 - #49 bodovi
+INFO  15:47:50,138 - #15 )
+INFO  15:47:50,138 - #9 ;
+INFO  15:47:50,138 - #4 }
+INFO  15:47:50,138 - #4 }
+INFO  15:47:50,149 - =====================ISPIS SINTAKSNOG STABLA=====================
+INFO  15:47:50,151 - Program(
+  ProgName(
+   test300
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        NoMethodDeclarations(
+        ) [NoMethodDeclarations]
+        MethodDeclaration(
+          MethodSignature(
+            MethodTypeName(
+              FormalType(
+                Type(
+                 int
+                ) [Type]
+              ) [FormalType]
+             x
+            ) [MethodTypeName]
+            FormalParameters(
+              FormParsList(
+                NoFormParsList(
+                  FormParam(
+                    Type(
+                     int
+                    ) [Type]
+                   a
+                    NoSquareBrackets(
+                    ) [NoSquareBrackets]
+                  ) [FormParam]
+                ) [NoFormParsList]
+                FormParam(
+                  Type(
+                   int
+                  ) [Type]
+                 b
+                  NoSquareBrackets(
+                  ) [NoSquareBrackets]
+                ) [FormParam]
+              ) [FormParsList]
+            ) [FormalParameters]
+          ) [MethodSignature]
+          NoLocalVarsDeclList(
+          ) [NoLocalVarsDeclList]
+          StatementList(
+            NoStatementList(
+            ) [NoStatementList]
+            ReturnExprStmt(
+              ExprList(
+                ExprList(
+                  PositiveExpr(
+                    NoMulopTerm(
+                      FactorNoActPars(
+                        DesignatorIdentOnly(
+                         a
+                        ) [DesignatorIdentOnly]
+                      ) [FactorNoActPars]
+                    ) [NoMulopTerm]
+                  ) [PositiveExpr]
+                  Plus(
+                  ) [Plus]
+                  NoMulopTerm(
+                    FactorActPars(
+                      DesignatorIdentOnly(
+                       y
+                      ) [DesignatorIdentOnly]
+                      NoActualParameters(
+                      ) [NoActualParameters]
+                    ) [FactorActPars]
+                  ) [NoMulopTerm]
+                ) [ExprList]
+                Plus(
+                ) [Plus]
+                NoMulopTerm(
+                  FactorNoActPars(
+                    DesignatorIdentOnly(
+                     b
+                    ) [DesignatorIdentOnly]
+                  ) [FactorNoActPars]
+                ) [NoMulopTerm]
+              ) [ExprList]
+            ) [ReturnExprStmt]
+          ) [StatementList]
+        ) [MethodDeclaration]
+      ) [MethodDeclarations]
+      MethodDeclaration(
+        MethodSignature(
+          MethodTypeName(
+            FormalType(
+              Type(
+               int
+              ) [Type]
+            ) [FormalType]
+           y
+          ) [MethodTypeName]
+          NoFormalParameters(
+          ) [NoFormalParameters]
+        ) [MethodSignature]
+        NoLocalVarsDeclList(
+        ) [NoLocalVarsDeclList]
+        StatementList(
+          NoStatementList(
+          ) [NoStatementList]
+          ReturnExprStmt(
+            PositiveExpr(
+              NoMulopTerm(
+                FactorNum(
+                 1
+                ) [FactorNum]
+              ) [NoMulopTerm]
+            ) [PositiveExpr]
+          ) [ReturnExprStmt]
+        ) [StatementList]
+      ) [MethodDeclaration]
+    ) [MethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         main
+        ) [MethodTypeName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+      ) [MethodSignature]
+      LocalVarsDeclList(
+        NoLocalVarsDeclList(
+        ) [NoLocalVarsDeclList]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoLocalVarsList(
+            LocalVariable(
+             bodovi
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [LocalVariable]
+          ) [NoLocalVarsList]
+        ) [LocalVarDecl]
+      ) [LocalVarsDeclList]
+      StatementList(
+        StatementList(
+          NoStatementList(
+          ) [NoStatementList]
+          DesignatorStmt(
+            AssignDesignatorStmt(
+              DesignatorIdentOnly(
+               bodovi
+              ) [DesignatorIdentOnly]
+              Assignop(
+              ) [Assignop]
+              ExprList(
+                PositiveExpr(
+                  NoMulopTerm(
+                    FactorActPars(
+                      DesignatorIdentOnly(
+                       y
+                      ) [DesignatorIdentOnly]
+                      NoActualParameters(
+                      ) [NoActualParameters]
+                    ) [FactorActPars]
+                  ) [NoMulopTerm]
+                ) [PositiveExpr]
+                Plus(
+                ) [Plus]
+                NoMulopTerm(
+                  FactorActPars(
+                    DesignatorIdentOnly(
+                     x
+                    ) [DesignatorIdentOnly]
+                    ActualParameters(
+                      ActParsList(
+                        NoActParsList(
+                          PositiveExpr(
+                            NoMulopTerm(
+                              FactorNum(
+                               3
+                              ) [FactorNum]
+                            ) [NoMulopTerm]
+                          ) [PositiveExpr]
+                        ) [NoActParsList]
+                        PositiveExpr(
+                          NoMulopTerm(
+                            FactorNum(
+                             7
+                            ) [FactorNum]
+                          ) [NoMulopTerm]
+                        ) [PositiveExpr]
+                      ) [ActParsList]
+                    ) [ActualParameters]
+                  ) [FactorActPars]
+                ) [NoMulopTerm]
+              ) [ExprList]
+            ) [AssignDesignatorStmt]
+          ) [DesignatorStmt]
+        ) [StatementList]
+        PrintNoNumStmt(
+          PositiveExpr(
+            NoMulopTerm(
+              FactorNoActPars(
+                DesignatorIdentOnly(
+                 bodovi
+                ) [DesignatorIdentOnly]
+              ) [FactorNoActPars]
+            ) [NoMulopTerm]
+          ) [PositiveExpr]
+        ) [PrintNoNumStmt]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:47:50,151 - =====================ISPIS PREPOZNATIH PROGRAMSKIH KONSTRUKCIJA=====================
+INFO  15:47:50,155 - Obradjuje se funkcija 'x' povratnog tipa 'int' na liniji 6
+INFO  15:47:50,156 - Deklarisan formalni parametar 'a' tipa 'int' u metodi 'x' na liniji 6
+INFO  15:47:50,156 - Deklarisan formalni parametar 'b' tipa 'int' u metodi 'x' na liniji 6
+INFO  15:47:50,156 - Koriscenje simbola 'a' na liniji 7
+ERROR 15:47:50,156 - Greska na liniji 7: Simbol 'y' mora biti prethodno deklarisan ili definisan!
+ERROR 15:47:50,156 - Greska na liniji 7: Nekompatibilni tipovi za operacije sabiranja i oduzimanja!
+INFO  15:47:50,156 - Koriscenje simbola 'b' na liniji 7
+ERROR 15:47:50,157 - Greska na liniji 7: Nekompatibilni tipovi za operacije sabiranja i oduzimanja!
+ERROR 15:47:50,157 - Greska na liniji 7: Povratna vrednost funkcije 'x' se ne slaze sa tipom povratne vrednosti!
+INFO  15:47:50,158 - Obradjuje se funkcija 'y' povratnog tipa 'int' na liniji 10
+INFO  15:47:50,159 - Obradjuje se funkcija 'main' povratnog tipa 'void' na liniji 14
+INFO  15:47:50,159 - Deklarisana lokalna promenljiva 'bodovi' tipa 'int' u metodi 'main' na liniji 15
+INFO  15:47:50,159 - Koriscenje simbola 'bodovi' na liniji 17
+INFO  15:47:50,159 - Koriscenje simbola 'y' na liniji 17
+INFO  15:47:50,159 - Poziv metode 'y' na liniji 17
+INFO  15:47:50,159 - Koriscenje simbola 'x' na liniji 17
+INFO  15:47:50,159 - Poziv metode 'x' na liniji 17
+INFO  15:47:50,159 - Sabiranje/oduzimanje simbola na liniji 17
+INFO  15:47:50,159 - Dodela vrednosti simbolu 'bodovi' na liniji 17
+INFO  15:47:50,159 - Koriscenje simbola 'bodovi' na liniji 19
+INFO  15:47:50,159 - Ispis na liniji 19
+INFO  15:47:50,160 - Parsiranje nije uspesno zavrseno!

@@ -1,0 +1,319 @@
+INFO  10:33:37,135 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  10:33:37,139 - =====================ISPIS PREPOZNATIH TOKENA=====================
+INFO  10:33:37,189 - #2 program
+INFO  10:33:37,189 - #49 test300
+INFO  10:33:37,189 - #3 {
+INFO  10:33:37,190 - #28 void
+INFO  10:33:37,190 - #49 main
+INFO  10:33:37,191 - #14 (
+INFO  10:33:37,192 - #15 )
+INFO  10:33:37,192 - #49 int
+INFO  10:33:37,193 - #49 a
+INFO  10:33:37,194 - #9 ;
+INFO  10:33:37,196 - #49 int
+INFO  10:33:37,197 - #49 b
+INFO  10:33:37,197 - #9 ;
+INFO  10:33:37,197 - #3 {
+INFO  10:33:37,197 - #49 a
+INFO  10:33:37,197 - #8 =
+INFO  10:33:37,198 - #46 10
+INFO  10:33:37,198 - #9 ;
+INFO  10:33:37,198 - #49 b
+INFO  10:33:37,199 - #8 =
+INFO  10:33:37,199 - #46 20
+INFO  10:33:37,199 - #9 ;
+INFO  10:33:37,199 - #29 if
+INFO  10:33:37,199 - #14 (
+INFO  10:33:37,199 - #49 a
+INFO  10:33:37,199 - #18 >
+INFO  10:33:37,199 - #46 5
+INFO  10:33:37,201 - #15 )
+INFO  10:33:37,201 - #3 {
+INFO  10:33:37,204 - #35 print
+INFO  10:33:37,204 - #14 (
+INFO  10:33:37,204 - #46 5
+INFO  10:33:37,204 - #15 )
+INFO  10:33:37,204 - #9 ;
+INFO  10:33:37,204 - #4 }
+INFO  10:33:37,204 - #30 else
+INFO  10:33:37,204 - #29 if
+INFO  10:33:37,206 - #14 (
+INFO  10:33:37,206 - #49 b
+INFO  10:33:37,206 - #18 >
+INFO  10:33:37,206 - #46 10
+INFO  10:33:37,206 - #15 )
+INFO  10:33:37,206 - #3 {
+INFO  10:33:37,206 - #35 print
+INFO  10:33:37,206 - #14 (
+INFO  10:33:37,206 - #46 55
+INFO  10:33:37,207 - #15 )
+INFO  10:33:37,207 - #9 ;
+INFO  10:33:37,207 - #4 }
+INFO  10:33:37,207 - #30 else
+INFO  10:33:37,210 - #3 {
+INFO  10:33:37,210 - #35 print
+INFO  10:33:37,210 - #14 (
+INFO  10:33:37,210 - #46 555
+INFO  10:33:37,210 - #15 )
+INFO  10:33:37,210 - #9 ;
+INFO  10:33:37,210 - #4 }
+INFO  10:33:37,210 - #35 print
+INFO  10:33:37,211 - #14 (
+INFO  10:33:37,211 - #49 eol
+INFO  10:33:37,211 - #15 )
+INFO  10:33:37,211 - #9 ;
+INFO  10:33:37,211 - #35 print
+INFO  10:33:37,212 - #14 (
+INFO  10:33:37,213 - #47 d
+INFO  10:33:37,215 - #15 )
+INFO  10:33:37,216 - #9 ;
+INFO  10:33:37,216 - #4 }
+INFO  10:33:37,216 - #4 }
+INFO  10:33:37,226 - =====================ISPIS SINTAKSNOG STABLA=====================
+INFO  10:33:37,227 - Program(
+  ProgName(
+   test300
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         main
+        ) [MethodTypeName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+      ) [MethodSignature]
+      LocalVarsDeclList(
+        LocalVarsDeclList(
+          NoLocalVarsDeclList(
+          ) [NoLocalVarsDeclList]
+          LocalVarDecl(
+            Type(
+             int
+            ) [Type]
+            NoLocalVarsList(
+              LocalVariable(
+               a
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [LocalVariable]
+            ) [NoLocalVarsList]
+          ) [LocalVarDecl]
+        ) [LocalVarsDeclList]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoLocalVarsList(
+            LocalVariable(
+             b
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [LocalVariable]
+          ) [NoLocalVarsList]
+        ) [LocalVarDecl]
+      ) [LocalVarsDeclList]
+      StatementList(
+        StatementList(
+          StatementList(
+            StatementList(
+              StatementList(
+                NoStatementList(
+                ) [NoStatementList]
+                DesignatorStmt(
+                  AssignDesignatorStmt(
+                    DesignatorIdentOnly(
+                     a
+                    ) [DesignatorIdentOnly]
+                    Assignop(
+                    ) [Assignop]
+                    PositiveExpr(
+                      NoMulopTerm(
+                        FactorNum(
+                         10
+                        ) [FactorNum]
+                      ) [NoMulopTerm]
+                    ) [PositiveExpr]
+                  ) [AssignDesignatorStmt]
+                ) [DesignatorStmt]
+              ) [StatementList]
+              DesignatorStmt(
+                AssignDesignatorStmt(
+                  DesignatorIdentOnly(
+                   b
+                  ) [DesignatorIdentOnly]
+                  Assignop(
+                  ) [Assignop]
+                  PositiveExpr(
+                    NoMulopTerm(
+                      FactorNum(
+                       20
+                      ) [FactorNum]
+                    ) [NoMulopTerm]
+                  ) [PositiveExpr]
+                ) [AssignDesignatorStmt]
+              ) [DesignatorStmt]
+            ) [StatementList]
+            IfStmt(
+              NoCondTermList(
+                NoCondFactList(
+                  CondFactRelop(
+                    PositiveExpr(
+                      NoMulopTerm(
+                        FactorNoActPars(
+                          DesignatorIdentOnly(
+                           a
+                          ) [DesignatorIdentOnly]
+                        ) [FactorNoActPars]
+                      ) [NoMulopTerm]
+                    ) [PositiveExpr]
+                    Greater(
+                    ) [Greater]
+                    PositiveExpr(
+                      NoMulopTerm(
+                        FactorNum(
+                         5
+                        ) [FactorNum]
+                      ) [NoMulopTerm]
+                    ) [PositiveExpr]
+                  ) [CondFactRelop]
+                ) [NoCondFactList]
+              ) [NoCondTermList]
+              IfStart(
+              ) [IfStart]
+              Statements(
+                StatementList(
+                  NoStatementList(
+                  ) [NoStatementList]
+                  PrintNoNumStmt(
+                    PositiveExpr(
+                      NoMulopTerm(
+                        FactorNum(
+                         5
+                        ) [FactorNum]
+                      ) [NoMulopTerm]
+                    ) [PositiveExpr]
+                  ) [PrintNoNumStmt]
+                ) [StatementList]
+              ) [Statements]
+              ElseStatement(
+                ElseStart(
+                ) [ElseStart]
+                IfStmt(
+                  NoCondTermList(
+                    NoCondFactList(
+                      CondFactRelop(
+                        PositiveExpr(
+                          NoMulopTerm(
+                            FactorNoActPars(
+                              DesignatorIdentOnly(
+                               b
+                              ) [DesignatorIdentOnly]
+                            ) [FactorNoActPars]
+                          ) [NoMulopTerm]
+                        ) [PositiveExpr]
+                        Greater(
+                        ) [Greater]
+                        PositiveExpr(
+                          NoMulopTerm(
+                            FactorNum(
+                             10
+                            ) [FactorNum]
+                          ) [NoMulopTerm]
+                        ) [PositiveExpr]
+                      ) [CondFactRelop]
+                    ) [NoCondFactList]
+                  ) [NoCondTermList]
+                  IfStart(
+                  ) [IfStart]
+                  Statements(
+                    StatementList(
+                      NoStatementList(
+                      ) [NoStatementList]
+                      PrintNoNumStmt(
+                        PositiveExpr(
+                          NoMulopTerm(
+                            FactorNum(
+                             55
+                            ) [FactorNum]
+                          ) [NoMulopTerm]
+                        ) [PositiveExpr]
+                      ) [PrintNoNumStmt]
+                    ) [StatementList]
+                  ) [Statements]
+                  ElseStatement(
+                    ElseStart(
+                    ) [ElseStart]
+                    Statements(
+                      StatementList(
+                        NoStatementList(
+                        ) [NoStatementList]
+                        PrintNoNumStmt(
+                          PositiveExpr(
+                            NoMulopTerm(
+                              FactorNum(
+                               555
+                              ) [FactorNum]
+                            ) [NoMulopTerm]
+                          ) [PositiveExpr]
+                        ) [PrintNoNumStmt]
+                      ) [StatementList]
+                    ) [Statements]
+                  ) [ElseStatement]
+                ) [IfStmt]
+              ) [ElseStatement]
+            ) [IfStmt]
+          ) [StatementList]
+          PrintNoNumStmt(
+            PositiveExpr(
+              NoMulopTerm(
+                FactorNoActPars(
+                  DesignatorIdentOnly(
+                   eol
+                  ) [DesignatorIdentOnly]
+                ) [FactorNoActPars]
+              ) [NoMulopTerm]
+            ) [PositiveExpr]
+          ) [PrintNoNumStmt]
+        ) [StatementList]
+        PrintNoNumStmt(
+          PositiveExpr(
+            NoMulopTerm(
+              FactorChar(
+               d
+              ) [FactorChar]
+            ) [NoMulopTerm]
+          ) [PositiveExpr]
+        ) [PrintNoNumStmt]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  10:33:37,227 - =====================ISPIS PREPOZNATIH PROGRAMSKIH KONSTRUKCIJA=====================
+INFO  10:33:37,232 - Obradjuje se funkcija 'main' povratnog tipa 'void' na liniji 6
+INFO  10:33:37,233 - Deklarisana lokalna promenljiva 'a' tipa 'int' u metodi 'main' na liniji 7
+INFO  10:33:37,233 - Deklarisana lokalna promenljiva 'b' tipa 'int' u metodi 'main' na liniji 8
+INFO  10:33:37,233 - Koriscenje simbola 'a' na liniji 10
+INFO  10:33:37,233 - Dodela vrednosti simbolu 'a' na liniji 10
+INFO  10:33:37,233 - Koriscenje simbola 'b' na liniji 11
+INFO  10:33:37,233 - Dodela vrednosti simbolu 'b' na liniji 11
+INFO  10:33:37,233 - Koriscenje simbola 'a' na liniji 13
+INFO  10:33:37,234 - Ispis na liniji 14
+INFO  10:33:37,234 - Koriscenje simbola 'b' na liniji 16
+INFO  10:33:37,234 - Ispis na liniji 17
+INFO  10:33:37,234 - Ispis na liniji 20
+INFO  10:33:37,234 - Else grana na liniji 19
+INFO  10:33:37,234 - If naredba na liniji 16
+INFO  10:33:37,234 - Else grana na liniji 16
+INFO  10:33:37,234 - If naredba na liniji 13
+INFO  10:33:37,234 - Koriscenje simbola 'eol' na liniji 23
+INFO  10:33:37,234 - Ispis na liniji 23
+INFO  10:33:37,234 - Ispis na liniji 24
+INFO  10:33:37,235 - Parsiranje uspesno zavrseno!
+INFO  10:33:37,243 - Generisanje koda uspesno zavrseno!

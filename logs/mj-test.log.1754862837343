@@ -1,0 +1,204 @@
+INFO  23:53:43,658 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  23:53:43,663 - =====================ISPIS PREPOZNATIH TOKENA=====================
+INFO  23:53:43,712 - #2 program
+INFO  23:53:43,712 - #49 test300
+INFO  23:53:43,712 - #3 {
+INFO  23:53:43,713 - #28 void
+INFO  23:53:43,713 - #49 main
+INFO  23:53:43,714 - #14 (
+INFO  23:53:43,714 - #15 )
+INFO  23:53:43,714 - #49 int
+INFO  23:53:43,715 - #49 a
+INFO  23:53:43,715 - #9 ;
+INFO  23:53:43,718 - #3 {
+INFO  23:53:43,718 - #49 a
+INFO  23:53:43,719 - #8 =
+INFO  23:53:43,719 - #46 5
+INFO  23:53:43,719 - #9 ;
+INFO  23:53:43,720 - #29 if
+INFO  23:53:43,720 - #14 (
+INFO  23:53:43,720 - #49 a
+INFO  23:53:43,720 - #18 >
+INFO  23:53:43,720 - #46 10
+INFO  23:53:43,722 - #41 ||
+INFO  23:53:43,722 - #49 a
+INFO  23:53:43,722 - #18 >
+INFO  23:53:43,722 - #46 8
+INFO  23:53:43,722 - #15 )
+INFO  23:53:43,725 - #3 {
+INFO  23:53:43,725 - #35 print
+INFO  23:53:43,725 - #14 (
+INFO  23:53:43,725 - #46 5
+INFO  23:53:43,725 - #15 )
+INFO  23:53:43,725 - #9 ;
+INFO  23:53:43,725 - #4 }
+INFO  23:53:43,725 - #30 else
+INFO  23:53:43,726 - #3 {
+INFO  23:53:43,726 - #35 print
+INFO  23:53:43,727 - #14 (
+INFO  23:53:43,727 - #46 55
+INFO  23:53:43,727 - #15 )
+INFO  23:53:43,727 - #9 ;
+INFO  23:53:43,727 - #4 }
+INFO  23:53:43,727 - #4 }
+INFO  23:53:43,727 - #4 }
+INFO  23:53:43,737 - =====================ISPIS SINTAKSNOG STABLA=====================
+INFO  23:53:43,739 - Program(
+  ProgName(
+   test300
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         main
+        ) [MethodTypeName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+      ) [MethodSignature]
+      LocalVarsDeclList(
+        NoLocalVarsDeclList(
+        ) [NoLocalVarsDeclList]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoLocalVarsList(
+            LocalVariable(
+             a
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [LocalVariable]
+          ) [NoLocalVarsList]
+        ) [LocalVarDecl]
+      ) [LocalVarsDeclList]
+      StatementList(
+        StatementList(
+          NoStatementList(
+          ) [NoStatementList]
+          DesignatorStmt(
+            AssignDesignatorStmt(
+              DesignatorIdentOnly(
+               a
+              ) [DesignatorIdentOnly]
+              Assignop(
+              ) [Assignop]
+              PositiveExpr(
+                NoMulopTerm(
+                  FactorNum(
+                   5
+                  ) [FactorNum]
+                ) [NoMulopTerm]
+              ) [PositiveExpr]
+            ) [AssignDesignatorStmt]
+          ) [DesignatorStmt]
+        ) [StatementList]
+        IfStmt(
+          IfCondition(
+            CondTermList(
+              NoCondTermList(
+                NoCondFactList(
+                  CondFactRelop(
+                    PositiveExpr(
+                      NoMulopTerm(
+                        FactorNoActPars(
+                          DesignatorIdentOnly(
+                           a
+                          ) [DesignatorIdentOnly]
+                        ) [FactorNoActPars]
+                      ) [NoMulopTerm]
+                    ) [PositiveExpr]
+                    Greater(
+                    ) [Greater]
+                    PositiveExpr(
+                      NoMulopTerm(
+                        FactorNum(
+                         10
+                        ) [FactorNum]
+                      ) [NoMulopTerm]
+                    ) [PositiveExpr]
+                  ) [CondFactRelop]
+                ) [NoCondFactList]
+              ) [NoCondTermList]
+              NoCondFactList(
+                CondFactRelop(
+                  PositiveExpr(
+                    NoMulopTerm(
+                      FactorNoActPars(
+                        DesignatorIdentOnly(
+                         a
+                        ) [DesignatorIdentOnly]
+                      ) [FactorNoActPars]
+                    ) [NoMulopTerm]
+                  ) [PositiveExpr]
+                  Greater(
+                  ) [Greater]
+                  PositiveExpr(
+                    NoMulopTerm(
+                      FactorNum(
+                       8
+                      ) [FactorNum]
+                    ) [NoMulopTerm]
+                  ) [PositiveExpr]
+                ) [CondFactRelop]
+              ) [NoCondFactList]
+            ) [CondTermList]
+          ) [IfCondition]
+          IfStatement(
+            Statements(
+              StatementList(
+                NoStatementList(
+                ) [NoStatementList]
+                PrintNoNumStmt(
+                  PositiveExpr(
+                    NoMulopTerm(
+                      FactorNum(
+                       5
+                      ) [FactorNum]
+                    ) [NoMulopTerm]
+                  ) [PositiveExpr]
+                ) [PrintNoNumStmt]
+              ) [StatementList]
+            ) [Statements]
+          ) [IfStatement]
+          ElseStatement(
+            Statements(
+              StatementList(
+                NoStatementList(
+                ) [NoStatementList]
+                PrintNoNumStmt(
+                  PositiveExpr(
+                    NoMulopTerm(
+                      FactorNum(
+                       55
+                      ) [FactorNum]
+                    ) [NoMulopTerm]
+                  ) [PositiveExpr]
+                ) [PrintNoNumStmt]
+              ) [StatementList]
+            ) [Statements]
+          ) [ElseStatement]
+        ) [IfStmt]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:53:43,739 - =====================ISPIS PREPOZNATIH PROGRAMSKIH KONSTRUKCIJA=====================
+INFO  23:53:43,744 - Obradjuje se funkcija 'main' povratnog tipa 'void' na liniji 6
+INFO  23:53:43,746 - Deklarisana lokalna promenljiva 'a' tipa 'int' u metodi 'main' na liniji 7
+INFO  23:53:43,746 - Koriscenje simbola 'a' na liniji 9
+INFO  23:53:43,746 - Dodela vrednosti simbolu 'a' na liniji 9
+INFO  23:53:43,746 - Koriscenje simbola 'a' na liniji 11
+INFO  23:53:43,746 - Koriscenje simbola 'a' na liniji 11
+INFO  23:53:43,746 - Ispis na liniji 12
+INFO  23:53:43,746 - Ispis na liniji 15
+INFO  23:53:43,746 - Else grana na liniji 14
+INFO  23:53:43,747 - If naredba na liniji 11
+INFO  23:53:43,748 - Parsiranje uspesno zavrseno!
+INFO  23:53:43,756 - Generisanje koda uspesno zavrseno!

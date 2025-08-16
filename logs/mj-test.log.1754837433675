@@ -1,0 +1,141 @@
+INFO  16:49:13,156 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  16:49:13,160 - =====================ISPIS PREPOZNATIH TOKENA=====================
+INFO  16:49:13,207 - #2 program
+INFO  16:49:13,207 - #49 test300
+INFO  16:49:13,207 - #49 int
+INFO  16:49:13,208 - #49 niz
+INFO  16:49:13,208 - #10 [
+INFO  16:49:13,208 - #11 ]
+INFO  16:49:13,208 - #9 ;
+INFO  16:49:13,209 - #3 {
+INFO  16:49:13,209 - #28 void
+INFO  16:49:13,210 - #49 main
+INFO  16:49:13,210 - #14 (
+INFO  16:49:13,211 - #15 )
+INFO  16:49:13,212 - #3 {
+INFO  16:49:13,214 - #49 niz
+INFO  16:49:13,214 - #8 =
+INFO  16:49:13,214 - #38 new
+INFO  16:49:13,215 - #49 int
+INFO  16:49:13,215 - #10 [
+INFO  16:49:13,215 - #46 3
+INFO  16:49:13,215 - #11 ]
+INFO  16:49:13,215 - #9 ;
+INFO  16:49:13,215 - #35 print
+INFO  16:49:13,215 - #14 (
+INFO  16:49:13,216 - #49 len
+INFO  16:49:13,216 - #14 (
+INFO  16:49:13,216 - #49 niz
+INFO  16:49:13,216 - #15 )
+INFO  16:49:13,216 - #15 )
+INFO  16:49:13,216 - #9 ;
+INFO  16:49:13,216 - #4 }
+INFO  16:49:13,216 - #4 }
+INFO  16:49:13,228 - =====================ISPIS SINTAKSNOG STABLA=====================
+INFO  16:49:13,229 - Program(
+  ProgName(
+   test300
+  ) [ProgName]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    GlobalVarDeclaration(
+      GlobalVarDecl(
+        Type(
+         int
+        ) [Type]
+        NoGlobalVarsList(
+          GlobalVariable(
+           niz
+            SquareBrackets(
+            ) [SquareBrackets]
+          ) [GlobalVariable]
+        ) [NoGlobalVarsList]
+      ) [GlobalVarDecl]
+    ) [GlobalVarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         main
+        ) [MethodTypeName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+      ) [MethodSignature]
+      NoLocalVarsDeclList(
+      ) [NoLocalVarsDeclList]
+      StatementList(
+        StatementList(
+          NoStatementList(
+          ) [NoStatementList]
+          DesignatorStmt(
+            AssignDesignatorStmt(
+              DesignatorIdentOnly(
+               niz
+              ) [DesignatorIdentOnly]
+              Assignop(
+              ) [Assignop]
+              PositiveExpr(
+                NoMulopTerm(
+                  FactorNewExpr(
+                    Type(
+                     int
+                    ) [Type]
+                    PositiveExpr(
+                      NoMulopTerm(
+                        FactorNum(
+                         3
+                        ) [FactorNum]
+                      ) [NoMulopTerm]
+                    ) [PositiveExpr]
+                  ) [FactorNewExpr]
+                ) [NoMulopTerm]
+              ) [PositiveExpr]
+            ) [AssignDesignatorStmt]
+          ) [DesignatorStmt]
+        ) [StatementList]
+        PrintNoNumStmt(
+          PositiveExpr(
+            NoMulopTerm(
+              FactorActPars(
+                DesignatorIdentOnly(
+                 len
+                ) [DesignatorIdentOnly]
+                ActualParameters(
+                  NoActParsList(
+                    PositiveExpr(
+                      NoMulopTerm(
+                        FactorNoActPars(
+                          DesignatorIdentOnly(
+                           niz
+                          ) [DesignatorIdentOnly]
+                        ) [FactorNoActPars]
+                      ) [NoMulopTerm]
+                    ) [PositiveExpr]
+                  ) [NoActParsList]
+                ) [ActualParameters]
+              ) [FactorActPars]
+            ) [NoMulopTerm]
+          ) [PositiveExpr]
+        ) [PrintNoNumStmt]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:49:13,229 - =====================ISPIS PREPOZNATIH PROGRAMSKIH KONSTRUKCIJA=====================
+INFO  16:49:13,233 - Deklarisana globalna promenljiva 'niz' tipa 'array of int' na liniji 5
+INFO  16:49:13,234 - Obradjuje se funkcija 'main' povratnog tipa 'void' na liniji 8
+INFO  16:49:13,234 - Koriscenje simbola 'niz' na liniji 10
+INFO  16:49:13,234 - Kreiranje niza tipa 'int' na liniji 10
+INFO  16:49:13,234 - Dodela vrednosti simbolu 'niz' na liniji 10
+INFO  16:49:13,234 - Koriscenje simbola 'len' na liniji 11
+INFO  16:49:13,234 - Koriscenje simbola 'niz' na liniji 11
+INFO  16:49:13,234 - Poziv metode 'len' na liniji 11
+INFO  16:49:13,234 - Ispis na liniji 11
+INFO  16:49:13,235 - Parsiranje uspesno zavrseno!
+INFO  16:49:13,244 - Generisanje koda uspesno zavrseno!

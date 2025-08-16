@@ -1,0 +1,429 @@
+INFO  19:01:19,715 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  19:01:19,722 - =====================ISPIS PREPOZNATIH TOKENA=====================
+INFO  19:01:19,775 - #2 program
+INFO  19:01:19,775 - #49 test300
+INFO  19:01:19,775 - #5 const
+INFO  19:01:19,776 - #49 int
+INFO  19:01:19,776 - #49 nula
+INFO  19:01:19,776 - #8 =
+INFO  19:01:19,776 - #46 0
+INFO  19:01:19,776 - #9 ;
+INFO  19:01:19,777 - #5 const
+INFO  19:01:19,777 - #49 int
+INFO  19:01:19,777 - #49 jedan
+INFO  19:01:19,777 - #8 =
+INFO  19:01:19,777 - #46 1
+INFO  19:01:19,777 - #9 ;
+INFO  19:01:19,777 - #5 const
+INFO  19:01:19,777 - #49 int
+INFO  19:01:19,777 - #49 pet
+INFO  19:01:19,778 - #8 =
+INFO  19:01:19,778 - #46 5
+INFO  19:01:19,778 - #9 ;
+INFO  19:01:19,778 - #49 int
+INFO  19:01:19,778 - #49 niz
+INFO  19:01:19,778 - #10 [
+INFO  19:01:19,778 - #11 ]
+INFO  19:01:19,778 - #9 ;
+INFO  19:01:19,779 - #49 char
+INFO  19:01:19,780 - #49 nizch
+INFO  19:01:19,780 - #10 [
+INFO  19:01:19,780 - #11 ]
+INFO  19:01:19,780 - #9 ;
+INFO  19:01:19,780 - #49 int
+INFO  19:01:19,780 - #49 a
+INFO  19:01:19,780 - #9 ;
+INFO  19:01:19,781 - #49 set
+INFO  19:01:19,781 - #49 s1
+INFO  19:01:19,781 - #13 ,
+INFO  19:01:19,781 - #49 s2
+INFO  19:01:19,781 - #13 ,
+INFO  19:01:19,781 - #49 s3
+INFO  19:01:19,781 - #9 ;
+INFO  19:01:19,781 - #3 {
+INFO  19:01:19,781 - #28 void
+INFO  19:01:19,782 - #49 main
+INFO  19:01:19,786 - #14 (
+INFO  19:01:19,787 - #15 )
+INFO  19:01:19,788 - #49 int
+INFO  19:01:19,790 - #49 bodovi
+INFO  19:01:19,790 - #9 ;
+INFO  19:01:19,790 - #49 int
+INFO  19:01:19,791 - #49 temp
+INFO  19:01:19,791 - #9 ;
+INFO  19:01:19,791 - #3 {
+INFO  19:01:19,791 - #49 bodovi
+INFO  19:01:19,791 - #8 =
+INFO  19:01:19,791 - #46 0
+INFO  19:01:19,793 - #9 ;
+INFO  19:01:19,794 - #49 bodovi
+INFO  19:01:19,794 - #42 ++
+INFO  19:01:19,796 - #9 ;
+INFO  19:01:19,797 - #49 bodovi
+INFO  19:01:19,797 - #8 =
+INFO  19:01:19,797 - #49 bodovi
+INFO  19:01:19,797 - #22 +
+INFO  19:01:19,797 - #49 jedan
+INFO  19:01:19,800 - #9 ;
+INFO  19:01:19,800 - #49 bodovi
+INFO  19:01:19,800 - #8 =
+INFO  19:01:19,800 - #49 bodovi
+INFO  19:01:19,800 - #24 *
+INFO  19:01:19,800 - #49 pet
+INFO  19:01:19,801 - #9 ;
+INFO  19:01:19,801 - #49 bodovi
+INFO  19:01:19,801 - #43 --
+INFO  19:01:19,803 - #9 ;
+INFO  19:01:19,803 - #35 print
+INFO  19:01:19,803 - #14 (
+INFO  19:01:19,804 - #49 bodovi
+INFO  19:01:19,804 - #15 )
+INFO  19:01:19,804 - #9 ;
+INFO  19:01:19,804 - #35 print
+INFO  19:01:19,804 - #14 (
+INFO  19:01:19,804 - #49 eol
+INFO  19:01:19,804 - #15 )
+INFO  19:01:19,804 - #9 ;
+INFO  19:01:19,805 - #4 }
+INFO  19:01:19,805 - #4 }
+INFO  19:01:19,813 - =====================ISPIS SINTAKSNOG STABLA=====================
+INFO  19:01:19,814 - Program(
+  ProgName(
+   test300
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              Declarations(
+                NoDeclarations(
+                ) [NoDeclarations]
+                ConstDeclaration(
+                  ConstDecl(
+                    Type(
+                     int
+                    ) [Type]
+                    NoConstantsList(
+                      Constant(
+                       nula
+                        NumConst(
+                         0
+                        ) [NumConst]
+                      ) [Constant]
+                    ) [NoConstantsList]
+                  ) [ConstDecl]
+                ) [ConstDeclaration]
+              ) [Declarations]
+              ConstDeclaration(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  NoConstantsList(
+                    Constant(
+                     jedan
+                      NumConst(
+                       1
+                      ) [NumConst]
+                    ) [Constant]
+                  ) [NoConstantsList]
+                ) [ConstDecl]
+              ) [ConstDeclaration]
+            ) [Declarations]
+            ConstDeclaration(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                NoConstantsList(
+                  Constant(
+                   pet
+                    NumConst(
+                     5
+                    ) [NumConst]
+                  ) [Constant]
+                ) [NoConstantsList]
+              ) [ConstDecl]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          GlobalVarDeclaration(
+            GlobalVarDecl(
+              Type(
+               int
+              ) [Type]
+              NoGlobalVarsList(
+                GlobalVariable(
+                 niz
+                  SquareBrackets(
+                  ) [SquareBrackets]
+                ) [GlobalVariable]
+              ) [NoGlobalVarsList]
+            ) [GlobalVarDecl]
+          ) [GlobalVarDeclaration]
+        ) [Declarations]
+        GlobalVarDeclaration(
+          GlobalVarDecl(
+            Type(
+             char
+            ) [Type]
+            NoGlobalVarsList(
+              GlobalVariable(
+               nizch
+                SquareBrackets(
+                ) [SquareBrackets]
+              ) [GlobalVariable]
+            ) [NoGlobalVarsList]
+          ) [GlobalVarDecl]
+        ) [GlobalVarDeclaration]
+      ) [Declarations]
+      GlobalVarDeclaration(
+        GlobalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoGlobalVarsList(
+            GlobalVariable(
+             a
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [GlobalVariable]
+          ) [NoGlobalVarsList]
+        ) [GlobalVarDecl]
+      ) [GlobalVarDeclaration]
+    ) [Declarations]
+    GlobalVarDeclaration(
+      GlobalVarDecl(
+        Type(
+         set
+        ) [Type]
+        GlobalVarsList(
+          GlobalVarsList(
+            NoGlobalVarsList(
+              GlobalVariable(
+               s1
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [GlobalVariable]
+            ) [NoGlobalVarsList]
+            GlobalVariable(
+             s2
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [GlobalVariable]
+          ) [GlobalVarsList]
+          GlobalVariable(
+           s3
+            NoSquareBrackets(
+            ) [NoSquareBrackets]
+          ) [GlobalVariable]
+        ) [GlobalVarsList]
+      ) [GlobalVarDecl]
+    ) [GlobalVarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         main
+        ) [MethodTypeName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+      ) [MethodSignature]
+      LocalVarsDeclList(
+        LocalVarsDeclList(
+          NoLocalVarsDeclList(
+          ) [NoLocalVarsDeclList]
+          LocalVarDecl(
+            Type(
+             int
+            ) [Type]
+            NoLocalVarsList(
+              LocalVariable(
+               bodovi
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [LocalVariable]
+            ) [NoLocalVarsList]
+          ) [LocalVarDecl]
+        ) [LocalVarsDeclList]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoLocalVarsList(
+            LocalVariable(
+             temp
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [LocalVariable]
+          ) [NoLocalVarsList]
+        ) [LocalVarDecl]
+      ) [LocalVarsDeclList]
+      StatementList(
+        StatementList(
+          StatementList(
+            StatementList(
+              StatementList(
+                StatementList(
+                  StatementList(
+                    NoStatementList(
+                    ) [NoStatementList]
+                    DesignatorStmt(
+                      AssignDesignatorStmt(
+                        DesignatorIdentOnly(
+                         bodovi
+                        ) [DesignatorIdentOnly]
+                        Assignop(
+                        ) [Assignop]
+                        PositiveExpr(
+                          NoMulopTerm(
+                            FactorNum(
+                             0
+                            ) [FactorNum]
+                          ) [NoMulopTerm]
+                        ) [PositiveExpr]
+                      ) [AssignDesignatorStmt]
+                    ) [DesignatorStmt]
+                  ) [StatementList]
+                  DesignatorStmt(
+                    IncrDesignatorStmt(
+                      DesignatorIdentOnly(
+                       bodovi
+                      ) [DesignatorIdentOnly]
+                    ) [IncrDesignatorStmt]
+                  ) [DesignatorStmt]
+                ) [StatementList]
+                DesignatorStmt(
+                  AssignDesignatorStmt(
+                    DesignatorIdentOnly(
+                     bodovi
+                    ) [DesignatorIdentOnly]
+                    Assignop(
+                    ) [Assignop]
+                    ExprList(
+                      PositiveExpr(
+                        NoMulopTerm(
+                          FactorNoActPars(
+                            DesignatorIdentOnly(
+                             bodovi
+                            ) [DesignatorIdentOnly]
+                          ) [FactorNoActPars]
+                        ) [NoMulopTerm]
+                      ) [PositiveExpr]
+                      Plus(
+                      ) [Plus]
+                      NoMulopTerm(
+                        FactorNoActPars(
+                          DesignatorIdentOnly(
+                           jedan
+                          ) [DesignatorIdentOnly]
+                        ) [FactorNoActPars]
+                      ) [NoMulopTerm]
+                    ) [ExprList]
+                  ) [AssignDesignatorStmt]
+                ) [DesignatorStmt]
+              ) [StatementList]
+              DesignatorStmt(
+                AssignDesignatorStmt(
+                  DesignatorIdentOnly(
+                   bodovi
+                  ) [DesignatorIdentOnly]
+                  Assignop(
+                  ) [Assignop]
+                  PositiveExpr(
+                    MulopTerm(
+                      NoMulopTerm(
+                        FactorNoActPars(
+                          DesignatorIdentOnly(
+                           bodovi
+                          ) [DesignatorIdentOnly]
+                        ) [FactorNoActPars]
+                      ) [NoMulopTerm]
+                      Multiply(
+                      ) [Multiply]
+                      FactorNoActPars(
+                        DesignatorIdentOnly(
+                         pet
+                        ) [DesignatorIdentOnly]
+                      ) [FactorNoActPars]
+                    ) [MulopTerm]
+                  ) [PositiveExpr]
+                ) [AssignDesignatorStmt]
+              ) [DesignatorStmt]
+            ) [StatementList]
+            DesignatorStmt(
+              DecrDesignatorStmt(
+                DesignatorIdentOnly(
+                 bodovi
+                ) [DesignatorIdentOnly]
+              ) [DecrDesignatorStmt]
+            ) [DesignatorStmt]
+          ) [StatementList]
+          PrintNoNumStmt(
+            PositiveExpr(
+              NoMulopTerm(
+                FactorNoActPars(
+                  DesignatorIdentOnly(
+                   bodovi
+                  ) [DesignatorIdentOnly]
+                ) [FactorNoActPars]
+              ) [NoMulopTerm]
+            ) [PositiveExpr]
+          ) [PrintNoNumStmt]
+        ) [StatementList]
+        PrintNoNumStmt(
+          PositiveExpr(
+            NoMulopTerm(
+              FactorNoActPars(
+                DesignatorIdentOnly(
+                 eol
+                ) [DesignatorIdentOnly]
+              ) [FactorNoActPars]
+            ) [NoMulopTerm]
+          ) [PositiveExpr]
+        ) [PrintNoNumStmt]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:01:19,815 - =====================ISPIS PREPOZNATIH PROGRAMSKIH KONSTRUKCIJA=====================
+INFO  19:01:19,819 - Definisana simbolicka konstanta 'nula' tipa 'int' na liniji 5
+INFO  19:01:19,819 - Definisana simbolicka konstanta 'jedan' tipa 'int' na liniji 6
+INFO  19:01:19,819 - Definisana simbolicka konstanta 'pet' tipa 'int' na liniji 7
+INFO  19:01:19,819 - Deklarisana globalna promenljiva 'niz' tipa 'array of int' na liniji 9
+INFO  19:01:19,819 - Deklarisana globalna promenljiva 'nizch' tipa 'array of char' na liniji 10
+INFO  19:01:19,819 - Deklarisana globalna promenljiva 'a' tipa 'int' na liniji 12
+INFO  19:01:19,819 - Deklarisana globalna promenljiva 's1' tipa 'set' na liniji 14
+INFO  19:01:19,819 - Deklarisana globalna promenljiva 's2' tipa 'set' na liniji 14
+INFO  19:01:19,819 - Deklarisana globalna promenljiva 's3' tipa 'set' na liniji 14
+INFO  19:01:19,819 - Obradjuje se funkcija 'main' povratnog tipa 'void' na liniji 17
+INFO  19:01:19,820 - Deklarisana lokalna promenljiva 'bodovi' tipa 'int' u metodi 'main' na liniji 18
+INFO  19:01:19,820 - Deklarisana lokalna promenljiva 'temp' tipa 'int' u metodi 'main' na liniji 19
+INFO  19:01:19,820 - Koriscenje simbola 'bodovi' na liniji 21
+INFO  19:01:19,820 - Dodela vrednosti simbolu 'bodovi' na liniji 21
+INFO  19:01:19,820 - Koriscenje simbola 'bodovi' na liniji 22
+INFO  19:01:19,820 - Inkrementiranje vrednosti simbola 'bodovi' na liniji 22
+INFO  19:01:19,820 - Koriscenje simbola 'bodovi' na liniji 23
+INFO  19:01:19,820 - Koriscenje simbola 'bodovi' na liniji 23
+INFO  19:01:19,821 - Koriscenje simbola 'jedan' na liniji 23
+INFO  19:01:19,821 - Sabiranje/oduzimanje simbola na liniji 23
+INFO  19:01:19,821 - Dodela vrednosti simbolu 'bodovi' na liniji 23
+INFO  19:01:19,821 - Koriscenje simbola 'bodovi' na liniji 24
+INFO  19:01:19,821 - Koriscenje simbola 'bodovi' na liniji 24
+INFO  19:01:19,821 - Koriscenje simbola 'pet' na liniji 24
+INFO  19:01:19,821 - Mnozenje/deljenje simbola na liniji 24
+INFO  19:01:19,821 - Dodela vrednosti simbolu 'bodovi' na liniji 24
+INFO  19:01:19,821 - Koriscenje simbola 'bodovi' na liniji 25
+INFO  19:01:19,821 - Dekrementiranje vrednosti simbola 'bodovi' na liniji 25
+INFO  19:01:19,821 - Koriscenje simbola 'bodovi' na liniji 26
+INFO  19:01:19,821 - Ispis na liniji 26
+INFO  19:01:19,821 - Koriscenje simbola 'eol' na liniji 27
+INFO  19:01:19,821 - Ispis na liniji 27
+INFO  19:01:19,823 - Parsiranje uspesno zavrseno!
+INFO  19:01:19,827 - Generisanje koda uspesno zavrseno!

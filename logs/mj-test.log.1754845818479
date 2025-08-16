@@ -1,0 +1,61 @@
+INFO  19:09:19,502 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  19:09:19,526 - =====================ISPIS PREPOZNATIH TOKENA=====================
+INFO  19:09:19,585 - #2 program
+INFO  19:09:19,585 - #49 test300
+INFO  19:09:19,585 - #3 {
+INFO  19:09:19,586 - #28 void
+INFO  19:09:19,586 - #49 main
+INFO  19:09:19,586 - #14 (
+INFO  19:09:19,587 - #15 )
+INFO  19:09:19,587 - #49 int
+INFO  19:09:19,588 - #49 a
+INFO  19:09:19,588 - #9 ;
+INFO  19:09:19,591 - #3 {
+INFO  19:09:19,592 - #4 }
+INFO  19:09:19,592 - #4 }
+INFO  19:09:19,604 - =====================ISPIS SINTAKSNOG STABLA=====================
+INFO  19:09:19,605 - Program(
+  ProgName(
+   test300
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         main
+        ) [MethodTypeName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+      ) [MethodSignature]
+      LocalVarsDeclList(
+        NoLocalVarsDeclList(
+        ) [NoLocalVarsDeclList]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoLocalVarsList(
+            LocalVariable(
+             a
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [LocalVariable]
+          ) [NoLocalVarsList]
+        ) [LocalVarDecl]
+      ) [LocalVarsDeclList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:09:19,605 - =====================ISPIS PREPOZNATIH PROGRAMSKIH KONSTRUKCIJA=====================
+INFO  19:09:19,609 - Obradjuje se funkcija 'main' povratnog tipa 'void' na liniji 6
+INFO  19:09:19,609 - Deklarisana lokalna promenljiva 'a' tipa 'int' u metodi 'main' na liniji 7
+INFO  19:09:19,610 - Parsiranje uspesno zavrseno!
+INFO  19:09:19,619 - Generisanje koda uspesno zavrseno!

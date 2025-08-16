@@ -1,0 +1,295 @@
+INFO  23:49:31,424 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  23:49:31,429 - =====================ISPIS PREPOZNATIH TOKENA=====================
+INFO  23:49:31,475 - #2 program
+INFO  23:49:31,475 - #49 test300
+INFO  23:49:31,475 - #5 const
+INFO  23:49:31,476 - #49 int
+INFO  23:49:31,476 - #49 nula
+INFO  23:49:31,477 - #8 =
+INFO  23:49:31,477 - #46 0
+INFO  23:49:31,477 - #9 ;
+INFO  23:49:31,477 - #5 const
+INFO  23:49:31,478 - #49 int
+INFO  23:49:31,478 - #49 jedan
+INFO  23:49:31,478 - #8 =
+INFO  23:49:31,478 - #46 1
+INFO  23:49:31,478 - #9 ;
+INFO  23:49:31,478 - #5 const
+INFO  23:49:31,478 - #49 int
+INFO  23:49:31,478 - #49 pet
+INFO  23:49:31,478 - #8 =
+INFO  23:49:31,478 - #46 5
+INFO  23:49:31,478 - #9 ;
+INFO  23:49:31,478 - #49 int
+INFO  23:49:31,478 - #49 niz
+INFO  23:49:31,478 - #10 [
+INFO  23:49:31,478 - #11 ]
+INFO  23:49:31,479 - #9 ;
+INFO  23:49:31,480 - #49 char
+INFO  23:49:31,481 - #49 nizch
+INFO  23:49:31,481 - #10 [
+INFO  23:49:31,481 - #11 ]
+INFO  23:49:31,481 - #9 ;
+INFO  23:49:31,481 - #49 int
+INFO  23:49:31,481 - #49 a
+INFO  23:49:31,481 - #9 ;
+INFO  23:49:31,481 - #49 set
+INFO  23:49:31,481 - #49 s1
+INFO  23:49:31,481 - #13 ,
+INFO  23:49:31,482 - #49 s2
+INFO  23:49:31,482 - #13 ,
+INFO  23:49:31,482 - #49 s3
+INFO  23:49:31,482 - #9 ;
+INFO  23:49:31,482 - #3 {
+INFO  23:49:31,482 - #28 void
+INFO  23:49:31,483 - #49 main
+INFO  23:49:31,486 - #14 (
+INFO  23:49:31,488 - #15 )
+INFO  23:49:31,488 - #49 int
+INFO  23:49:31,489 - #49 bodovi
+INFO  23:49:31,489 - #9 ;
+INFO  23:49:31,489 - #49 int
+INFO  23:49:31,490 - #49 temp
+INFO  23:49:31,490 - #9 ;
+INFO  23:49:31,490 - #3 {
+INFO  23:49:31,490 - #4 }
+INFO  23:49:31,491 - #49 int
+INFO  23:49:31,495 - #49 method
+INFO  23:49:31,497 - #14 (
+INFO  23:49:31,497 - #15 )
+INFO  23:49:31,497 - #3 {
+INFO  23:49:31,497 - #34 return
+INFO  23:49:31,497 - #46 0
+INFO  23:49:31,497 - #9 ;
+INFO  23:49:31,497 - #4 }
+INFO  23:49:31,497 - #4 }
+INFO  23:49:31,507 - =====================ISPIS SINTAKSNOG STABLA=====================
+INFO  23:49:31,508 - Program(
+  ProgName(
+   test300
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              Declarations(
+                NoDeclarations(
+                ) [NoDeclarations]
+                ConstDeclaration(
+                  ConstDecl(
+                    Type(
+                     int
+                    ) [Type]
+                    NoConstantsList(
+                      Constant(
+                       nula
+                        NumConst(
+                         0
+                        ) [NumConst]
+                      ) [Constant]
+                    ) [NoConstantsList]
+                  ) [ConstDecl]
+                ) [ConstDeclaration]
+              ) [Declarations]
+              ConstDeclaration(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  NoConstantsList(
+                    Constant(
+                     jedan
+                      NumConst(
+                       1
+                      ) [NumConst]
+                    ) [Constant]
+                  ) [NoConstantsList]
+                ) [ConstDecl]
+              ) [ConstDeclaration]
+            ) [Declarations]
+            ConstDeclaration(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                NoConstantsList(
+                  Constant(
+                   pet
+                    NumConst(
+                     5
+                    ) [NumConst]
+                  ) [Constant]
+                ) [NoConstantsList]
+              ) [ConstDecl]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          GlobalVarDeclaration(
+            GlobalVarDecl(
+              Type(
+               int
+              ) [Type]
+              NoGlobalVarsList(
+                GlobalVariable(
+                 niz
+                  SquareBrackets(
+                  ) [SquareBrackets]
+                ) [GlobalVariable]
+              ) [NoGlobalVarsList]
+            ) [GlobalVarDecl]
+          ) [GlobalVarDeclaration]
+        ) [Declarations]
+        GlobalVarDeclaration(
+          GlobalVarDecl(
+            Type(
+             char
+            ) [Type]
+            NoGlobalVarsList(
+              GlobalVariable(
+               nizch
+                SquareBrackets(
+                ) [SquareBrackets]
+              ) [GlobalVariable]
+            ) [NoGlobalVarsList]
+          ) [GlobalVarDecl]
+        ) [GlobalVarDeclaration]
+      ) [Declarations]
+      GlobalVarDeclaration(
+        GlobalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoGlobalVarsList(
+            GlobalVariable(
+             a
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [GlobalVariable]
+          ) [NoGlobalVarsList]
+        ) [GlobalVarDecl]
+      ) [GlobalVarDeclaration]
+    ) [Declarations]
+    GlobalVarDeclaration(
+      GlobalVarDecl(
+        Type(
+         set
+        ) [Type]
+        GlobalVarsList(
+          GlobalVarsList(
+            NoGlobalVarsList(
+              GlobalVariable(
+               s1
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [GlobalVariable]
+            ) [NoGlobalVarsList]
+            GlobalVariable(
+             s2
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [GlobalVariable]
+          ) [GlobalVarsList]
+          GlobalVariable(
+           s3
+            NoSquareBrackets(
+            ) [NoSquareBrackets]
+          ) [GlobalVariable]
+        ) [GlobalVarsList]
+      ) [GlobalVarDecl]
+    ) [GlobalVarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDeclaration(
+        MethodSignature(
+          MethodTypeName(
+            VoidType(
+            ) [VoidType]
+           main
+          ) [MethodTypeName]
+          NoFormalParameters(
+          ) [NoFormalParameters]
+        ) [MethodSignature]
+        LocalVarsDeclList(
+          LocalVarsDeclList(
+            NoLocalVarsDeclList(
+            ) [NoLocalVarsDeclList]
+            LocalVarDecl(
+              Type(
+               int
+              ) [Type]
+              NoLocalVarsList(
+                LocalVariable(
+                 bodovi
+                  NoSquareBrackets(
+                  ) [NoSquareBrackets]
+                ) [LocalVariable]
+              ) [NoLocalVarsList]
+            ) [LocalVarDecl]
+          ) [LocalVarsDeclList]
+          LocalVarDecl(
+            Type(
+             int
+            ) [Type]
+            NoLocalVarsList(
+              LocalVariable(
+               temp
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [LocalVariable]
+            ) [NoLocalVarsList]
+          ) [LocalVarDecl]
+        ) [LocalVarsDeclList]
+        NoStatementList(
+        ) [NoStatementList]
+      ) [MethodDeclaration]
+    ) [MethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          FormalType(
+            Type(
+             int
+            ) [Type]
+          ) [FormalType]
+         method
+        ) [MethodTypeName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+      ) [MethodSignature]
+      NoLocalVarsDeclList(
+      ) [NoLocalVarsDeclList]
+      StatementList(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnExprStmt(
+          PositiveExpr(
+            NoMulopTerm(
+              FactorNum(
+               0
+              ) [FactorNum]
+            ) [NoMulopTerm]
+          ) [PositiveExpr]
+        ) [ReturnExprStmt]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:49:31,508 - =====================ISPIS PREPOZNATIH PROGRAMSKIH KONSTRUKCIJA=====================
+INFO  23:49:31,511 - Definisana simbolicka konstanta 'nula' tipa 'int' na liniji 5
+INFO  23:49:31,511 - Definisana simbolicka konstanta 'jedan' tipa 'int' na liniji 6
+INFO  23:49:31,511 - Definisana simbolicka konstanta 'pet' tipa 'int' na liniji 7
+INFO  23:49:31,511 - Deklarisana globalna promenljiva 'niz' tipa 'array of int' na liniji 9
+INFO  23:49:31,511 - Deklarisana globalna promenljiva 'nizch' tipa 'array of char' na liniji 10
+INFO  23:49:31,511 - Deklarisana globalna promenljiva 'a' tipa 'int' na liniji 12
+INFO  23:49:31,511 - Deklarisana globalna promenljiva 's1' tipa 'set' na liniji 14
+INFO  23:49:31,513 - Deklarisana globalna promenljiva 's2' tipa 'set' na liniji 14
+INFO  23:49:31,513 - Deklarisana globalna promenljiva 's3' tipa 'set' na liniji 14
+INFO  23:49:31,513 - Obradjuje se funkcija 'main' povratnog tipa 'void' na liniji 17
+INFO  23:49:31,513 - Deklarisana lokalna promenljiva 'bodovi' tipa 'int' u metodi 'main' na liniji 18
+INFO  23:49:31,513 - Deklarisana lokalna promenljiva 'temp' tipa 'int' u metodi 'main' na liniji 19
+INFO  23:49:31,513 - Obradjuje se funkcija 'method' povratnog tipa 'int' na liniji 24
+INFO  23:49:31,514 - Parsiranje uspesno zavrseno!

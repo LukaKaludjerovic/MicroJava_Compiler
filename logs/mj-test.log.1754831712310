@@ -1,0 +1,378 @@
+INFO  15:12:49,805 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  15:12:49,810 - =====================ISPIS PREPOZNATIH TOKENA=====================
+INFO  15:12:49,856 - #2 program
+INFO  15:12:49,856 - #49 test300
+INFO  15:12:49,856 - #3 {
+INFO  15:12:49,856 - #28 void
+INFO  15:12:49,857 - #49 x
+INFO  15:12:49,857 - #14 (
+INFO  15:12:49,857 - #15 )
+INFO  15:12:49,858 - #3 {
+INFO  15:12:49,858 - #35 print
+INFO  15:12:49,859 - #14 (
+INFO  15:12:49,859 - #46 1
+INFO  15:12:49,859 - #15 )
+INFO  15:12:49,859 - #9 ;
+INFO  15:12:49,859 - #35 print
+INFO  15:12:49,859 - #14 (
+INFO  15:12:49,859 - #49 eol
+INFO  15:12:49,859 - #15 )
+INFO  15:12:49,860 - #9 ;
+INFO  15:12:49,860 - #4 }
+INFO  15:12:49,860 - #49 int
+INFO  15:12:49,862 - #49 y
+INFO  15:12:49,863 - #14 (
+INFO  15:12:49,863 - #15 )
+INFO  15:12:49,863 - #3 {
+INFO  15:12:49,863 - #34 return
+INFO  15:12:49,863 - #46 3
+INFO  15:12:49,863 - #9 ;
+INFO  15:12:49,863 - #4 }
+INFO  15:12:49,863 - #49 int
+INFO  15:12:49,863 - #49 z
+INFO  15:12:49,863 - #14 (
+INFO  15:12:49,863 - #49 int
+INFO  15:12:49,863 - #49 a
+INFO  15:12:49,863 - #15 )
+INFO  15:12:49,864 - #3 {
+INFO  15:12:49,865 - #49 a
+INFO  15:12:49,865 - #42 ++
+INFO  15:12:49,865 - #9 ;
+INFO  15:12:49,865 - #34 return
+INFO  15:12:49,865 - #49 a
+INFO  15:12:49,865 - #9 ;
+INFO  15:12:49,865 - #4 }
+INFO  15:12:49,865 - #28 void
+INFO  15:12:49,865 - #49 main
+INFO  15:12:49,865 - #14 (
+INFO  15:12:49,865 - #15 )
+INFO  15:12:49,865 - #49 int
+INFO  15:12:49,865 - #49 bodovi
+INFO  15:12:49,865 - #9 ;
+INFO  15:12:49,866 - #3 {
+INFO  15:12:49,869 - #49 x
+INFO  15:12:49,871 - #14 (
+INFO  15:12:49,871 - #15 )
+INFO  15:12:49,872 - #9 ;
+INFO  15:12:49,872 - #35 print
+INFO  15:12:49,872 - #14 (
+INFO  15:12:49,873 - #49 y
+INFO  15:12:49,873 - #14 (
+INFO  15:12:49,874 - #15 )
+INFO  15:12:49,876 - #15 )
+INFO  15:12:49,876 - #9 ;
+INFO  15:12:49,876 - #35 print
+INFO  15:12:49,876 - #14 (
+INFO  15:12:49,877 - #49 eol
+INFO  15:12:49,877 - #15 )
+INFO  15:12:49,877 - #9 ;
+INFO  15:12:49,877 - #49 bodovi
+INFO  15:12:49,877 - #8 =
+INFO  15:12:49,877 - #49 y
+INFO  15:12:49,879 - #14 (
+INFO  15:12:49,880 - #15 )
+INFO  15:12:49,880 - #22 +
+INFO  15:12:49,880 - #49 z
+INFO  15:12:49,884 - #14 (
+INFO  15:12:49,884 - #46 5
+INFO  15:12:49,884 - #15 )
+INFO  15:12:49,885 - #9 ;
+INFO  15:12:49,885 - #35 print
+INFO  15:12:49,885 - #14 (
+INFO  15:12:49,885 - #49 bodovi
+INFO  15:12:49,885 - #15 )
+INFO  15:12:49,885 - #9 ;
+INFO  15:12:49,885 - #4 }
+INFO  15:12:49,885 - #4 }
+INFO  15:12:49,893 - =====================ISPIS SINTAKSNOG STABLA=====================
+INFO  15:12:49,894 - Program(
+  ProgName(
+   test300
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        MethodDeclarations(
+          NoMethodDeclarations(
+          ) [NoMethodDeclarations]
+          MethodDeclaration(
+            MethodSignature(
+              MethodTypeName(
+                VoidType(
+                ) [VoidType]
+               x
+              ) [MethodTypeName]
+              NoFormalParameters(
+              ) [NoFormalParameters]
+            ) [MethodSignature]
+            NoLocalVarsDeclList(
+            ) [NoLocalVarsDeclList]
+            StatementList(
+              StatementList(
+                NoStatementList(
+                ) [NoStatementList]
+                PrintNoNumStmt(
+                  PositiveExpr(
+                    NoMulopTerm(
+                      FactorNum(
+                       1
+                      ) [FactorNum]
+                    ) [NoMulopTerm]
+                  ) [PositiveExpr]
+                ) [PrintNoNumStmt]
+              ) [StatementList]
+              PrintNoNumStmt(
+                PositiveExpr(
+                  NoMulopTerm(
+                    FactorNoActPars(
+                      DesignatorIdentOnly(
+                       eol
+                      ) [DesignatorIdentOnly]
+                    ) [FactorNoActPars]
+                  ) [NoMulopTerm]
+                ) [PositiveExpr]
+              ) [PrintNoNumStmt]
+            ) [StatementList]
+          ) [MethodDeclaration]
+        ) [MethodDeclarations]
+        MethodDeclaration(
+          MethodSignature(
+            MethodTypeName(
+              FormalType(
+                Type(
+                 int
+                ) [Type]
+              ) [FormalType]
+             y
+            ) [MethodTypeName]
+            NoFormalParameters(
+            ) [NoFormalParameters]
+          ) [MethodSignature]
+          NoLocalVarsDeclList(
+          ) [NoLocalVarsDeclList]
+          StatementList(
+            NoStatementList(
+            ) [NoStatementList]
+            ReturnExprStmt(
+              PositiveExpr(
+                NoMulopTerm(
+                  FactorNum(
+                   3
+                  ) [FactorNum]
+                ) [NoMulopTerm]
+              ) [PositiveExpr]
+            ) [ReturnExprStmt]
+          ) [StatementList]
+        ) [MethodDeclaration]
+      ) [MethodDeclarations]
+      MethodDeclaration(
+        MethodSignature(
+          MethodTypeName(
+            FormalType(
+              Type(
+               int
+              ) [Type]
+            ) [FormalType]
+           z
+          ) [MethodTypeName]
+          FormalParameters(
+            NoFormParsList(
+              FormParam(
+                Type(
+                 int
+                ) [Type]
+               a
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [FormParam]
+            ) [NoFormParsList]
+          ) [FormalParameters]
+        ) [MethodSignature]
+        NoLocalVarsDeclList(
+        ) [NoLocalVarsDeclList]
+        StatementList(
+          StatementList(
+            NoStatementList(
+            ) [NoStatementList]
+            DesignatorStmt(
+              IncrDesignatorStmt(
+                DesignatorIdentOnly(
+                 a
+                ) [DesignatorIdentOnly]
+              ) [IncrDesignatorStmt]
+            ) [DesignatorStmt]
+          ) [StatementList]
+          ReturnExprStmt(
+            PositiveExpr(
+              NoMulopTerm(
+                FactorNoActPars(
+                  DesignatorIdentOnly(
+                   a
+                  ) [DesignatorIdentOnly]
+                ) [FactorNoActPars]
+              ) [NoMulopTerm]
+            ) [PositiveExpr]
+          ) [ReturnExprStmt]
+        ) [StatementList]
+      ) [MethodDeclaration]
+    ) [MethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         main
+        ) [MethodTypeName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+      ) [MethodSignature]
+      LocalVarsDeclList(
+        NoLocalVarsDeclList(
+        ) [NoLocalVarsDeclList]
+        LocalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoLocalVarsList(
+            LocalVariable(
+             bodovi
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [LocalVariable]
+          ) [NoLocalVarsList]
+        ) [LocalVarDecl]
+      ) [LocalVarsDeclList]
+      StatementList(
+        StatementList(
+          StatementList(
+            StatementList(
+              StatementList(
+                NoStatementList(
+                ) [NoStatementList]
+                DesignatorStmt(
+                  ActParsDesignatorStmt(
+                    DesignatorIdentOnly(
+                     x
+                    ) [DesignatorIdentOnly]
+                    NoActualParameters(
+                    ) [NoActualParameters]
+                  ) [ActParsDesignatorStmt]
+                ) [DesignatorStmt]
+              ) [StatementList]
+              PrintNoNumStmt(
+                PositiveExpr(
+                  NoMulopTerm(
+                    FactorActPars(
+                      DesignatorIdentOnly(
+                       y
+                      ) [DesignatorIdentOnly]
+                      NoActualParameters(
+                      ) [NoActualParameters]
+                    ) [FactorActPars]
+                  ) [NoMulopTerm]
+                ) [PositiveExpr]
+              ) [PrintNoNumStmt]
+            ) [StatementList]
+            PrintNoNumStmt(
+              PositiveExpr(
+                NoMulopTerm(
+                  FactorNoActPars(
+                    DesignatorIdentOnly(
+                     eol
+                    ) [DesignatorIdentOnly]
+                  ) [FactorNoActPars]
+                ) [NoMulopTerm]
+              ) [PositiveExpr]
+            ) [PrintNoNumStmt]
+          ) [StatementList]
+          DesignatorStmt(
+            AssignDesignatorStmt(
+              DesignatorIdentOnly(
+               bodovi
+              ) [DesignatorIdentOnly]
+              Assignop(
+              ) [Assignop]
+              ExprList(
+                PositiveExpr(
+                  NoMulopTerm(
+                    FactorActPars(
+                      DesignatorIdentOnly(
+                       y
+                      ) [DesignatorIdentOnly]
+                      NoActualParameters(
+                      ) [NoActualParameters]
+                    ) [FactorActPars]
+                  ) [NoMulopTerm]
+                ) [PositiveExpr]
+                Plus(
+                ) [Plus]
+                NoMulopTerm(
+                  FactorActPars(
+                    DesignatorIdentOnly(
+                     z
+                    ) [DesignatorIdentOnly]
+                    ActualParameters(
+                      NoActParsList(
+                        PositiveExpr(
+                          NoMulopTerm(
+                            FactorNum(
+                             5
+                            ) [FactorNum]
+                          ) [NoMulopTerm]
+                        ) [PositiveExpr]
+                      ) [NoActParsList]
+                    ) [ActualParameters]
+                  ) [FactorActPars]
+                ) [NoMulopTerm]
+              ) [ExprList]
+            ) [AssignDesignatorStmt]
+          ) [DesignatorStmt]
+        ) [StatementList]
+        PrintNoNumStmt(
+          PositiveExpr(
+            NoMulopTerm(
+              FactorNoActPars(
+                DesignatorIdentOnly(
+                 bodovi
+                ) [DesignatorIdentOnly]
+              ) [FactorNoActPars]
+            ) [NoMulopTerm]
+          ) [PositiveExpr]
+        ) [PrintNoNumStmt]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:12:49,894 - =====================ISPIS PREPOZNATIH PROGRAMSKIH KONSTRUKCIJA=====================
+INFO  15:12:49,898 - Obradjuje se funkcija 'x' povratnog tipa 'void' na liniji 6
+INFO  15:12:49,898 - Ispis na liniji 7
+INFO  15:12:49,898 - Koriscenje simbola 'eol' na liniji 8
+INFO  15:12:49,898 - Ispis na liniji 8
+INFO  15:12:49,898 - Obradjuje se funkcija 'y' povratnog tipa 'int' na liniji 11
+INFO  15:12:49,898 - Obradjuje se funkcija 'z' povratnog tipa 'int' na liniji 15
+INFO  15:12:49,899 - Deklarisan formalni parametar 'a' tipa 'int' u metodi 'z' na liniji 15
+INFO  15:12:49,899 - Koriscenje simbola 'a' na liniji 16
+INFO  15:12:49,899 - Inkrementiranje vrednosti simbola 'a' na liniji 16
+INFO  15:12:49,899 - Koriscenje simbola 'a' na liniji 17
+INFO  15:12:49,899 - Obradjuje se funkcija 'main' povratnog tipa 'void' na liniji 20
+INFO  15:12:49,899 - Deklarisana lokalna promenljiva 'bodovi' tipa 'int' u metodi 'main' na liniji 21
+INFO  15:12:49,899 - Koriscenje simbola 'x' na liniji 23
+INFO  15:12:49,900 - Poziv metode 'x' na liniji 23
+INFO  15:12:49,900 - Koriscenje simbola 'y' na liniji 25
+INFO  15:12:49,900 - Poziv metode 'y' na liniji 25
+INFO  15:12:49,900 - Ispis na liniji 25
+INFO  15:12:49,900 - Koriscenje simbola 'eol' na liniji 26
+INFO  15:12:49,900 - Ispis na liniji 26
+INFO  15:12:49,900 - Koriscenje simbola 'bodovi' na liniji 28
+INFO  15:12:49,900 - Koriscenje simbola 'y' na liniji 28
+INFO  15:12:49,900 - Poziv metode 'y' na liniji 28
+INFO  15:12:49,900 - Koriscenje simbola 'z' na liniji 28
+INFO  15:12:49,901 - Poziv metode 'z' na liniji 28
+INFO  15:12:49,901 - Sabiranje/oduzimanje simbola na liniji 28
+INFO  15:12:49,901 - Dodela vrednosti simbolu 'bodovi' na liniji 28
+INFO  15:12:49,901 - Koriscenje simbola 'bodovi' na liniji 29
+INFO  15:12:49,901 - Ispis na liniji 29
+INFO  15:12:49,901 - Parsiranje uspesno zavrseno!
+INFO  15:12:49,909 - Generisanje koda uspesno zavrseno!

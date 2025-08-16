@@ -1,0 +1,180 @@
+INFO  16:31:56,512 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/test301.mj
+INFO  16:31:56,530 - #2 program
+INFO  16:31:56,531 - #49 test300
+INFO  16:31:56,531 - #5 const
+INFO  16:31:56,533 - #49 int
+INFO  16:31:56,533 - #49 nula
+INFO  16:31:56,534 - #8 =
+INFO  16:31:56,534 - #46 0
+INFO  16:31:56,534 - #9 ;
+INFO  16:31:56,536 - #5 const
+INFO  16:31:56,537 - #49 int
+INFO  16:31:56,537 - #49 jedan
+INFO  16:31:56,537 - #8 =
+INFO  16:31:56,537 - #46 1
+INFO  16:31:56,537 - #9 ;
+INFO  16:31:56,537 - #5 const
+INFO  16:31:56,537 - #49 int
+INFO  16:31:56,537 - #49 pet
+INFO  16:31:56,537 - #8 =
+INFO  16:31:56,537 - #46 5
+INFO  16:31:56,538 - #9 ;
+INFO  16:31:56,538 - #49 int
+INFO  16:31:56,538 - #49 niz
+INFO  16:31:56,538 - #10 [
+INFO  16:31:56,538 - #11 ]
+INFO  16:31:56,538 - #9 ;
+INFO  16:31:56,539 - #49 char
+INFO  16:31:56,540 - #49 nizch
+INFO  16:31:56,540 - #10 [
+INFO  16:31:56,540 - #11 ]
+INFO  16:31:56,540 - #9 ;
+INFO  16:31:56,540 - #49 int
+INFO  16:31:56,540 - #49 a
+INFO  16:31:56,540 - #9 ;
+INFO  16:31:56,544 - #49 set
+INFO  16:31:56,545 - #49 s1
+INFO  16:31:56,545 - #13 ,
+INFO  16:31:56,545 - #49 s2
+INFO  16:31:56,545 - #13 ,
+INFO  16:31:56,545 - #49 s3
+INFO  16:31:56,545 - #9 ;
+INFO  16:31:56,545 - #3 {
+INFO  16:31:56,545 - #4 }
+INFO  16:31:56,547 - Program(
+  ProgName(
+   test300
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            Declarations(
+              Declarations(
+                NoDeclarations(
+                ) [NoDeclarations]
+                ConstDeclaration(
+                  ConstDecl(
+                    Type(
+                     int
+                    ) [Type]
+                    NoConstantsList(
+                      Constant(
+                       nula
+                        NumConst(
+                         0
+                        ) [NumConst]
+                      ) [Constant]
+                    ) [NoConstantsList]
+                  ) [ConstDecl]
+                ) [ConstDeclaration]
+              ) [Declarations]
+              ConstDeclaration(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  NoConstantsList(
+                    Constant(
+                     jedan
+                      NumConst(
+                       1
+                      ) [NumConst]
+                    ) [Constant]
+                  ) [NoConstantsList]
+                ) [ConstDecl]
+              ) [ConstDeclaration]
+            ) [Declarations]
+            ConstDeclaration(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                NoConstantsList(
+                  Constant(
+                   pet
+                    NumConst(
+                     5
+                    ) [NumConst]
+                  ) [Constant]
+                ) [NoConstantsList]
+              ) [ConstDecl]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          GlobalVarDeclaration(
+            GlobalVarDecl(
+              Type(
+               int
+              ) [Type]
+              NoGlobalVarsList(
+                GlobalVar(
+                 niz
+                  SquareBrackets(
+                  ) [SquareBrackets]
+                ) [GlobalVar]
+              ) [NoGlobalVarsList]
+            ) [GlobalVarDecl]
+          ) [GlobalVarDeclaration]
+        ) [Declarations]
+        GlobalVarDeclaration(
+          GlobalVarDecl(
+            Type(
+             char
+            ) [Type]
+            NoGlobalVarsList(
+              GlobalVar(
+               nizch
+                SquareBrackets(
+                ) [SquareBrackets]
+              ) [GlobalVar]
+            ) [NoGlobalVarsList]
+          ) [GlobalVarDecl]
+        ) [GlobalVarDeclaration]
+      ) [Declarations]
+      GlobalVarDeclaration(
+        GlobalVarDecl(
+          Type(
+           int
+          ) [Type]
+          NoGlobalVarsList(
+            GlobalVar(
+             a
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [GlobalVar]
+          ) [NoGlobalVarsList]
+        ) [GlobalVarDecl]
+      ) [GlobalVarDeclaration]
+    ) [Declarations]
+    GlobalVarDeclaration(
+      GlobalVarDecl(
+        Type(
+         set
+        ) [Type]
+        GlobalVarsList(
+          GlobalVarsList(
+            NoGlobalVarsList(
+              GlobalVar(
+               s1
+                NoSquareBrackets(
+                ) [NoSquareBrackets]
+              ) [GlobalVar]
+            ) [NoGlobalVarsList]
+            GlobalVar(
+             s2
+              NoSquareBrackets(
+              ) [NoSquareBrackets]
+            ) [GlobalVar]
+          ) [GlobalVarsList]
+          GlobalVar(
+           s3
+            NoSquareBrackets(
+            ) [NoSquareBrackets]
+          ) [GlobalVar]
+        ) [GlobalVarsList]
+      ) [GlobalVarDecl]
+    ) [GlobalVarDeclaration]
+  ) [Declarations]
+) [Program]
+INFO  16:31:56,548 - ===================================

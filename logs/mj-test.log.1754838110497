@@ -1,0 +1,251 @@
+INFO  16:59:52,357 - Compiling source file: /Users/luka/Documents/ETF/7. semestar/Programski prevodioci 1/Projekat/workspace/MJCompiler/test/program.mj
+INFO  16:59:52,362 - =====================ISPIS PREPOZNATIH TOKENA=====================
+INFO  16:59:52,408 - #2 program
+INFO  16:59:52,408 - #49 test300
+INFO  16:59:52,408 - #49 int
+INFO  16:59:52,409 - #49 niz
+INFO  16:59:52,409 - #10 [
+INFO  16:59:52,409 - #11 ]
+INFO  16:59:52,409 - #9 ;
+INFO  16:59:52,410 - #3 {
+INFO  16:59:52,411 - #28 void
+INFO  16:59:52,411 - #49 main
+INFO  16:59:52,411 - #14 (
+INFO  16:59:52,412 - #15 )
+INFO  16:59:52,415 - #3 {
+INFO  16:59:52,417 - #49 niz
+INFO  16:59:52,418 - #8 =
+INFO  16:59:52,418 - #38 new
+INFO  16:59:52,418 - #49 int
+INFO  16:59:52,418 - #10 [
+INFO  16:59:52,419 - #46 3
+INFO  16:59:52,419 - #11 ]
+INFO  16:59:52,419 - #9 ;
+INFO  16:59:52,419 - #35 print
+INFO  16:59:52,419 - #14 (
+INFO  16:59:52,420 - #49 len
+INFO  16:59:52,420 - #14 (
+INFO  16:59:52,420 - #49 niz
+INFO  16:59:52,420 - #15 )
+INFO  16:59:52,420 - #15 )
+INFO  16:59:52,420 - #9 ;
+INFO  16:59:52,420 - #35 print
+INFO  16:59:52,420 - #14 (
+INFO  16:59:52,420 - #49 eol
+INFO  16:59:52,420 - #15 )
+INFO  16:59:52,420 - #9 ;
+INFO  16:59:52,420 - #35 print
+INFO  16:59:52,420 - #14 (
+INFO  16:59:52,421 - #49 chr
+INFO  16:59:52,421 - #14 (
+INFO  16:59:52,421 - #46 97
+INFO  16:59:52,421 - #15 )
+INFO  16:59:52,421 - #15 )
+INFO  16:59:52,422 - #9 ;
+INFO  16:59:52,423 - #35 print
+INFO  16:59:52,423 - #14 (
+INFO  16:59:52,423 - #49 eol
+INFO  16:59:52,423 - #15 )
+INFO  16:59:52,424 - #9 ;
+INFO  16:59:52,424 - #35 print
+INFO  16:59:52,424 - #14 (
+INFO  16:59:52,424 - #49 ord
+INFO  16:59:52,424 - #14 (
+INFO  16:59:52,424 - #47 a
+INFO  16:59:52,425 - #15 )
+INFO  16:59:52,425 - #15 )
+INFO  16:59:52,425 - #9 ;
+INFO  16:59:52,425 - #4 }
+INFO  16:59:52,425 - #4 }
+INFO  16:59:52,440 - =====================ISPIS SINTAKSNOG STABLA=====================
+INFO  16:59:52,443 - Program(
+  ProgName(
+   test300
+  ) [ProgName]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    GlobalVarDeclaration(
+      GlobalVarDecl(
+        Type(
+         int
+        ) [Type]
+        NoGlobalVarsList(
+          GlobalVariable(
+           niz
+            SquareBrackets(
+            ) [SquareBrackets]
+          ) [GlobalVariable]
+        ) [NoGlobalVarsList]
+      ) [GlobalVarDecl]
+    ) [GlobalVarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDeclaration(
+      MethodSignature(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         main
+        ) [MethodTypeName]
+        NoFormalParameters(
+        ) [NoFormalParameters]
+      ) [MethodSignature]
+      NoLocalVarsDeclList(
+      ) [NoLocalVarsDeclList]
+      StatementList(
+        StatementList(
+          StatementList(
+            StatementList(
+              StatementList(
+                StatementList(
+                  NoStatementList(
+                  ) [NoStatementList]
+                  DesignatorStmt(
+                    AssignDesignatorStmt(
+                      DesignatorIdentOnly(
+                       niz
+                      ) [DesignatorIdentOnly]
+                      Assignop(
+                      ) [Assignop]
+                      PositiveExpr(
+                        NoMulopTerm(
+                          FactorNewExpr(
+                            Type(
+                             int
+                            ) [Type]
+                            PositiveExpr(
+                              NoMulopTerm(
+                                FactorNum(
+                                 3
+                                ) [FactorNum]
+                              ) [NoMulopTerm]
+                            ) [PositiveExpr]
+                          ) [FactorNewExpr]
+                        ) [NoMulopTerm]
+                      ) [PositiveExpr]
+                    ) [AssignDesignatorStmt]
+                  ) [DesignatorStmt]
+                ) [StatementList]
+                PrintNoNumStmt(
+                  PositiveExpr(
+                    NoMulopTerm(
+                      FactorActPars(
+                        DesignatorIdentOnly(
+                         len
+                        ) [DesignatorIdentOnly]
+                        ActualParameters(
+                          NoActParsList(
+                            PositiveExpr(
+                              NoMulopTerm(
+                                FactorNoActPars(
+                                  DesignatorIdentOnly(
+                                   niz
+                                  ) [DesignatorIdentOnly]
+                                ) [FactorNoActPars]
+                              ) [NoMulopTerm]
+                            ) [PositiveExpr]
+                          ) [NoActParsList]
+                        ) [ActualParameters]
+                      ) [FactorActPars]
+                    ) [NoMulopTerm]
+                  ) [PositiveExpr]
+                ) [PrintNoNumStmt]
+              ) [StatementList]
+              PrintNoNumStmt(
+                PositiveExpr(
+                  NoMulopTerm(
+                    FactorNoActPars(
+                      DesignatorIdentOnly(
+                       eol
+                      ) [DesignatorIdentOnly]
+                    ) [FactorNoActPars]
+                  ) [NoMulopTerm]
+                ) [PositiveExpr]
+              ) [PrintNoNumStmt]
+            ) [StatementList]
+            PrintNoNumStmt(
+              PositiveExpr(
+                NoMulopTerm(
+                  FactorActPars(
+                    DesignatorIdentOnly(
+                     chr
+                    ) [DesignatorIdentOnly]
+                    ActualParameters(
+                      NoActParsList(
+                        PositiveExpr(
+                          NoMulopTerm(
+                            FactorNum(
+                             97
+                            ) [FactorNum]
+                          ) [NoMulopTerm]
+                        ) [PositiveExpr]
+                      ) [NoActParsList]
+                    ) [ActualParameters]
+                  ) [FactorActPars]
+                ) [NoMulopTerm]
+              ) [PositiveExpr]
+            ) [PrintNoNumStmt]
+          ) [StatementList]
+          PrintNoNumStmt(
+            PositiveExpr(
+              NoMulopTerm(
+                FactorNoActPars(
+                  DesignatorIdentOnly(
+                   eol
+                  ) [DesignatorIdentOnly]
+                ) [FactorNoActPars]
+              ) [NoMulopTerm]
+            ) [PositiveExpr]
+          ) [PrintNoNumStmt]
+        ) [StatementList]
+        PrintNoNumStmt(
+          PositiveExpr(
+            NoMulopTerm(
+              FactorActPars(
+                DesignatorIdentOnly(
+                 ord
+                ) [DesignatorIdentOnly]
+                ActualParameters(
+                  NoActParsList(
+                    PositiveExpr(
+                      NoMulopTerm(
+                        FactorChar(
+                         a
+                        ) [FactorChar]
+                      ) [NoMulopTerm]
+                    ) [PositiveExpr]
+                  ) [NoActParsList]
+                ) [ActualParameters]
+              ) [FactorActPars]
+            ) [NoMulopTerm]
+          ) [PositiveExpr]
+        ) [PrintNoNumStmt]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:59:52,443 - =====================ISPIS PREPOZNATIH PROGRAMSKIH KONSTRUKCIJA=====================
+INFO  16:59:52,446 - Deklarisana globalna promenljiva 'niz' tipa 'array of int' na liniji 5
+INFO  16:59:52,447 - Obradjuje se funkcija 'main' povratnog tipa 'void' na liniji 8
+INFO  16:59:52,447 - Koriscenje simbola 'niz' na liniji 10
+INFO  16:59:52,447 - Kreiranje niza tipa 'int' na liniji 10
+INFO  16:59:52,447 - Dodela vrednosti simbolu 'niz' na liniji 10
+INFO  16:59:52,447 - Koriscenje simbola 'len' na liniji 11
+INFO  16:59:52,447 - Koriscenje simbola 'niz' na liniji 11
+INFO  16:59:52,447 - Poziv metode 'len' na liniji 11
+INFO  16:59:52,448 - Ispis na liniji 11
+INFO  16:59:52,448 - Koriscenje simbola 'eol' na liniji 13
+INFO  16:59:52,448 - Ispis na liniji 13
+INFO  16:59:52,448 - Koriscenje simbola 'chr' na liniji 15
+INFO  16:59:52,450 - Poziv metode 'chr' na liniji 15
+INFO  16:59:52,450 - Ispis na liniji 15
+INFO  16:59:52,450 - Koriscenje simbola 'eol' na liniji 16
+INFO  16:59:52,450 - Ispis na liniji 16
+INFO  16:59:52,450 - Koriscenje simbola 'ord' na liniji 18
+INFO  16:59:52,450 - Poziv metode 'ord' na liniji 18
+INFO  16:59:52,450 - Ispis na liniji 18
+INFO  16:59:52,451 - Parsiranje uspesno zavrseno!
+INFO  16:59:52,457 - Generisanje koda uspesno zavrseno!
